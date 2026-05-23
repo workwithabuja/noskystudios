@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">NoSky Studios logo</title>
+  <desc id="desc">A minimal abstract star and horizon mark.</desc>
+  <defs>
+    <linearGradient id="g" x1="20" y1="18" x2="138" y2="144" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset=".48" stop-color="#a7f3d0"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="36" fill="#090c12"/>
+  <path d="M80 22 92.8 61.7H135L100.9 86.2l13.1 40.1L80 101.4l-34 24.9 13.1-40.1L25 61.7h42.2L80 22Z" fill="url(#g)"/>
+  <path d="M31 118c22.5-14.7 49.5-19.8 98-7.4" fill="none" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+</svg>
