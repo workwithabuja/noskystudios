@@ -1,0 +1,14 @@
+{
+  "name": "noskystudios",
+  "version": "1.0.0",
+  "description": "NoSky Studios - Creative Technology Studio",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step required for static HTML'",
+    "dev": "echo 'Use a local server to preview'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "type": "module"
+}
