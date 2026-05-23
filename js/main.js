@@ -1,3 +1,8 @@
+import { injectSpeedInsights } from './speed-insights.js';
+
+// Initialize Vercel Speed Insights
+injectSpeedInsights();
+
 const siteHeader = document.querySelector(".site-header");
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector("#primary-menu");
