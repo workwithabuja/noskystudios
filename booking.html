@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio | NoSky Studios</title>
-  <meta name="description" content="Browse NoSky Studios portfolio categories: photography, video, aerial, music videos, events, brand media, film, and editing.">
+  <title>Book a Call | NoSky Studios</title>
+  <meta name="description" content="Schedule a free creative discovery call with NoSky Studios. Tell us about your project and let's figure out how we can help.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://noskystudios.ng/portfolio.html">
+  <link rel="canonical" href="https://noskystudios.ng/booking.html">
   <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#f7f5ef" media="(prefers-color-scheme: light)">
-  <meta property="og:title" content="Portfolio | NoSky Studios">
-  <meta property="og:description" content="Photography, video, aerials, music videos, events, brand media, film, and editing.">
+  <meta property="og:title" content="Book a Call | NoSky Studios">
+  <meta property="og:description" content="Schedule a free creative discovery call with NoSky Studios.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://noskystudios.ng/portfolio.html">
+  <meta property="og:url" content="https://noskystudios.ng/booking.html">
   <meta property="og:site_name" content="NoSky Studios">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -27,33 +27,15 @@
     </nav>
   </header>
   <main id="main">
-    <section class="page-hero" data-reveal>
-      <p class="kicker">Portfolio</p>
-      <h1>Selected directions.</h1>
-      <p>A minimal structure for finished work.</p>
+    <section class="page-hero booking-hero" data-reveal>
+      <p class="kicker">Book a Call</p>
+      <h1>Let's talk about your project.</h1>
+      <p>Pick a time that works for you. We'll spend 30 minutes understanding your goals and figuring out what we can create together.</p>
     </section>
 
-    <section class="section compact-section">
-      <div class="filter-bar" aria-label="Portfolio filters" data-reveal>
-        <button class="filter-button is-active" type="button" data-filter="all">All</button>
-        <button class="filter-button" type="button" data-filter="photography">Photo</button>
-        <button class="filter-button" type="button" data-filter="video">Video</button>
-        <button class="filter-button" type="button" data-filter="aerial">Aerial</button>
-        <button class="filter-button" type="button" data-filter="music">Music</button>
-        <button class="filter-button" type="button" data-filter="edit">Editing</button>
-        <button class="filter-button" type="button" data-filter="events">Events</button>
-        <button class="filter-button" type="button" data-filter="brand">Brand</button>
-      </div>
-
-      <div class="portfolio-grid compact-portfolio" data-portfolio-grid>
-        <article class="portfolio-item icon-portfolio" data-category="photography" data-reveal><span class="icon-stack" aria-hidden="true"><span class="service-icon icon-camera"></span><span class="service-icon icon-drone"></span></span><h2>Photography</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="video" data-reveal><span class="icon-stack" aria-hidden="true"><span class="service-icon icon-video"></span><span class="service-icon icon-drone"></span></span><h2>Video</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="aerial" data-reveal><span class="service-icon icon-drone" aria-hidden="true"></span><h2>Aerial</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="music" data-reveal><span class="service-icon icon-music" aria-hidden="true"></span><h2>Music Videos</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="edit" data-reveal><span class="service-icon icon-edit" aria-hidden="true"></span><h2>Editing</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="events" data-reveal><span class="service-icon icon-film" aria-hidden="true"></span><h2>Events</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="brand" data-reveal><span class="service-icon icon-brand" aria-hidden="true"></span><h2>Brand Media</h2></article>
-        <article class="portfolio-item icon-portfolio" data-category="video" data-reveal><span class="service-icon icon-license" aria-hidden="true"></span><h2>Stock Footage</h2></article>
+    <section class="section booking-section">
+      <div class="booking-embed-wrap">
+        <div id="cal-booking-embed"></div>
       </div>
     </section>
   </main>
@@ -96,5 +78,42 @@
   </footer>
   <script src="script.js"></script>
   <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+  <!-- Cal.com inline embed -->
+  <script type="text/javascript">
+    (function (C, A, L) {
+      let p = function (a, ar) { a.q.push(ar); };
+      let d = C.document;
+      C.Cal = C.Cal || function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () { p(api, arguments); };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          typeof namespace === "string"
+            ? (cal.ns[namespace] = api) && p(api, ar)
+            : p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://app.cal.com/embed/embed.js", "init");
+    Cal("init", "creative-discovery-call", { origin: "https://cal.com" });
+    Cal.ns["creative-discovery-call"]("inline", {
+      elementOrSelector: "#cal-booking-embed",
+      config: { layout: "month_view" },
+      calLink: "noskystudios/creative-discovery-call",
+    });
+    Cal.ns["creative-discovery-call"]("ui", {
+      hideEventTypeDetails: false,
+      layout: "month_view",
+    });
+  </script>
 </body>
 </html>
