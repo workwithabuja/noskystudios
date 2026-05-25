@@ -1377,6 +1377,10 @@ textarea:focus {
   text-transform: uppercase;
 }
 
+.rc-number {
+  opacity: 0.55;
+}
+
 .footer-newsletter-label {
   color: var(--muted);
   font-size: 0.85rem;
