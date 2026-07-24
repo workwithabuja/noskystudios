@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "ro",
+    "dir": "ltr",
+    "langName": "Română",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigeria",
+    "effectiveDate": "24 iulie 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Aceasta este o traducere a documentelor juridice Kelora, pusă la dispoziție pentru comoditatea dumneavoastră. Versiunea oficială și obligatorie din punct de vedere juridic este versiunea în limba engleză. Dacă există vreo diferență de sens între această traducere și versiunea în limba engleză, prevalează versiunea în limba engleză."
+  },
+  "ui": {
+    "privacyLink": "Politica de confidențialitate",
+    "termsLink": "Termeni și condiții",
+    "languageLabel": "Limbă",
+    "lastUpdated": "Ultima actualizare",
+    "effectiveLabel": "În vigoare din",
+    "versionLabel": "Versiune",
+    "backToTop": "Înapoi sus",
+    "readPrivacy": "Citiți Politica de confidențialitate",
+    "readTerms": "Citiți Termenii și condițiile",
+    "onThisPage": "Pe această pagină",
+    "app": {
+      "fullPrivacy": "Politica de confidențialitate completă",
+      "fullTerms": "Termeni și condiții complete",
+      "opensOnline": "Se deschide în limba dumneavoastră pe noskystudios.ng"
+    }
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "subtitle": "Kelora este creată pentru a vă păstra viața financiară pe propriul dispozitiv. Această politică explică, simplu, ce înseamnă acest lucru.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "Pe scurt",
+        "body": [
+          "Kelora este un instrument personal de urmărire a abonamentelor și a bugetului, realizat de NoSky Studios Ltd. Este conceput în jurul unei idei simple: detaliile privind ceea ce plătiți vă aparțin și ar trebui să rămână la dumneavoastră.",
+          "Nu avem conturi. Nu vă cerem să vă autentificați. Nu efectuăm analize, publicitate sau urmărire de niciun fel. Abonamentele, prețurile, datele, notele și bugetele pe care le introduceți sunt stocate pe dispozitivul dumneavoastră și nu ne sunt trimise niciodată.",
+          "Restul acestei politici explică puținele situații în care datele se deplasează totuși — întotdeauna pentru o funcție pe care ați ales-o și niciodată către un server pe care îl controlăm noi."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Cine suntem",
+        "body": [
+          "Kelora este publicată de NoSky Studios Ltd (RC 7631695), o societate înregistrată în Nigeria (\"NoSky Studios\", \"noi\" sau \"al nostru\").",
+          "Această Politică de confidențialitate se aplică aplicației Kelora pentru iOS și widgeturilor sale de pe ecranul principal. Pentru orice întrebare privind confidențialitatea, contactați-ne la [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Ce nu colectăm",
+        "body": [
+          "Vrem să fim preciși, deoarece \"prețuim confidențialitatea dumneavoastră\" înseamnă puțin în sine. În Kelora nu există:"
+        ],
+        "list": [
+          "Niciun cont și nicio autentificare. Nu creați un profil, iar noi nu vă cerem niciodată numele, adresa de e-mail sau numărul de telefon pentru a utiliza aplicația.",
+          "Nicio analiză și nicio urmărire a utilizării. Kelora nu conține software de analiză, de raportare a erorilor, de publicitate sau de atribuire. Nu măsurăm modul în care utilizați aplicația.",
+          "Niciun identificator de publicitate. Kelora nu solicită permisiunea App Tracking Transparency și nu accesează identificatorul de publicitate al dispozitivului (IDFA).",
+          "Nicio vânzare sau partajare a datelor. Nu vindem, nu închiriem și nu partajăm informațiile dumneavoastră personale, deoarece nici măcar nu le primim."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Informații stocate pe dispozitivul dumneavoastră",
+        "body": [
+          "Tot ceea ce introduceți în Kelora este stocat local, pe dispozitivul dumneavoastră. Aceasta include abonamentele și comercianții pe care îi urmăriți, prețurile, monedele, ciclurile de facturare, datele de început și de reînnoire, perioadele de probă, istoricul prețurilor, mementourile, datele de anulare, etichetele metodelor de plată, categoriile, etichetele, notele, bugetele și orice pictograme personalizate pe care le alegeți.",
+          "Câmpul pentru metoda de plată este doar o etichetă de text liber (de exemplu, \"Visa terminat în 1234\"). Kelora nu se conectează la banca, cardul sau la nicio instituție financiară a dumneavoastră și nu poate citi numerele reale ale contului sau cardului dumneavoastră.",
+          "Aceste informații rămân pe dispozitivul dumneavoastră, cu excepția cazului în care le mutați în mod deliberat — de exemplu, activând copia de rezervă iCloud, exportând un fișier sau adăugând o reînnoire în calendar. Aceste alegeri sunt descrise mai jos. Deoarece datele se află pe dispozitivul dumneavoastră, ele sunt incluse și în copiile de rezervă obișnuite ale dispozitivului (cum ar fi o copie de rezervă criptată a iPhone-ului sau o copie de rezervă a dispozitivului în iCloud) pe care le controlați prin Apple, nu prin noi."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Scanarea chitanțelor și a documentelor",
+        "body": [
+          "Dacă scanați o chitanță sau o confirmare de abonament ori importați un extras, o foaie de calcul sau un document, Kelora îl citește în întregime pe dispozitivul dumneavoastră, utilizând tehnologia de recunoaștere a textului integrată de la Apple. Imaginea și textul recunoscut sunt prelucrate local pentru a ajuta la completarea detaliilor unui abonament.",
+          "Imaginile scanate și conținutul acestora nu sunt încărcate către noi sau către vreun terț."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Conexiuni de rețea și servicii ale terților",
+        "body": [
+          "Kelora funcționează offline pentru funcțiile sale de bază. Efectuează un număr mic de solicitări opționale de rețea, doar pentru a susține funcții specifice, și niciodată pentru a ne trimite datele dumneavoastră financiare. Iată lista completă:"
+        ],
+        "list": [
+          "Cursuri de schimb valutar. Pentru a converti între monede, Kelora preia cursuri de referință de la ExchangeRate-API (open.er-api.com). Solicitarea conține doar un cod de monedă (cum ar fi \"USD\"). Nu conține abonamentele, sumele sau vreo informație personală a dumneavoastră.",
+          "Sigle și pictograme de marcă. Când adăugați sau editați un abonament, Kelora poate prelua o siglă de marcă pentru a-l face recognoscibil. Pentru aceasta, trimite un nume de marcă sau un domeniu de site web (dedus din ceea ce editați) către furnizori de sigle și pictograme — Logo.dev, Brandfetch și, ca soluție de rezervă, serviciile de favicon Google și DuckDuckGo. Dacă efectuați o căutare pentru o pictogramă personalizată, termenul dumneavoastră de căutare poate fi trimis și către căutarea de imagini Openverse și Wikimedia Commons. Aceste solicitări conțin doar marca sau termenul de căutare — niciodată prețurile, datele sau alte date ale dumneavoastră."
+        ],
+        "after": [
+          "Acești furnizori primesc doar informațiile descrise mai sus, în calitate de operatori ai serviciilor pe care Kelora le contactează în numele dumneavoastră, iar utilizarea de către aceștia a informațiilor este reglementată de propriile lor politici de confidențialitate: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org) și [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Ca la orice solicitare pe internet, acești furnizori pot primi adresa IP a dispozitivului dumneavoastră și informații standard privind solicitarea; noi nu primim aceste informații și nu le combinăm cu nimic despre dumneavoastră.",
+          "Puteți evita aceste solicitări neutilizând căutarea de sigle și căutarea de pictograme și bazându-vă pe cursuri de schimb manuale, pe care Kelora le acceptă."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Copie de rezervă opțională în iCloud",
+        "body": [
+          "Kelora oferă o copie de rezervă opțională în propriul dumneavoastră iCloud Drive. Este dezactivată în mod implicit. Dacă o activați, Kelora scrie un singur fișier de copie de rezervă în iCloud Drive-ul dumneavoastră personal, astfel încât să îl puteți restaura pe propriile dispozitive.",
+          "Această copie de rezervă se află în contul dumneavoastră Apple iCloud, sub controlul dumneavoastră. Nu este stocată pe niciun server NoSky Studios, iar noi nu o putem vedea și nu o putem accesa. Gestionarea acesteia face obiectul [Politicii de confidențialitate Apple](https://www.apple.com/legal/privacy/). Puteți șterge copia de rezervă oricând din aplicația Fișiere sau din Kelora și puteți dezactiva funcția pentru a opri copiile de rezervă viitoare."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Integrarea cu calendarul",
+        "body": [
+          "Dacă activați Integrarea cu calendarul, Kelora adaugă datele viitoare de reînnoire ca evenimente în propriul dumneavoastră calendar, astfel încât să le vedeți alături de restul programului. Aceste evenimente sunt scrise în calendarul dispozitivului dumneavoastră (și oriunde îl sincronizați, cum ar fi calendarul iCloud). Niciun server operat de noi nu este implicat, iar noi nu vă citim calendarul."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Achiziții și upgrade-ul Kelora Pro",
+        "body": [
+          "Kelora este gratuită la început și oferă un upgrade cu plată, Kelora Pro, ca achiziție unică \"pe viață\" sau ca abonament lunar. Toate achizițiile sunt gestionate de Apple prin App Store, folosind Apple Account-ul dumneavoastră.",
+          "Plata este procesată în întregime de Apple. Kelora nu vede și nu primește niciodată datele cardului, băncii sau plății dumneavoastră. Pentru a gestiona drepturile de acces, aplicația primește de la Apple doar faptul că există o achiziție validă — nu identitatea sau informațiile dumneavoastră de plată. Achizițiile, reînnoirile și rambursările sunt reglementate de termenii Apple și de [Politica de confidențialitate Apple](https://www.apple.com/legal/privacy/)."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Permisiuni ale dispozitivului pe care le solicităm",
+        "body": [
+          "Kelora solicită o permisiune doar atunci când utilizați funcția care are nevoie de ea și explică motivul chiar în momentul solicitării:"
+        ],
+        "list": [
+          "Cameră — doar pentru a scana o chitanță sau o confirmare de abonament. Scanarea are loc pe dispozitivul dumneavoastră.",
+          "Bibliotecă foto — doar pentru a putea alege o imagine de folosit ca pictogramă personalizată a unui abonament.",
+          "Calendare — doar dacă activați Integrarea cu calendarul, pentru a adăuga datele de reînnoire în propriul dumneavoastră calendar.",
+          "Notificări — doar pentru a afișa mementourile pe care le programați, cum ar fi o reînnoire viitoare sau o dată-limită de anulare. Acestea sunt notificări locale generate pe dispozitivul dumneavoastră."
+        ],
+        "after": [
+          "Kelora nu solicită permisiuni de localizare, microfon, contacte sau urmărire. Puteți verifica sau modifica orice permisiune oricând, în aplicația Setări din iOS."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Notificări",
+        "body": [
+          "Mementourile din Kelora sunt notificări locale, programate și livrate pe dispozitivul dumneavoastră. Kelora nu utilizează notificări push și nu vă înregistrează dispozitivul la niciun server de mesagerie. Nu vă putem trimite mesaje și nu știm dacă sau când este afișat un memento."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Widgeturi pe ecranul principal",
+        "body": [
+          "Widgeturile Kelora afișează un instantaneu al abonamentelor și al bugetului dumneavoastră — de exemplu, următoarea plată, totalul lunar și câte abonamente sunt active. Pentru aceasta, aplicația și widgeturile sale partajează un mic fișier-instantaneu într-o zonă de stocare privată, pe dispozitiv, rezervată aplicației. Aceste date nu părăsesc niciodată dispozitivul dumneavoastră."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Confidențialitatea copiilor",
+        "body": [
+          "Kelora este un instrument financiar de uz general destinat adulților și nu se adresează copiilor. Nu colectăm cu bună știință informații personale de la nimeni, inclusiv de la copii cu vârsta sub 13 ani (sau vârsta minimă echivalentă din țara dumneavoastră). Deoarece Kelora nu are conturi și nu colectează informații personale, nu există astfel de informații pe care să le deținem sau să le ștergem."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Cum sunt protejate informațiile dumneavoastră",
+        "body": [
+          "Datele dumneavoastră Kelora sunt stocate pe dispozitivul dumneavoastră și sunt protejate de securitatea iOS, inclusiv codul de acces al dispozitivului, criptarea și izolarea aplicațiilor (sandboxing) pe care le oferă Apple. Marcajul perioadei de probă gratuite este stocat în Keychain-ul dispozitivului.",
+          "Deoarece datele dumneavoastră nu se află pe serverele noastre, cea mai importantă protecție este cea pe care o controlați dumneavoastră: țineți dispozitivul blocat cu un cod de acces sau cu date biometrice și mențineți iOS actualizat. Nicio metodă de stocare sau de transmitere nu este complet sigură, dar păstrarea datelor pe dispozitiv elimină ținta mare și centrală pe care ar reprezenta-o o bază de date în cloud."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Păstrarea și ștergerea datelor dumneavoastră",
+        "body": [
+          "Dumneavoastră decideți cât timp sunt păstrate datele, deoarece dumneavoastră le dețineți. Puteți edita sau șterge orice abonament, buget sau altă intrare din aplicație, oricând. Ștergerea aplicației Kelora elimină datele sale de pe acel dispozitiv.",
+          "Dacă ați activat copia de rezervă iCloud, ștergeți fișierul de copie de rezervă din iCloud Drive (prin aplicația Fișiere sau din Kelora) pentru a elimina acea copie. Dacă ați adăugat reînnoiri în calendar, eliminați acele evenimente din aplicația dumneavoastră de calendar. Noi nu deținem nicio copie a datelor dumneavoastră, așa că nu aveți ce să ne solicitați și nu avem nimic de șters în numele dumneavoastră."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Drepturile dumneavoastră privind confidențialitatea",
+        "body": [
+          "În funcție de locul în care trăiți, legile privind protecția datelor — cum ar fi Legea privind protecția datelor din Nigeria din 2023 (Nigeria Data Protection Act 2023), Regulamentul general privind protecția datelor din UE și Regatul Unit (GDPR) și Legea privind confidențialitatea consumatorilor din California (CCPA/CPRA) — vă conferă drepturi asupra informațiilor dumneavoastră personale, inclusiv dreptul de a le accesa, corecta, șterge și transfera, precum și de a vă opune anumitor prelucrări.",
+          "Kelora este concepută astfel încât să aveți deja aceste drepturi în mod direct: informațiile dumneavoastră se află pe dispozitivul dumneavoastră, unde le puteți vizualiza, modifica, exporta și șterge singur, oricând, fără a ne solicita. Noi nu colectăm, nu stocăm, nu vindem și nu partajăm informațiile dumneavoastră personale și nu le \"vindem\" și nu le \"partajăm\" în scopuri publicitare, așa cum sunt definiți acești termeni în CCPA.",
+          "Dacă credeți că deținem informații personale despre dumneavoastră sau aveți o întrebare despre drepturile dumneavoastră, contactați-ne la [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) și vă vom răspunde. Aveți, de asemenea, dreptul de a depune o plângere la autoritatea locală de protecție a datelor."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Utilizatori internaționali",
+        "body": [
+          "Kelora este disponibilă în întreaga lume, iar datele dumneavoastră rămân pe dispozitivul dumneavoastră oriunde v-ați afla. Când utilizați o funcție online opțională (cursuri de schimb, căutare de sigle sau pictograme), solicitarea este gestionată de acel furnizor terț, care o poate prelucra pe servere dintr-o altă țară. Aceste solicitări conțin doar informațiile limitate descrise în secțiunea \"Conexiuni de rețea\" de mai sus."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Modificări ale acestei politici",
+        "body": [
+          "Este posibil să actualizăm această Politică de confidențialitate pe măsură ce Kelora evoluează sau conform cerințelor legale. Când o vom face, vom modifica data \"În vigoare din\" din partea de sus a acestei pagini și, pentru modificări semnificative, le vom menționa în aplicație sau în notele de versiune ale acesteia. Versiunea actuală se află întotdeauna la această adresă. Continuarea utilizării aplicației Kelora după o actualizare înseamnă că acceptați politica revizuită."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Contactați-ne",
+        "body": [
+          "Pentru orice întrebare privind această politică sau confidențialitatea dumneavoastră, contactați-ne la [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). Pentru ajutor general privind aplicația, contactați [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termeni și condiții",
+    "subtitle": "Acești termeni reprezintă acordul dintre dumneavoastră și NoSky Studios Ltd pentru utilizarea aplicației Kelora. Vă rugăm să îi citiți.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Acceptarea acestor termeni",
+        "body": [
+          "Acești Termeni și condiții (\"Termeni\") constituie un acord juridic între dumneavoastră și NoSky Studios Ltd (RC 7631695), o societate înregistrată în Nigeria (\"NoSky Studios\", \"noi\" sau \"al nostru\"), care reglementează utilizarea de către dumneavoastră a aplicației Kelora și a widgeturilor sale (împreună, \"Kelora\" sau \"Aplicația\").",
+          "Prin descărcarea, instalarea sau utilizarea aplicației Kelora, sunteți de acord cu acești Termeni și cu [Politica noastră de confidențialitate](privacy.html), încorporată aici prin referință. Dacă nu sunteți de acord, vă rugăm să nu utilizați Aplicația."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Cine poate utiliza Kelora",
+        "body": [
+          "Trebuie să aveți vârsta necesară pentru a încheia un contract obligatoriu în țara dumneavoastră și cel puțin 13 ani (sau vârsta minimă mai ridicată impusă acolo unde locuiți) pentru a utiliza Kelora. Prin utilizarea Aplicației, confirmați că îndepliniți această cerință și că veți utiliza Kelora în conformitate cu acești Termeni și cu legislația aplicabilă."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Licența dumneavoastră de utilizare a Aplicației",
+        "body": [
+          "Sub rezerva acestor Termeni, vă acordăm o licență personală, limitată, neexclusivă, netransferabilă și revocabilă de a descărca și utiliza o copie a aplicației Kelora pe dispozitive Apple pe care le dețineți sau le controlați, pentru uz personal, necomercial, așa cum permit regulile App Store.",
+          "Nu aveți dreptul să copiați, să modificați, să distribuiți, să vindeți sau să închiriați vreo parte a Aplicației; să efectuați inginerie inversă sau să încercați să extrageți codul sursă, cu excepția măsurii limitate permise de lege; sau să eliminați vreo mențiune de proprietate. Această licență nu vă transferă niciun drept de proprietate asupra Aplicației."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Datele dumneavoastră vă aparțin",
+        "body": [
+          "Kelora este un instrument pentru organizarea informațiilor pe care alegeți să le introduceți. Abonamentele, sumele, notele, bugetele și celelalte conținuturi pe care le introduceți în Kelora vă aparțin. Așa cum se explică în Politica de confidențialitate, acest conținut este stocat pe dispozitivul dumneavoastră; noi nu îl colectăm și nu revendicăm niciun drept de proprietate asupra lui.",
+          "Sunteți responsabil pentru propriile date — inclusiv pentru păstrarea în siguranță a dispozitivului și pentru realizarea de copii de rezervă, dacă informațiile sunt importante pentru dumneavoastră. Nu suntem responsabili pentru datele pierdute din cauza pierderii, deteriorării sau resetării unui dispozitiv ori din cauza ștergerii Aplicației."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Utilizare acceptabilă",
+        "body": [
+          "Sunteți de acord să utilizați Kelora doar în scopuri legale, personale, și să nu abuzați de aceasta — de exemplu, încercând să perturbați sau să interferați cu Aplicația, cu widgeturile sale sau cu serviciile terților pe care se bazează, ori utilizând Aplicația într-un mod care încalcă drepturile altora sau legea."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, achiziții și abonamente",
+        "body": [
+          "Kelora se poate descărca și utiliza gratuit cu un set de funcții de bază. Kelora Pro deblochează întregul set de funcții și este oferit fie ca achiziție unică \"pe viață\", fie ca abonament lunar cu reînnoire automată. Poate fi oferită o perioadă de probă gratuită; dacă este oferită, condițiile perioadei de probă vă sunt prezentate înainte de a o începe.",
+          "Toate achizițiile se efectuează prin App Store-ul Apple și se facturează în Apple Account-ul dumneavoastră. Pentru un abonament cu reînnoire automată, Apple Account-ul dumneavoastră este debitat la confirmarea achiziției și din nou la începutul fiecărei perioade de reînnoire, iar abonamentul se reînnoiește automat, cu excepția cazului în care îl anulați cu cel puțin 24 de ore înainte de sfârșitul perioadei curente. Gestionați sau anulați un abonament din setările Apple Account-ului dumneavoastră; ștergerea Aplicației nu anulează un abonament.",
+          "Prețurile sunt afișate în Aplicație înainte de a cumpăra și se pot modifica în timp; orice modificare se aplică doar achizițiilor sau reînnoirilor viitoare. Achizițiile, facturarea și rambursările sunt gestionate de Apple în conformitate cu termenii Apple — noi nu procesăm plăți și nu putem emite rambursări în mod direct. Cererile de rambursare se adresează către Apple prin App Store. Achiziția unică \"pe viață\" deblochează funcțiile cu plată ale aplicației Kelora așa cum aceasta există și continuă să fie oferită; nu constituie o promisiune că Aplicația, o anumită funcție sau vreun serviciu terț va rămâne disponibil pentru totdeauna."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Termenii Apple App Store",
+        "body": [
+          "Obțineți Kelora prin intermediul Apple App Store, iar utilizarea de către dumneavoastră face obiectul și al termenilor aplicabili ai Apple, inclusiv al Acordului standard de licență pentru utilizatorul final al aplicației licențiate (EULA). Acești Termeni sunt încheiați numai între dumneavoastră și NoSky Studios, nu cu Apple; Apple nu este responsabilă pentru Aplicație sau pentru conținutul acesteia.",
+          "Sunteți de acord că Apple și filialele Apple sunt terți beneficiari ai acestor Termeni și îi pot pune în executare. Apple nu are nicio obligație de a furniza asistență sau întreținere pentru Aplicație, iar orice pretenție privind garanția, răspunderea pentru produs, aspecte juridice sau proprietatea intelectuală în legătură cu Aplicația este responsabilitatea noastră și nu a Apple, în măsura în care suntem responsabili în temeiul acestor Termeni."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Servicii ale terților",
+        "body": [
+          "Unele funcții opționale se bazează pe servicii ale terților — de exemplu, cursurile de schimb valutar și căutările de sigle sau pictograme de marcă, așa cum se descrie în Politica de confidențialitate. Noi nu controlăm aceste servicii și nu suntem responsabili pentru disponibilitatea, exactitatea sau conținutul lor. Datele lor sunt furnizate \"ca atare\", iar utilizarea acestora de către dumneavoastră poate fi supusă și termenilor proprii ai acelor furnizori."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora nu constituie consultanță financiară",
+        "body": [
+          "Kelora este un instrument de organizare personală. Nu transferă bani, nu se conectează la banca sau la cardurile dumneavoastră, nu execută plăți și nu oferă consultanță financiară, de investiții, fiscală sau juridică.",
+          "Sumele, datele, totalurile și estimările pe care le afișează Kelora se bazează pe ceea ce introduceți și pe cursuri de schimb orientative care pot fi în urma pieței. Ele pot fi incomplete sau inexacte. Tratați întotdeauna cifrele din Kelora ca pe o referință personală și verificați plățile efective, datele de reînnoire și anulările direct la furnizorul dumneavoastră, la bancă sau în App Store. Deciziile pe care le luați pe baza Aplicației vă aparțin."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Proprietatea noastră intelectuală",
+        "body": [
+          "Aplicația în sine — inclusiv software-ul, designul, denumirile și siglele \"Kelora\" și \"NoSky Studios\" și alt conținut original pe care îl furnizăm — este deținută de NoSky Studios Ltd și protejată de legile privind proprietatea intelectuală. Acești Termeni vă acordă o licență de utilizare a Aplicației; nu vă conferă niciun drept asupra mărcii sau materialelor noastre dincolo de aceasta. Siglele de marcă afișate pentru serviciile pe care le urmăriți aparțin titularilor lor respectivi și sunt utilizate doar pentru a vă ajuta să identificați acele servicii."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Declinarea garanțiilor",
+        "body": [
+          "Kelora este furnizată \"ca atare\" și \"în măsura disponibilității\", fără garanții de niciun fel, exprese sau implicite, inclusiv garanții implicite de vandabilitate, de adecvare la un anumit scop și de neîncălcare a drepturilor. Nu garantăm că Aplicația va funcționa neîntrerupt, fără erori, ori că vreo cifră, curs, siglă sau memento pe care le produce va fi exact sau la timp.",
+          "Unele jurisdicții nu permit excluderea anumitor garanții, astfel încât o parte din cele de mai sus poate să nu vi se aplice; în acest caz, garanțiile excluse sunt limitate la minimul permis de lege."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Limitarea răspunderii",
+        "body": [
+          "În cea mai mare măsură permisă de lege, NoSky Studios și proprietarii și personalul său nu vor fi răspunzători pentru niciun fel de daune indirecte, incidentale, speciale, subsecvente sau punitive, ori pentru vreo pierdere de date, profituri, economii sau reputație, care decurg din sau au legătură cu utilizarea de către dumneavoastră — sau cu imposibilitatea de a utiliza — Kelora, chiar dacă am fost avertizați cu privire la posibilitatea unor astfel de daune.",
+          "În cea mai mare măsură permisă de lege, răspunderea noastră totală pentru toate pretențiile legate de Kelora nu va depăși valoarea cea mai mare dintre suma pe care ne-ați plătit-o pentru Aplicație în cele 12 luni anterioare pretenției sau cinci dolari americani (US$5). Nicio prevedere din acești Termeni nu limitează vreo răspundere care nu poate fi limitată conform legislației aplicabile."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Responsabilitatea dumneavoastră",
+        "body": [
+          "Sunteți de acord să fiți responsabil pentru utilizarea de către dumneavoastră a aplicației Kelora și, în măsura permisă de lege, să exonerați NoSky Studios de pretenții care decurg din utilizarea abuzivă de către dumneavoastră a Aplicației sau din încălcarea de către dumneavoastră a acestor Termeni."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Încetare",
+        "body": [
+          "Puteți înceta utilizarea aplicației Kelora oricând, ștergând-o de pe dispozitivul dumneavoastră. Putem suspenda sau înceta licența dumneavoastră de utilizare a Aplicației dacă încălcați în mod substanțial acești Termeni. Secțiunile care, prin natura lor, ar trebui să supraviețuiască — inclusiv proprietatea, declinările de garanție, limitarea răspunderii și legea aplicabilă — continuă să se aplice după încetarea utilizării de către dumneavoastră."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Modificări ale Aplicației și ale acestor Termeni",
+        "body": [
+          "Îmbunătățim continuu Kelora și este posibil să adăugăm, să modificăm sau să eliminăm funcții în timp. De asemenea, este posibil să actualizăm acești Termeni; când efectuăm modificări semnificative, vom actualiza data \"În vigoare din\" de mai sus și, acolo unde este cazul, vom menționa modificarea în Aplicație sau în notele sale de versiune. Dacă folosiți în continuare Kelora după ce modificările intră în vigoare, acceptați Termenii actualizați. Dacă nu sunteți de acord, vă rugăm să încetați utilizarea Aplicației."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Legea aplicabilă și litigiile",
+        "body": [
+          "Acești Termeni sunt guvernați de legile Republicii Federale Nigeria, fără a ține seama de normele sale privind conflictul de legi, și, acolo unde vi se aplică, de legile imperative privind protecția consumatorului din țara dumneavoastră de reședință, pe care acești Termeni nu le înlătură. Sub rezerva acelor legi imperative, sunteți de acord că litigiile legate de Kelora sau de acești Termeni vor fi soluționate de instanțele din Nigeria.",
+          "Nicio prevedere din această secțiune nu vă împiedică să formulați o pretenție sau să solicitați protecția unei autorități de reglementare în țara dumneavoastră de origine, atunci când legea vă conferă acest drept."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Dispoziții generale",
+        "body": [
+          "Acești Termeni, împreună cu Politica de confidențialitate, constituie întregul acord dintre dumneavoastră și NoSky Studios cu privire la Aplicație. Dacă vreo parte a acestor Termeni este considerată neexecutabilă, restul rămâne în vigoare. Faptul că nu punem în aplicare o prevedere nu constituie o renunțare la aceasta. Nu vă puteți transfera drepturile în temeiul acestor Termeni fără consimțământul nostru; noi ne putem transfera drepturile în legătură cu o fuziune, achiziție sau vânzare de active ori prin efectul legii."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Contactați-ne",
+        "body": [
+          "Aveți întrebări despre acești Termeni? Contactați-ne la [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng) sau, pentru chestiuni de confidențialitate, la [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  }
+}

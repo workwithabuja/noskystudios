@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "langName": "English",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigeria",
+    "effectiveDate": "24 July 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": ""
+  },
+  "ui": {
+    "privacyLink": "Privacy Policy",
+    "termsLink": "Terms of Service",
+    "languageLabel": "Language",
+    "lastUpdated": "Last updated",
+    "effectiveLabel": "Effective",
+    "versionLabel": "Version",
+    "backToTop": "Back to top",
+    "readPrivacy": "Read the Privacy Policy",
+    "readTerms": "Read the Terms of Service",
+    "onThisPage": "On this page",
+    "app": {
+      "fullPrivacy": "Full Privacy Policy",
+      "fullTerms": "Full Terms of Service",
+      "opensOnline": "Opens in your language on noskystudios.ng"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Kelora is built to keep your financial life on your own device. This policy explains, plainly, what that means.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "The short version",
+        "body": [
+          "Kelora is a personal subscription and budget tracker made by NoSky Studios Ltd. It is designed around a simple idea: the details of what you pay for are yours, and they should stay with you.",
+          "We do not have accounts. We do not ask you to sign in. We do not run analytics, advertising, or tracking of any kind. The subscriptions, prices, dates, notes, and budgets you enter are stored on your device and are never sent to us.",
+          "The rest of this policy explains the few places data does move — always for a feature you chose, and never to a server we control."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Who we are",
+        "body": [
+          "Kelora is published by NoSky Studios Ltd (RC 7631695), a company registered in Nigeria (\"NoSky Studios\", \"we\", \"us\", or \"our\").",
+          "This Privacy Policy applies to the Kelora iOS app and its home-screen widgets. For any privacy question, contact us at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "What we do not collect",
+        "body": [
+          "We want to be specific, because \"we value your privacy\" means little on its own. In Kelora there is:"
+        ],
+        "list": [
+          "No account and no sign-in. You do not create a profile, and we never ask for your name, email, or phone number to use the app.",
+          "No analytics or usage tracking. Kelora contains no analytics, crash-reporting, advertising, or attribution software. We do not measure how you use the app.",
+          "No advertising identifiers. Kelora does not request the App Tracking Transparency permission and does not access the device advertising identifier (IDFA).",
+          "No selling or sharing of data. We do not sell, rent, or share your personal information, because we do not receive it in the first place."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Information stored on your device",
+        "body": [
+          "Everything you put into Kelora is stored locally on your device. This includes the subscriptions and merchants you track, their prices, currencies, billing cycles, start and renewal dates, trial periods, price history, reminders, cancellation dates, payment-method labels, categories, tags, notes, budgets, and any custom icons you choose.",
+          "The payment-method field is a free-text label only (for example, \"Visa ending 1234\"). Kelora does not connect to your bank, card, or any financial institution, and it cannot read your real account or card numbers.",
+          "This information stays on your device unless you deliberately move it — for example by turning on iCloud backup, exporting a file, or adding a renewal to your calendar. Those choices are described below. Because the data lives on your device, it is also included in your normal device backups (such as an encrypted iPhone or iCloud device backup) that you control through Apple, not through us."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Receipt and document scanning",
+        "body": [
+          "If you scan a receipt or subscription confirmation, or import a statement, spreadsheet, or document, Kelora reads it entirely on your device using Apple's built-in text-recognition technology. The image and the recognised text are processed locally to help fill in a subscription's details.",
+          "Scanned images and their contents are not uploaded to us or to any third party."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Network connections and third-party services",
+        "body": [
+          "Kelora works offline for its core features. It makes a small number of optional network requests, only to power specific features, and never to send us your financial data. Here is the complete list:"
+        ],
+        "list": [
+          "Currency exchange rates. To convert between currencies, Kelora fetches reference rates from ExchangeRate-API (open.er-api.com). The request contains only a currency code (such as \"USD\"). It does not contain your subscriptions, amounts, or any personal information.",
+          "Brand logos and icons. When you add or edit a subscription, Kelora can fetch a brand logo to make it recognisable. To do this it sends a brand name or website domain (guessed from what you are editing) to logo and icon providers — Logo.dev, Brandfetch, and, as a fallback, Google and DuckDuckGo favicon services. If you search for a custom icon, your search term may also be sent to Openverse and Wikimedia Commons image search. These requests contain the brand or search term only — never your prices, dates, or other data."
+        ],
+        "after": [
+          "These providers receive only the information described above, as the operators of the services Kelora contacts on your behalf, and their use of it is governed by their own privacy policies: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org), and [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). As with any internet request, these providers may receive your device's IP address and standard request information; we do not receive that information and do not combine it with anything about you.",
+          "You can avoid these requests by not using logo lookup or icon search and by relying on manual exchange rates, which Kelora supports."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Optional iCloud backup",
+        "body": [
+          "Kelora offers an optional backup to your own iCloud Drive. It is turned off by default. If you turn it on, Kelora writes a single backup file into your personal iCloud Drive so you can restore it on your own devices.",
+          "This backup lives in your Apple iCloud account, under your control. It is not stored on any NoSky Studios server, and we cannot see or access it. Its handling is subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). You can delete the backup at any time from the Files app or from within Kelora, and you can turn the feature off to stop future backups."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Calendar integration",
+        "body": [
+          "If you enable Calendar Integration, Kelora adds your upcoming renewal dates as events in your own calendar, so you see them alongside the rest of your schedule. These events are written to your device's calendar (and wherever you sync it, such as your iCloud calendar). No server operated by us is involved, and we do not read your calendar."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Purchases and the Kelora Pro upgrade",
+        "body": [
+          "Kelora is free to start and offers a paid upgrade, Kelora Pro, as a one-time \"lifetime\" purchase or a monthly subscription. All purchases are handled by Apple through the App Store using your Apple Account.",
+          "Payment is processed entirely by Apple. Kelora never sees or receives your card, bank, or payment details. To manage entitlements, the app receives from Apple only the fact that a valid purchase exists — not your identity or payment information. Purchases, renewals, and refunds are governed by Apple's terms and [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Device permissions we request",
+        "body": [
+          "Kelora asks for a permission only when you use the feature that needs it, and explains why at the moment it asks:"
+        ],
+        "list": [
+          "Camera — only to scan a receipt or subscription confirmation. Scanning happens on your device.",
+          "Photo Library — only so you can pick an image to use as a custom subscription icon.",
+          "Calendars — only if you turn on Calendar Integration, to add renewal dates to your own calendar.",
+          "Notifications — only to show the reminders you schedule, such as an upcoming renewal or a cancel-by date. These are local notifications generated on your device."
+        ],
+        "after": [
+          "Kelora does not request location, microphone, contacts, or tracking permissions. You can review or change any permission at any time in the iOS Settings app."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Notifications",
+        "body": [
+          "Kelora's reminders are local notifications, scheduled and delivered on your device. Kelora does not use push notifications and does not register your device with any messaging server. We cannot send you messages, and we do not know whether or when a reminder is shown."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Home-screen widgets",
+        "body": [
+          "Kelora's widgets display a snapshot of your subscriptions and budget — for example the next charge, your monthly total, and how many subscriptions are active. To do this, the app and its widgets share a small snapshot file in a private, on-device storage area reserved for the app. This data never leaves your device."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Children's privacy",
+        "body": [
+          "Kelora is a general-purpose finance tool intended for adults and is not directed to children. We do not knowingly collect personal information from anyone, including children under the age of 13 (or the equivalent minimum age in your country). Because Kelora has no accounts and collects no personal information, there is no such information for us to hold or delete."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "How your information is protected",
+        "body": [
+          "Your Kelora data is stored on your device and is protected by the security of iOS, including the device passcode, encryption, and app sandboxing that Apple provides. The free-trial marker is stored in the device Keychain.",
+          "Because your data does not sit on our servers, the most important protection is the one you control: keep your device locked with a passcode or biometrics, and keep iOS up to date. No method of storage or transmission is completely secure, but keeping your data on-device removes the large, central target that a cloud database would present."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Keeping and deleting your data",
+        "body": [
+          "You decide how long your data is kept, because you hold it. You can edit or delete any subscription, budget, or other entry inside the app at any time. Deleting the Kelora app removes its on-device data from that device.",
+          "If you turned on iCloud backup, delete the backup file from your iCloud Drive (via the Files app or from within Kelora) to remove that copy. If you added renewals to your calendar, remove those events from your calendar app. We hold no copy of your data, so there is nothing for you to request from us and nothing for us to delete on your behalf."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Your privacy rights",
+        "body": [
+          "Depending on where you live, data-protection laws — such as the Nigeria Data Protection Act 2023, the EU and UK General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA/CPRA) — give you rights over your personal information, including the rights to access, correct, delete, and port it, and to object to certain processing.",
+          "Kelora is designed so that you already have these rights directly: your information is on your device, where you can view, change, export, and delete it yourself, at any time, without asking us. We do not collect, store, sell, or share your personal information, and we do not \"sell\" or \"share\" it for advertising as those terms are defined under the CCPA.",
+          "If you believe we hold personal information about you, or you have a question about your rights, contact us at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) and we will respond. You also have the right to lodge a complaint with your local data-protection authority."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "International users",
+        "body": [
+          "Kelora is available worldwide, and your data stays on your device wherever you are. When you use an optional online feature (exchange rates, logo or icon lookup), the request is handled by that third-party provider, which may process it on servers in another country. Those requests contain only the limited information described in the \"Network connections\" section above."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Changes to this policy",
+        "body": [
+          "We may update this Privacy Policy as Kelora evolves or as the law requires. When we do, we will change the \"Effective\" date at the top of this page and, for significant changes, note them in the app or its release notes. The current version always lives at this address. Continuing to use Kelora after an update means you accept the revised policy."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Contact us",
+        "body": [
+          "For any question about this policy or your privacy, reach us at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). For general help with the app, contact [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "These terms are the agreement between you and NoSky Studios Ltd for using the Kelora app. Please read them.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Agreement to these terms",
+        "body": [
+          "These Terms of Service (\"Terms\") are a legal agreement between you and NoSky Studios Ltd (RC 7631695), a company registered in Nigeria (\"NoSky Studios\", \"we\", \"us\", or \"our\"), governing your use of the Kelora app and its widgets (together, \"Kelora\" or the \"App\").",
+          "By downloading, installing, or using Kelora, you agree to these Terms and to our [Privacy Policy](privacy.html), which is incorporated here by reference. If you do not agree, please do not use the App."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Who may use Kelora",
+        "body": [
+          "You must be old enough to form a binding contract in your country, and at least 13 years old (or the higher minimum age required where you live), to use Kelora. By using the App you confirm that you meet this requirement and that you will use Kelora in line with these Terms and applicable law."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Your licence to use the App",
+        "body": [
+          "Subject to these Terms, we grant you a personal, limited, non-exclusive, non-transferable, revocable licence to download and use one copy of Kelora on Apple devices that you own or control, for your own personal, non-commercial use, as permitted by the App Store rules.",
+          "You may not copy, modify, distribute, sell, or lease any part of the App; reverse-engineer or attempt to extract its source code except to the limited extent the law allows; or remove any proprietary notices. This licence does not transfer any ownership of the App to you."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Your data is yours",
+        "body": [
+          "Kelora is a tool for organising information you choose to enter. The subscriptions, amounts, notes, budgets, and other content you put into Kelora belong to you. As explained in the Privacy Policy, this content is stored on your device; we do not collect it and claim no ownership of it.",
+          "You are responsible for your own data — including keeping your device secure, and keeping backups if the information matters to you. We are not responsible for data lost because a device is lost, damaged, reset, or because the App is deleted."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Acceptable use",
+        "body": [
+          "You agree to use Kelora only for lawful, personal purposes, and not to misuse it — for example by attempting to disrupt or interfere with the App, its widgets, or the third-party services it relies on, or by using the App in a way that infringes the rights of others or breaks the law."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, purchases, and subscriptions",
+        "body": [
+          "Kelora is free to download and use with a set of core features. Kelora Pro unlocks the full feature set and is offered as either a one-time \"lifetime\" purchase or an auto-renewing monthly subscription. A free trial may be offered; if it is, the terms of the trial are shown to you before you start it.",
+          "All purchases are made through Apple's App Store and billed to your Apple Account. For an auto-renewing subscription, your Apple Account is charged at confirmation of purchase and again at the start of each renewal period, and the subscription renews automatically unless you cancel at least 24 hours before the end of the current period. You manage or cancel a subscription in your Apple Account settings; deleting the App does not cancel a subscription.",
+          "Prices are shown in the App before you buy and may change over time; any change applies only to future purchases or renewals. Purchases, billing, and refunds are handled by Apple under Apple's terms — we do not process payments and cannot issue refunds directly. Refund requests are made to Apple through the App Store. The one-time \"lifetime\" purchase unlocks the paid features of Kelora as it exists and continues to be offered; it is not a promise that the App, any specific feature, or any third-party service will remain available forever."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Apple App Store terms",
+        "body": [
+          "You obtain Kelora through the Apple App Store, and your use is also subject to Apple's applicable terms, including the standard Licensed Application End User License Agreement (EULA). These Terms are between you and NoSky Studios only, not with Apple; Apple is not responsible for the App or its content.",
+          "You agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms and may enforce them. Apple has no obligation to provide support or maintenance for the App, and any warranty, product-liability, legal, or intellectual-property claim relating to the App is our responsibility and not Apple's, to the extent we are responsible at all under these Terms."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Third-party services",
+        "body": [
+          "Some optional features rely on third-party services — for example currency exchange rates and brand logo or icon lookups, as described in the Privacy Policy. We do not control these services, and we are not responsible for their availability, accuracy, or content. Their data is provided \"as is\", and your use of it may also be subject to those providers' own terms."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora is not financial advice",
+        "body": [
+          "Kelora is a personal organisation tool. It does not move money, connect to your bank or cards, execute payments, or provide financial, investment, tax, or legal advice.",
+          "The amounts, dates, totals, and projections Kelora shows are based on what you enter and on indicative exchange rates that may lag the market. They may be incomplete or inaccurate. Always treat Kelora's figures as a personal reference, and verify actual charges, renewal dates, and cancellations directly with your provider, bank, or the App Store. Decisions you make based on the App are your own."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Our intellectual property",
+        "body": [
+          "The App itself — including its software, design, the \"Kelora\" and \"NoSky Studios\" names and logos, and other original content we provide — is owned by NoSky Studios Ltd and protected by intellectual-property laws. These Terms give you a licence to use the App; they do not give you any right to our brand or materials beyond that. Brand logos shown for the services you track belong to their respective owners and are used only to help you identify those services."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Disclaimer of warranties",
+        "body": [
+          "Kelora is provided \"as is\" and \"as available\", without warranties of any kind, whether express or implied, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the App will be uninterrupted, error-free, or that any figure, rate, logo, or reminder it produces will be accurate or timely.",
+          "Some jurisdictions do not allow the exclusion of certain warranties, so some of the above may not apply to you; in that case, the excluded warranties are limited to the minimum permitted by law."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Limitation of liability",
+        "body": [
+          "To the fullest extent permitted by law, NoSky Studios and its owners and personnel will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, savings, or goodwill, arising out of or relating to your use of — or inability to use — Kelora, even if we have been advised of the possibility of such damages.",
+          "To the fullest extent permitted by law, our total liability for all claims relating to Kelora will not exceed the greater of the amount you paid us for the App in the 12 months before the claim, or five United States dollars (US$5). Nothing in these Terms limits any liability that cannot be limited under applicable law."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Your responsibility",
+        "body": [
+          "You agree to be responsible for your use of Kelora and, to the extent permitted by law, to hold NoSky Studios harmless from claims arising out of your misuse of the App or your breach of these Terms."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Termination",
+        "body": [
+          "You may stop using Kelora at any time by deleting it from your device. We may suspend or end your licence to use the App if you materially breach these Terms. Sections that by their nature should survive — including ownership, disclaimers, limitation of liability, and governing law — continue to apply after your use ends."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Changes to the App and these Terms",
+        "body": [
+          "We are continually improving Kelora and may add, change, or remove features over time. We may also update these Terms; when we make significant changes we will update the \"Effective\" date above and, where appropriate, note the change in the App or its release notes. If you keep using Kelora after the changes take effect, you accept the updated Terms. If you do not agree, please stop using the App."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Governing law and disputes",
+        "body": [
+          "These Terms are governed by the laws of the Federal Republic of Nigeria, without regard to its conflict-of-laws rules, and, where they apply to you, by the mandatory consumer-protection laws of your country of residence, which these Terms do not override. Subject to those mandatory laws, you agree that disputes relating to Kelora or these Terms will be handled by the courts of Nigeria.",
+          "Nothing in this section prevents you from bringing a claim, or seeking the protection of a regulator, in your home country where the law gives you that right."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. General",
+        "body": [
+          "These Terms, together with the Privacy Policy, are the entire agreement between you and NoSky Studios about the App. If any part of these Terms is found unenforceable, the rest remains in effect. Our not enforcing a provision is not a waiver of it. You may not transfer your rights under these Terms without our consent; we may transfer ours in connection with a merger, acquisition, or sale of assets, or by operation of law."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Contact us",
+        "body": [
+          "Questions about these Terms? Reach us at [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), or for privacy matters at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  }
+}

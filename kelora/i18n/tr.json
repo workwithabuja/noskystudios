@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "tr",
+    "dir": "ltr",
+    "langName": "Türkçe",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nijerya",
+    "effectiveDate": "24 Temmuz 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Bu, Kelora yasal belgelerinin kolaylık sağlamak amacıyla sunulan bir çevirisidir. Resmi ve yasal olarak bağlayıcı sürüm İngilizce sürümdür. Bu çeviri ile İngilizce sürüm arasında anlam bakımından herhangi bir farklılık bulunması hâlinde İngilizce sürüm geçerli olur."
+  },
+  "ui": {
+    "privacyLink": "Gizlilik Politikası",
+    "termsLink": "Hizmet Koşulları",
+    "languageLabel": "Dil",
+    "lastUpdated": "Son güncelleme",
+    "effectiveLabel": "Yürürlük",
+    "versionLabel": "Sürüm",
+    "backToTop": "Başa dön",
+    "readPrivacy": "Gizlilik Politikasını okuyun",
+    "readTerms": "Hizmet Koşullarını okuyun",
+    "onThisPage": "Bu sayfada",
+    "app": {
+      "fullPrivacy": "Gizlilik Politikasının tamamı",
+      "fullTerms": "Hizmet Koşullarının tamamı",
+      "opensOnline": "noskystudios.ng adresinde kendi dilinizde açılır"
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "subtitle": "Kelora, mali hayatınızı kendi cihazınızda tutmak için tasarlanmıştır. Bu politika, bunun ne anlama geldiğini açıkça açıklar.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "Kısa versiyon",
+        "body": [
+          "Kelora, NoSky Studios Ltd tarafından geliştirilen kişisel bir abonelik ve bütçe takip uygulamasıdır. Basit bir fikir etrafında tasarlanmıştır: neye ödeme yaptığınızın ayrıntıları size aittir ve sizde kalmalıdır.",
+          "Hesabımız yok. Oturum açmanızı istemiyoruz. Hiçbir türde analiz, reklam ya da izleme yürütmüyoruz. Girdiğiniz abonelikler, fiyatlar, tarihler, notlar ve bütçeler cihazınızda saklanır ve bize asla gönderilmez.",
+          "Bu politikanın geri kalanı, verilerin hareket ettiği birkaç yeri açıklar — her zaman seçtiğiniz bir özellik için ve asla bizim kontrol ettiğimiz bir sunucuya değil."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Biz kimiz",
+        "body": [
+          "Kelora, Nijerya'da tescilli bir şirket olan NoSky Studios Ltd (RC 7631695) tarafından yayımlanmaktadır (\"NoSky Studios\", \"biz\" veya \"bize\").",
+          "Bu Gizlilik Politikası, Kelora iOS uygulaması ve ana ekran widget'ları için geçerlidir. Gizlilikle ilgili her türlü soru için bize [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) adresinden ulaşabilirsiniz."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Neleri toplamıyoruz",
+        "body": [
+          "Kesin olmak istiyoruz, çünkü \"gizliliğinize değer veriyoruz\" ifadesi tek başına pek bir anlam ifade etmez. Kelora'da şunlar bulunur:"
+        ],
+        "list": [
+          "Hesap ve oturum açma yok. Bir profil oluşturmazsınız ve uygulamayı kullanmanız için adınızı, e-postanızı ya da telefon numaranızı asla istemeyiz.",
+          "Analiz ya da kullanım izleme yok. Kelora'da hiçbir analiz, çökme raporlama, reklam ya da atıf yazılımı bulunmaz. Uygulamayı nasıl kullandığınızı ölçmeyiz.",
+          "Reklam tanımlayıcıları yok. Kelora, App Tracking Transparency iznini istemez ve cihaz reklam tanımlayıcısına (IDFA) erişmez.",
+          "Verilerin satışı ya da paylaşımı yok. Kişisel bilgilerinizi satmayız, kiralamayız ya da paylaşmayız, çünkü onları zaten en baştan almıyoruz."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Cihazınızda saklanan bilgiler",
+        "body": [
+          "Kelora'ya girdiğiniz her şey cihazınızda yerel olarak saklanır. Buna, takip ettiğiniz abonelikler ve satıcılar, bunların fiyatları, para birimleri, faturalandırma döngüleri, başlangıç ve yenileme tarihleri, deneme süreleri, fiyat geçmişi, hatırlatıcılar, iptal tarihleri, ödeme yöntemi etiketleri, kategoriler, etiketler, notlar, bütçeler ve seçtiğiniz özel simgeler dâhildir.",
+          "Ödeme yöntemi alanı yalnızca serbest metinli bir etikettir (örneğin \"1234 ile biten Visa\"). Kelora, bankanıza, kartınıza ya da herhangi bir finans kuruluşuna bağlanmaz ve gerçek hesap ya da kart numaralarınızı okuyamaz.",
+          "Bu bilgiler, siz bilinçli olarak taşımadıkça cihazınızda kalır — örneğin iCloud yedeklemesini açarak, bir dosya dışa aktararak ya da takviminize bir yenileme ekleyerek. Bu seçimler aşağıda açıklanmaktadır. Veriler cihazınızda bulunduğundan, Apple aracılığıyla (bizim aracılığımızla değil) kontrol ettiğiniz normal cihaz yedeklerinize (örneğin şifreli bir iPhone ya da iCloud cihaz yedeği) de dâhil edilir."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Makbuz ve belge tarama",
+        "body": [
+          "Bir makbuzu ya da abonelik onayını tararsanız veya bir hesap özeti, elektronik tablo ya da belge içe aktarırsanız, Kelora bunu Apple'ın yerleşik metin tanıma teknolojisini kullanarak tamamen cihazınızda okur. Görüntü ve tanınan metin, bir aboneliğin ayrıntılarını doldurmaya yardımcı olmak için yerel olarak işlenir.",
+          "Taranan görüntüler ve içerikleri bize ya da herhangi bir üçüncü tarafa yüklenmez."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Ağ bağlantıları ve üçüncü taraf hizmetler",
+        "body": [
+          "Kelora, temel özellikleri için çevrimdışı çalışır. Yalnızca belirli özellikleri çalıştırmak için az sayıda isteğe bağlı ağ isteği yapar ve mali verilerinizi bize göndermek için asla yapmaz. Tam liste şu şekildedir:"
+        ],
+        "list": [
+          "Döviz kurları. Para birimleri arasında dönüştürme yapmak için Kelora, referans kurları ExchangeRate-API'den (open.er-api.com) alır. İstek yalnızca bir para birimi kodu (örneğin \"USD\") içerir. Aboneliklerinizi, tutarlarınızı ya da herhangi bir kişisel bilgiyi içermez.",
+          "Marka logoları ve simgeleri. Bir abonelik eklediğinizde ya da düzenlediğinizde, Kelora onu tanınabilir kılmak için bir marka logosu alabilir. Bunu yapmak için (düzenlediğiniz şeyden tahmin edilen) bir marka adını ya da web sitesi alan adını logo ve simge sağlayıcılarına — Logo.dev, Brandfetch ve yedek olarak Google ve DuckDuckGo favicon hizmetlerine — gönderir. Özel bir simge ararsanız, arama teriminiz ayrıca Openverse ve Wikimedia Commons görsel aramasına gönderilebilir. Bu istekler yalnızca marka adını ya da arama terimini içerir — fiyatlarınızı, tarihlerinizi ya da diğer verilerinizi asla içermez."
+        ],
+        "after": [
+          "Bu sağlayıcılar, Kelora'nın sizin adınıza iletişim kurduğu hizmetlerin işletmecileri olarak yalnızca yukarıda açıklanan bilgileri alır ve bu bilgileri kullanımları kendi gizlilik politikalarına tabidir: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org) ve [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Herhangi bir internet isteğinde olduğu gibi, bu sağlayıcılar cihazınızın IP adresini ve standart istek bilgilerini alabilir; biz bu bilgileri almayız ve hakkınızdaki hiçbir şeyle birleştirmeyiz.",
+          "Logo aramasını ya da simge aramasını kullanmayarak ve Kelora'nın desteklediği manuel döviz kurlarına güvenerek bu isteklerden kaçınabilirsiniz."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "İsteğe bağlı iCloud yedeklemesi",
+        "body": [
+          "Kelora, kendi iCloud Drive'ınıza isteğe bağlı bir yedekleme sunar. Bu özellik varsayılan olarak kapalıdır. Açarsanız, Kelora kendi cihazlarınızda geri yükleyebilmeniz için kişisel iCloud Drive'ınıza tek bir yedekleme dosyası yazar.",
+          "Bu yedek, sizin kontrolünüz altında Apple iCloud hesabınızda bulunur. Herhangi bir NoSky Studios sunucusunda saklanmaz ve biz onu göremez ya da erişemeyiz. Bu yedeğin işlenmesi [Apple'ın Gizlilik Politikası](https://www.apple.com/legal/privacy/) kapsamındadır. Yedeği Dosyalar uygulamasından ya da Kelora içinden istediğiniz zaman silebilir ve gelecekteki yedeklemeleri durdurmak için özelliği kapatabilirsiniz."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Takvim entegrasyonu",
+        "body": [
+          "Takvim Entegrasyonunu etkinleştirirseniz, Kelora yaklaşan yenileme tarihlerinizi kendi takviminize etkinlik olarak ekler; böylece bunları programınızın geri kalanıyla birlikte görürsünüz. Bu etkinlikler cihazınızın takvimine (ve iCloud takviminiz gibi eşitlediğiniz her yere) yazılır. Bizim işlettiğimiz hiçbir sunucu bu işe dâhil değildir ve biz takviminizi okumayız."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Satın almalar ve Kelora Pro yükseltmesi",
+        "body": [
+          "Kelora ücretsiz olarak başlar ve ücretli bir yükseltme olan Kelora Pro'yu tek seferlik bir \"ömür boyu\" satın alma ya da aylık abonelik olarak sunar. Tüm satın almalar, Apple Account'unuz kullanılarak App Store aracılığıyla Apple tarafından yürütülür.",
+          "Ödeme tamamen Apple tarafından işlenir. Kelora, kart, banka ya da ödeme bilgilerinizi asla görmez ya da almaz. Hakları yönetmek için uygulama, Apple'dan yalnızca geçerli bir satın almanın var olduğu bilgisini alır — kimliğinizi ya da ödeme bilgilerinizi değil. Satın almalar, yenilemeler ve geri ödemeler Apple'ın koşulları ve [Apple'ın Gizlilik Politikası](https://www.apple.com/legal/privacy/) kapsamındadır."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "İstediğimiz cihaz izinleri",
+        "body": [
+          "Kelora, bir izni yalnızca o izne ihtiyaç duyan özelliği kullandığınızda ister ve istediği anda nedenini açıklar:"
+        ],
+        "list": [
+          "Kamera — yalnızca bir makbuzu ya da abonelik onayını taramak için. Tarama cihazınızda gerçekleşir.",
+          "Fotoğraf Kitaplığı — yalnızca özel bir abonelik simgesi olarak kullanmak üzere bir görüntü seçebilmeniz için.",
+          "Takvimler — yalnızca Takvim Entegrasyonunu açarsanız, yenileme tarihlerini kendi takviminize eklemek için.",
+          "Bildirimler — yalnızca yaklaşan bir yenileme ya da son iptal tarihi gibi planladığınız hatırlatıcıları göstermek için. Bunlar cihazınızda oluşturulan yerel bildirimlerdir."
+        ],
+        "after": [
+          "Kelora, konum, mikrofon, kişiler ya da izleme izinleri istemez. Herhangi bir izni istediğiniz zaman iOS Ayarlar uygulamasında gözden geçirebilir ya da değiştirebilirsiniz."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Bildirimler",
+        "body": [
+          "Kelora'nın hatırlatıcıları, cihazınızda planlanan ve iletilen yerel bildirimlerdir. Kelora, anlık bildirimler kullanmaz ve cihazınızı herhangi bir mesajlaşma sunucusuna kaydetmez. Size mesaj gönderemeyiz ve bir hatırlatıcının gösterilip gösterilmediğini ya da ne zaman gösterildiğini bilemeyiz."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Ana ekran widget'ları",
+        "body": [
+          "Kelora'nın widget'ları, aboneliklerinizin ve bütçenizin bir anlık görüntüsünü gösterir — örneğin bir sonraki ödeme, aylık toplamınız ve kaç aboneliğin etkin olduğu. Bunu yapmak için, uygulama ve widget'ları, uygulamaya ayrılmış özel bir cihaz içi depolama alanında küçük bir anlık görüntü dosyasını paylaşır. Bu veriler asla cihazınızdan ayrılmaz."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Çocukların gizliliği",
+        "body": [
+          "Kelora, yetişkinlere yönelik genel amaçlı bir finans aracıdır ve çocuklara yönelik değildir. Çocuklar da dâhil olmak üzere hiç kimseden, 13 yaşın altındaki çocuklardan (ya da ülkenizdeki eşdeğer asgari yaştan) bilerek kişisel bilgi toplamıyoruz. Kelora'nın hesabı olmadığından ve hiçbir kişisel bilgi toplamadığından, elimizde tutacağımız ya da sileceğimiz böyle bir bilgi yoktur."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Bilgilerinizin nasıl korunduğu",
+        "body": [
+          "Kelora verileriniz cihazınızda saklanır ve cihaz parolası, şifreleme ile Apple'ın sağladığı uygulama korumalı alanı (sandbox) dâhil olmak üzere iOS'un güvenliğiyle korunur. Ücretsiz deneme işareti cihazın Keychain'inde saklanır.",
+          "Verileriniz sunucularımızda bulunmadığından, en önemli koruma sizin kontrol ettiğiniz korumadır: cihazınızı bir parola ya da biyometri ile kilitli tutun ve iOS'u güncel tutun. Hiçbir depolama ya da iletim yöntemi tamamen güvenli değildir, ancak verilerinizi cihazda tutmak, bir bulut veritabanının oluşturacağı büyük ve merkezi hedefi ortadan kaldırır."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Verilerinizi saklama ve silme",
+        "body": [
+          "Verilerinize siz sahip olduğunuz için, ne kadar süreyle saklanacaklarına siz karar verirsiniz. Herhangi bir aboneliği, bütçeyi ya da başka bir girişi uygulama içinde istediğiniz zaman düzenleyebilir ya da silebilirsiniz. Kelora uygulamasını silmek, cihaz içi verilerini o cihazdan kaldırır.",
+          "iCloud yedeklemesini açtıysanız, o kopyayı kaldırmak için yedekleme dosyasını iCloud Drive'ınızdan silin (Dosyalar uygulaması aracılığıyla ya da Kelora içinden). Takviminize yenilemeler eklediyseniz, o etkinlikleri takvim uygulamanızdan kaldırın. Verilerinizin hiçbir kopyasını tutmadığımızdan, bizden talep edeceğiniz bir şey ve bizim sizin adınıza sileceğimiz bir şey yoktur."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Gizlilik haklarınız",
+        "body": [
+          "Yaşadığınız yere bağlı olarak, veri koruma yasaları — örneğin 2023 Nijerya Veri Koruma Yasası (Nigeria Data Protection Act 2023), AB ve Birleşik Krallık Genel Veri Koruma Tüzüğü (GDPR) ve Kaliforniya Tüketici Gizliliği Yasası (CCPA/CPRA) — kişisel bilgileriniz üzerinde, bunlara erişme, düzeltme, silme ve taşıma ile belirli işlemlere itiraz etme hakları da dâhil olmak üzere haklar tanır.",
+          "Kelora, bu haklara zaten doğrudan sahip olacağınız şekilde tasarlanmıştır: bilgileriniz cihazınızdadır ve orada, bize sormadan, istediğiniz zaman kendiniz görüntüleyebilir, değiştirebilir, dışa aktarabilir ve silebilirsiniz. Kişisel bilgilerinizi toplamaz, saklamaz, satmaz ya da paylaşmayız ve bu terimler CCPA kapsamında tanımlandığı şekliyle reklam amacıyla \"satmaz\" ya da \"paylaşmayız\".",
+          "Hakkınızda kişisel bilgi tuttuğumuza inanıyorsanız ya da haklarınızla ilgili bir sorunuz varsa, bize [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) adresinden ulaşın; yanıt vereceğiz. Ayrıca yerel veri koruma otoritenize şikâyette bulunma hakkına da sahipsiniz."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Uluslararası kullanıcılar",
+        "body": [
+          "Kelora dünya çapında kullanılabilir ve verileriniz nerede olursanız olun cihazınızda kalır. İsteğe bağlı bir çevrimiçi özelliği (döviz kurları, logo ya da simge araması) kullandığınızda, istek o üçüncü taraf sağlayıcı tarafından işlenir ve bu sağlayıcı bunu başka bir ülkedeki sunucularda işleyebilir. Bu istekler yalnızca yukarıdaki \"Ağ bağlantıları\" bölümünde açıklanan sınırlı bilgileri içerir."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Bu politikadaki değişiklikler",
+        "body": [
+          "Kelora geliştikçe ya da yasa gerektirdikçe bu Gizlilik Politikasını güncelleyebiliriz. Bunu yaptığımızda, bu sayfanın üst kısmındaki \"Yürürlük\" tarihini değiştirir ve önemli değişiklikler için bunları uygulamada ya da sürüm notlarında belirtiriz. Güncel sürüm her zaman bu adreste bulunur. Bir güncellemeden sonra Kelora'yı kullanmaya devam etmeniz, gözden geçirilmiş politikayı kabul ettiğiniz anlamına gelir."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Bize ulaşın",
+        "body": [
+          "Bu politika ya da gizliliğinizle ilgili her türlü soru için bize [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) adresinden ulaşın. Uygulamayla ilgili genel yardım için [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng) adresiyle iletişime geçin.",
+          "NoSky Studios Ltd (RC 7631695), Nijerya."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Hizmet Koşulları",
+    "subtitle": "Bu koşullar, Kelora uygulamasını kullanmanız için sizinle NoSky Studios Ltd arasındaki sözleşmedir. Lütfen okuyun.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Bu koşulların kabulü",
+        "body": [
+          "Bu Hizmet Koşulları (\"Koşullar\"), sizinle Nijerya'da tescilli bir şirket olan NoSky Studios Ltd (RC 7631695) (\"NoSky Studios\", \"biz\" veya \"bize\") arasında, Kelora uygulamasını ve widget'larını (birlikte \"Kelora\" ya da \"Uygulama\") kullanmanızı düzenleyen yasal bir sözleşmedir.",
+          "Kelora'yı indirerek, kurarak ya da kullanarak bu Koşulları ve burada atıfla dâhil edilen [Gizlilik Politikamızı](privacy.html) kabul etmiş olursunuz. Kabul etmiyorsanız, lütfen Uygulamayı kullanmayın."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Kelora'yı kimler kullanabilir",
+        "body": [
+          "Kelora'yı kullanmak için ülkenizde bağlayıcı bir sözleşme yapabilecek yaşta ve en az 13 yaşında (ya da yaşadığınız yerde gereken daha yüksek asgari yaşta) olmalısınız. Uygulamayı kullanarak bu şartı karşıladığınızı ve Kelora'yı bu Koşullara ve geçerli yasalara uygun olarak kullanacağınızı onaylarsınız."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Uygulamayı kullanma lisansınız",
+        "body": [
+          "Bu Koşullara tabi olarak, App Store kurallarının izin verdiği şekilde, kendi kişisel, ticari olmayan kullanımınız için, sahip olduğunuz ya da kontrol ettiğiniz Apple cihazlarına Kelora'nın bir kopyasını indirmeniz ve kullanmanız için size kişisel, sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans veriyoruz.",
+          "Uygulamanın hiçbir bölümünü kopyalayamaz, değiştiremez, dağıtamaz, satamaz ya da kiralayamazsınız; yasanın izin verdiği sınırlı ölçü dışında kaynak kodunu tersine mühendislikle çözemez ya da çıkarmaya çalışamazsınız; veya herhangi bir mülkiyet bildirimini kaldıramazsınız. Bu lisans, Uygulamanın mülkiyetini size devretmez."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Verileriniz size aittir",
+        "body": [
+          "Kelora, girmeyi seçtiğiniz bilgileri düzenlemek için bir araçtır. Kelora'ya girdiğiniz abonelikler, tutarlar, notlar, bütçeler ve diğer içerikler size aittir. Gizlilik Politikasında açıklandığı gibi, bu içerik cihazınızda saklanır; biz onu toplamaz ve üzerinde herhangi bir mülkiyet iddiasında bulunmayız.",
+          "Cihazınızı güvende tutmak ve bilgiler sizin için önemliyse yedekler almak da dâhil olmak üzere kendi verilerinizden siz sorumlusunuz. Bir cihazın kaybolması, hasar görmesi, sıfırlanması ya da Uygulamanın silinmesi nedeniyle kaybedilen verilerden biz sorumlu değiliz."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Kabul edilebilir kullanım",
+        "body": [
+          "Kelora'yı yalnızca yasal, kişisel amaçlarla kullanmayı ve onu kötüye kullanmamayı kabul edersiniz — örneğin Uygulamayı, widget'larını ya da güvendiği üçüncü taraf hizmetleri bozmaya veya bunlara müdahale etmeye çalışarak veya Uygulamayı başkalarının haklarını ihlal eden ya da yasayı çiğneyen bir şekilde kullanarak."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, satın almalar ve abonelikler",
+        "body": [
+          "Kelora, bir dizi temel özellikle birlikte ücretsiz olarak indirilir ve kullanılır. Kelora Pro, tam özellik setinin kilidini açar ve tek seferlik bir \"ömür boyu\" satın alma ya da otomatik yenilenen aylık abonelik olarak sunulur. Bir ücretsiz deneme sunulabilir; sunulması hâlinde, denemenin koşulları başlamadan önce size gösterilir.",
+          "Tüm satın almalar Apple'ın App Store'u aracılığıyla yapılır ve Apple Account'unuza faturalandırılır. Otomatik yenilenen bir abonelik için Apple Account'unuza satın alma onayında ve her yenileme döneminin başında yeniden ödeme yansıtılır ve mevcut dönemin bitiminden en az 24 saat önce iptal etmediğiniz sürece abonelik otomatik olarak yenilenir. Bir aboneliği Apple Account ayarlarınızdan yönetir ya da iptal edersiniz; Uygulamayı silmek bir aboneliği iptal etmez.",
+          "Fiyatlar, satın almadan önce Uygulamada gösterilir ve zaman içinde değişebilir; herhangi bir değişiklik yalnızca gelecekteki satın almalar ya da yenilemeler için geçerlidir. Satın almalar, faturalandırma ve geri ödemeler Apple'ın koşulları kapsamında Apple tarafından yürütülür — biz ödemeleri işlemeyiz ve geri ödemeleri doğrudan yapamayız. Geri ödeme talepleri, App Store aracılığıyla Apple'a yapılır. Tek seferlik \"ömür boyu\" satın alma, Kelora'nın var olduğu ve sunulmaya devam ettiği hâliyle ücretli özelliklerinin kilidini açar; Uygulamanın, belirli bir özelliğin ya da herhangi bir üçüncü taraf hizmetin sonsuza dek kullanılabilir kalacağına dair bir vaat değildir."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Apple App Store koşulları",
+        "body": [
+          "Kelora'yı Apple App Store aracılığıyla edinirsiniz ve kullanımınız, standart Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi (EULA) dâhil olmak üzere Apple'ın geçerli koşullarına da tabidir. Bu Koşullar yalnızca sizinle NoSky Studios arasındadır, Apple ile değil; Apple, Uygulamadan ya da içeriğinden sorumlu değildir.",
+          "Apple'ın ve Apple'ın bağlı kuruluşlarının bu Koşulların üçüncü taraf lehdarları olduğunu ve bunları uygulayabileceğini kabul edersiniz. Apple'ın Uygulama için destek ya da bakım sağlama yükümlülüğü yoktur ve Uygulamayla ilgili herhangi bir garanti, ürün sorumluluğu, yasal ya da fikri mülkiyet iddiası, bu Koşullar kapsamında sorumlu olduğumuz ölçüde bizim sorumluluğumuzdadır, Apple'ın değil."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Üçüncü taraf hizmetler",
+        "body": [
+          "Bazı isteğe bağlı özellikler üçüncü taraf hizmetlere dayanır — örneğin Gizlilik Politikasında açıklandığı gibi döviz kurları ve marka logosu ya da simge aramaları. Bu hizmetleri biz kontrol etmeyiz ve bunların kullanılabilirliğinden, doğruluğundan ya da içeriğinden sorumlu değiliz. Verileri \"olduğu gibi\" sağlanır ve bunları kullanmanız o sağlayıcıların kendi koşullarına da tabi olabilir."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora finansal tavsiye değildir",
+        "body": [
+          "Kelora, kişisel bir düzenleme aracıdır. Para taşımaz, bankanıza ya da kartlarınıza bağlanmaz, ödeme yürütmez ve finansal, yatırım, vergi ya da hukuki tavsiye vermez.",
+          "Kelora'nın gösterdiği tutarlar, tarihler, toplamlar ve tahminler, girdiğiniz bilgilere ve piyasanın gerisinde kalabilecek gösterge niteliğindeki döviz kurlarına dayanır. Bunlar eksik ya da yanlış olabilir. Kelora'nın rakamlarını her zaman kişisel bir referans olarak değerlendirin ve gerçek ödemeleri, yenileme tarihlerini ve iptalleri doğrudan sağlayıcınızla, bankanızla ya da App Store ile doğrulayın. Uygulamaya dayanarak verdiğiniz kararlar size aittir."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Fikri mülkiyetimiz",
+        "body": [
+          "Uygulamanın kendisi — yazılımı, tasarımı, \"Kelora\" ve \"NoSky Studios\" adları ile logoları ve sağladığımız diğer özgün içerik dâhil — NoSky Studios Ltd'ye aittir ve fikri mülkiyet yasalarıyla korunmaktadır. Bu Koşullar size Uygulamayı kullanma lisansı verir; bunun ötesinde markamız ya da materyallerimiz üzerinde size herhangi bir hak vermez. Takip ettiğiniz hizmetler için gösterilen marka logoları ilgili sahiplerine aittir ve yalnızca bu hizmetleri tanımanıza yardımcı olmak için kullanılır."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Garantilerin reddi",
+        "body": [
+          "Kelora, satılabilirlik, belirli bir amaca uygunluk ve ihlal etmeme yönündeki zımni garantiler dâhil olmak üzere açık ya da zımni hiçbir garanti olmaksızın, \"olduğu gibi\" ve \"mevcut olduğu şekliyle\" sağlanır. Uygulamanın kesintisiz ya da hatasız olacağını ya da ürettiği herhangi bir rakamın, kurun, logonun ya da hatırlatıcının doğru ya da zamanında olacağını garanti etmiyoruz.",
+          "Bazı yargı bölgeleri belirli garantilerin hariç tutulmasına izin vermez; bu nedenle yukarıdakilerin bir kısmı sizin için geçerli olmayabilir; bu durumda, hariç tutulan garantiler yasanın izin verdiği asgari düzeyle sınırlıdır."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Sorumluluğun sınırlandırılması",
+        "body": [
+          "Yasanın izin verdiği en geniş ölçüde, NoSky Studios ve sahipleri ile personeli; Kelora'yı kullanmanızdan ya da kullanamamanızdan doğan veya bunlarla ilgili herhangi bir dolaylı, arızi, özel, sonuç niteliğinde ya da cezai zarardan veya herhangi bir veri, kâr, tasarruf ya da itibar kaybından, bu tür zararların olasılığı konusunda uyarılmış olsak bile sorumlu olmayacaktır.",
+          "Yasanın izin verdiği en geniş ölçüde, Kelora ile ilgili tüm talepler için toplam sorumluluğumuz, talepten önceki 12 ay içinde Uygulama için bize ödediğiniz tutarın ya da beş Amerika Birleşik Devletleri doları (US$5) tutarının hangisi daha yüksekse onu aşmayacaktır. Bu Koşullardaki hiçbir hüküm, geçerli yasa uyarınca sınırlandırılamayacak herhangi bir sorumluluğu sınırlandırmaz."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Sizin sorumluluğunuz",
+        "body": [
+          "Kelora'yı kullanmanızdan sorumlu olmayı ve yasanın izin verdiği ölçüde, Uygulamayı kötüye kullanmanızdan ya da bu Koşulları ihlal etmenizden doğan taleplerden NoSky Studios'u sorumlu tutmamayı kabul edersiniz."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Fesih",
+        "body": [
+          "Kelora'yı cihazınızdan silerek istediğiniz zaman kullanmayı bırakabilirsiniz. Bu Koşulları esaslı şekilde ihlal etmeniz hâlinde, Uygulamayı kullanma lisansınızı askıya alabilir ya da sonlandırabiliriz. Niteliği gereği devam etmesi gereken bölümler — mülkiyet, sorumluluk retleri, sorumluluğun sınırlandırılması ve geçerli yasa dâhil — kullanımınız sona erdikten sonra da geçerli olmaya devam eder."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Uygulamadaki ve bu Koşullardaki değişiklikler",
+        "body": [
+          "Kelora'yı sürekli olarak geliştiriyoruz ve zaman içinde özellikler ekleyebilir, değiştirebilir ya da kaldırabiliriz. Bu Koşulları da güncelleyebiliriz; önemli değişiklikler yaptığımızda yukarıdaki \"Yürürlük\" tarihini güncelleriz ve uygun olduğu yerde değişikliği Uygulamada ya da sürüm notlarında belirtiriz. Değişiklikler yürürlüğe girdikten sonra Kelora'yı kullanmaya devam ederseniz, güncellenmiş Koşulları kabul etmiş olursunuz. Kabul etmiyorsanız, lütfen Uygulamayı kullanmayı bırakın."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Geçerli yasa ve uyuşmazlıklar",
+        "body": [
+          "Bu Koşullar, kanunlar ihtilafı kurallarına bakılmaksızın Nijerya Federal Cumhuriyeti'nin yasalarına ve size uygulanabildiği ölçüde, bu Koşulların geçersiz kılmadığı, ikamet ettiğiniz ülkenin emredici tüketici koruma yasalarına tabidir. Bu emredici yasalara tabi olmak kaydıyla, Kelora ya da bu Koşullarla ilgili uyuşmazlıkların Nijerya mahkemeleri tarafından ele alınacağını kabul edersiniz.",
+          "Bu bölümdeki hiçbir hüküm, yasanın size bu hakkı tanıdığı durumlarda kendi ülkenizde bir talep ileri sürmenizi ya da bir düzenleyicinin korumasını aramanızı engellemez."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Genel",
+        "body": [
+          "Bu Koşullar, Gizlilik Politikasıyla birlikte, sizinle NoSky Studios arasında Uygulamaya ilişkin sözleşmenin tamamını oluşturur. Bu Koşulların herhangi bir bölümü uygulanamaz bulunursa, geri kalanı yürürlükte kalır. Bir hükmü uygulamamamız, ondan feragat ettiğimiz anlamına gelmez. Onayımız olmadan bu Koşullar kapsamındaki haklarınızı devredemezsiniz; biz bir birleşme, devralma ya da varlık satışı bağlamında veya yasa gereği kendi haklarımızı devredebiliriz."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Bize ulaşın",
+        "body": [
+          "Bu Koşullarla ilgili sorularınız mı var? Bize [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng) adresinden ya da gizlilik konuları için [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) adresinden ulaşın.",
+          "NoSky Studios Ltd (RC 7631695), Nijerya."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "id",
+    "dir": "ltr",
+    "langName": "Bahasa Indonesia",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigeria",
+    "effectiveDate": "24 Juli 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Ini adalah terjemahan dokumen hukum Kelora yang disediakan untuk kemudahan Anda. Versi resmi dan mengikat secara hukum adalah versi bahasa Inggris. Jika terdapat perbedaan makna antara terjemahan ini dan versi bahasa Inggris, versi bahasa Inggris yang berlaku."
+  },
+  "ui": {
+    "privacyLink": "Kebijakan Privasi",
+    "termsLink": "Ketentuan Layanan",
+    "languageLabel": "Bahasa",
+    "lastUpdated": "Terakhir diperbarui",
+    "effectiveLabel": "Berlaku",
+    "versionLabel": "Versi",
+    "backToTop": "Kembali ke atas",
+    "readPrivacy": "Baca Kebijakan Privasi",
+    "readTerms": "Baca Ketentuan Layanan",
+    "onThisPage": "Di halaman ini",
+    "app": {
+      "fullPrivacy": "Kebijakan Privasi lengkap",
+      "fullTerms": "Ketentuan Layanan lengkap",
+      "opensOnline": "Terbuka dalam bahasa Anda di noskystudios.ng"
+    }
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "subtitle": "Kelora dibuat untuk menjaga kehidupan finansial Anda tetap berada di perangkat Anda sendiri. Kebijakan ini menjelaskan, secara gamblang, apa artinya itu.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "Versi singkat",
+        "body": [
+          "Kelora adalah pelacak langganan dan anggaran pribadi yang dibuat oleh NoSky Studios Ltd. Kelora dirancang berdasarkan gagasan sederhana: rincian tentang apa yang Anda bayar adalah milik Anda, dan seharusnya tetap berada pada Anda.",
+          "Kami tidak memiliki akun. Kami tidak meminta Anda masuk. Kami tidak menjalankan analitik, periklanan, atau pelacakan dalam bentuk apa pun. Langganan, harga, tanggal, catatan, dan anggaran yang Anda masukkan disimpan di perangkat Anda dan tidak pernah dikirim kepada kami.",
+          "Bagian selanjutnya dari kebijakan ini menjelaskan sedikit tempat di mana data memang berpindah — selalu untuk fitur yang Anda pilih, dan tidak pernah ke server yang kami kendalikan."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Siapa kami",
+        "body": [
+          "Kelora diterbitkan oleh NoSky Studios Ltd (RC 7631695), sebuah perusahaan yang terdaftar di Nigeria (\"NoSky Studios\", \"kami\", atau \"milik kami\").",
+          "Kebijakan Privasi ini berlaku untuk aplikasi Kelora iOS dan widget layar utamanya. Untuk pertanyaan privasi apa pun, hubungi kami di [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Apa yang tidak kami kumpulkan",
+        "body": [
+          "Kami ingin bersikap spesifik, karena \"kami menghargai privasi Anda\" hanya berarti sedikit dengan sendirinya. Di dalam Kelora terdapat:"
+        ],
+        "list": [
+          "Tidak ada akun dan tidak ada proses masuk. Anda tidak membuat profil, dan kami tidak pernah meminta nama, email, atau nomor telepon Anda untuk menggunakan aplikasi ini.",
+          "Tidak ada analitik atau pelacakan penggunaan. Kelora tidak memuat perangkat lunak analitik, pelaporan kerusakan, periklanan, atau atribusi. Kami tidak mengukur bagaimana Anda menggunakan aplikasi ini.",
+          "Tidak ada pengidentifikasi periklanan. Kelora tidak meminta izin App Tracking Transparency dan tidak mengakses pengidentifikasi periklanan perangkat (IDFA).",
+          "Tidak ada penjualan atau pembagian data. Kami tidak menjual, menyewakan, atau membagikan informasi pribadi Anda, karena kami memang tidak menerimanya sejak awal."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Informasi yang disimpan di perangkat Anda",
+        "body": [
+          "Segala sesuatu yang Anda masukkan ke Kelora disimpan secara lokal di perangkat Anda. Ini mencakup langganan dan pedagang yang Anda lacak, harganya, mata uang, siklus penagihan, tanggal mulai dan perpanjangan, periode uji coba, riwayat harga, pengingat, tanggal pembatalan, label metode pembayaran, kategori, tag, catatan, anggaran, dan ikon khusus apa pun yang Anda pilih.",
+          "Kolom metode pembayaran hanyalah label teks bebas (misalnya, \"Visa berakhiran 1234\"). Kelora tidak terhubung ke bank, kartu, atau lembaga keuangan mana pun, dan tidak dapat membaca nomor rekening atau nomor kartu Anda yang sebenarnya.",
+          "Informasi ini tetap berada di perangkat Anda kecuali jika Anda secara sengaja memindahkannya — misalnya dengan mengaktifkan cadangan iCloud, mengekspor berkas, atau menambahkan perpanjangan ke kalender Anda. Pilihan-pilihan tersebut dijelaskan di bawah ini. Karena data tersebut berada di perangkat Anda, data itu juga termasuk dalam cadangan perangkat normal Anda (seperti cadangan iPhone atau cadangan perangkat iCloud yang terenkripsi) yang Anda kendalikan melalui Apple, bukan melalui kami."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Pemindaian tanda terima dan dokumen",
+        "body": [
+          "Jika Anda memindai tanda terima atau konfirmasi langganan, atau mengimpor laporan, lembar kerja, atau dokumen, Kelora membacanya sepenuhnya di perangkat Anda menggunakan teknologi pengenalan teks bawaan Apple. Gambar dan teks yang dikenali diproses secara lokal untuk membantu mengisi rincian langganan.",
+          "Gambar yang dipindai dan isinya tidak diunggah kepada kami atau kepada pihak ketiga mana pun."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Koneksi jaringan dan layanan pihak ketiga",
+        "body": [
+          "Kelora berfungsi secara luring untuk fitur intinya. Aplikasi ini membuat sejumlah kecil permintaan jaringan opsional, hanya untuk menjalankan fitur tertentu, dan tidak pernah untuk mengirimkan data finansial Anda kepada kami. Berikut daftar lengkapnya:"
+        ],
+        "list": [
+          "Nilai tukar mata uang. Untuk mengonversi antarmata uang, Kelora mengambil nilai referensi dari ExchangeRate-API (open.er-api.com). Permintaan itu hanya berisi kode mata uang (seperti \"USD\"). Permintaan itu tidak berisi langganan, jumlah, atau informasi pribadi Anda.",
+          "Logo dan ikon merek. Ketika Anda menambahkan atau menyunting langganan, Kelora dapat mengambil logo merek agar mudah dikenali. Untuk melakukannya, aplikasi ini mengirimkan nama merek atau domain situs web (yang diperkirakan dari apa yang sedang Anda sunting) ke penyedia logo dan ikon — Logo.dev, Brandfetch, dan, sebagai cadangan, layanan favicon Google dan DuckDuckGo. Jika Anda mencari ikon khusus, istilah pencarian Anda juga dapat dikirim ke pencarian gambar Openverse dan Wikimedia Commons. Permintaan-permintaan ini hanya berisi merek atau istilah pencarian — tidak pernah harga, tanggal, atau data lain Anda."
+        ],
+        "after": [
+          "Penyedia-penyedia ini hanya menerima informasi yang dijelaskan di atas, sebagai operator layanan yang dihubungi Kelora atas nama Anda, dan penggunaan informasi tersebut oleh mereka diatur oleh kebijakan privasi mereka masing-masing: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org), dan [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Seperti halnya permintaan internet apa pun, penyedia-penyedia ini dapat menerima alamat IP perangkat Anda dan informasi permintaan standar; kami tidak menerima informasi tersebut dan tidak menggabungkannya dengan apa pun tentang Anda.",
+          "Anda dapat menghindari permintaan-permintaan ini dengan tidak menggunakan pencarian logo atau pencarian ikon dan dengan mengandalkan nilai tukar manual, yang didukung Kelora."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Cadangan iCloud opsional",
+        "body": [
+          "Kelora menawarkan cadangan opsional ke iCloud Drive milik Anda sendiri. Fitur ini dinonaktifkan secara bawaan. Jika Anda mengaktifkannya, Kelora menuliskan satu berkas cadangan ke iCloud Drive pribadi Anda sehingga Anda dapat memulihkannya di perangkat Anda sendiri.",
+          "Cadangan ini berada di akun iCloud Apple Anda, di bawah kendali Anda. Cadangan ini tidak disimpan di server NoSky Studios mana pun, dan kami tidak dapat melihat atau mengaksesnya. Penanganannya tunduk pada [Kebijakan Privasi Apple](https://www.apple.com/legal/privacy/). Anda dapat menghapus cadangan kapan saja dari aplikasi Files atau dari dalam Kelora, dan Anda dapat menonaktifkan fitur ini untuk menghentikan cadangan di masa mendatang."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Integrasi kalender",
+        "body": [
+          "Jika Anda mengaktifkan Integrasi Kalender, Kelora menambahkan tanggal perpanjangan Anda yang akan datang sebagai acara di kalender Anda sendiri, sehingga Anda melihatnya bersama sisa jadwal Anda. Acara-acara ini ditulis ke kalender perangkat Anda (dan ke mana pun Anda menyinkronkannya, seperti kalender iCloud Anda). Tidak ada server yang kami operasikan yang terlibat, dan kami tidak membaca kalender Anda."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Pembelian dan peningkatan Kelora Pro",
+        "body": [
+          "Kelora gratis untuk memulai dan menawarkan peningkatan berbayar, Kelora Pro, sebagai pembelian \"seumur hidup\" satu kali atau langganan bulanan. Semua pembelian ditangani oleh Apple melalui App Store menggunakan Apple Account Anda.",
+          "Pembayaran diproses sepenuhnya oleh Apple. Kelora tidak pernah melihat atau menerima rincian kartu, bank, atau pembayaran Anda. Untuk mengelola hak, aplikasi ini hanya menerima dari Apple fakta bahwa pembelian yang valid ada — bukan identitas atau informasi pembayaran Anda. Pembelian, perpanjangan, dan pengembalian dana diatur oleh ketentuan Apple dan [Kebijakan Privasi Apple](https://www.apple.com/legal/privacy/)."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Izin perangkat yang kami minta",
+        "body": [
+          "Kelora meminta izin hanya ketika Anda menggunakan fitur yang membutuhkannya, dan menjelaskan alasannya pada saat meminta:"
+        ],
+        "list": [
+          "Kamera — hanya untuk memindai tanda terima atau konfirmasi langganan. Pemindaian terjadi di perangkat Anda.",
+          "Pustaka Foto — hanya agar Anda dapat memilih gambar untuk digunakan sebagai ikon langganan khusus.",
+          "Kalender — hanya jika Anda mengaktifkan Integrasi Kalender, untuk menambahkan tanggal perpanjangan ke kalender Anda sendiri.",
+          "Notifikasi — hanya untuk menampilkan pengingat yang Anda jadwalkan, seperti perpanjangan yang akan datang atau tanggal batas pembatalan. Ini adalah notifikasi lokal yang dihasilkan di perangkat Anda."
+        ],
+        "after": [
+          "Kelora tidak meminta izin lokasi, mikrofon, kontak, atau pelacakan. Anda dapat meninjau atau mengubah izin apa pun kapan saja di aplikasi Pengaturan iOS."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Notifikasi",
+        "body": [
+          "Pengingat Kelora adalah notifikasi lokal, dijadwalkan dan dikirimkan di perangkat Anda. Kelora tidak menggunakan notifikasi dorong dan tidak mendaftarkan perangkat Anda ke server perpesanan mana pun. Kami tidak dapat mengirimi Anda pesan, dan kami tidak mengetahui apakah atau kapan sebuah pengingat ditampilkan."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Widget layar utama",
+        "body": [
+          "Widget Kelora menampilkan ringkasan langganan dan anggaran Anda — misalnya tagihan berikutnya, total bulanan Anda, dan berapa banyak langganan yang aktif. Untuk melakukan ini, aplikasi dan widget-nya berbagi berkas ringkasan kecil di area penyimpanan pribadi di perangkat yang dikhususkan untuk aplikasi ini. Data ini tidak pernah meninggalkan perangkat Anda."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Privasi anak-anak",
+        "body": [
+          "Kelora adalah alat keuangan serbaguna yang ditujukan untuk orang dewasa dan tidak ditujukan kepada anak-anak. Kami tidak secara sengaja mengumpulkan informasi pribadi dari siapa pun, termasuk anak-anak di bawah usia 13 tahun (atau usia minimum setara di negara Anda). Karena Kelora tidak memiliki akun dan tidak mengumpulkan informasi pribadi, tidak ada informasi seperti itu untuk kami simpan atau hapus."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Bagaimana informasi Anda dilindungi",
+        "body": [
+          "Data Kelora Anda disimpan di perangkat Anda dan dilindungi oleh keamanan iOS, termasuk kode sandi perangkat, enkripsi, dan sandboxing aplikasi yang disediakan Apple. Penanda uji coba gratis disimpan di Keychain perangkat.",
+          "Karena data Anda tidak berada di server kami, perlindungan yang paling penting adalah yang Anda kendalikan: kunci perangkat Anda dengan kode sandi atau biometrik, dan perbarui iOS. Tidak ada metode penyimpanan atau transmisi yang sepenuhnya aman, tetapi menjaga data Anda tetap di perangkat menghilangkan target besar dan terpusat yang akan disajikan oleh basis data awan."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Menyimpan dan menghapus data Anda",
+        "body": [
+          "Anda yang memutuskan berapa lama data Anda disimpan, karena Anda yang memilikinya. Anda dapat menyunting atau menghapus langganan, anggaran, atau entri lain di dalam aplikasi kapan saja. Menghapus aplikasi Kelora akan menghapus datanya yang ada di perangkat itu.",
+          "Jika Anda mengaktifkan cadangan iCloud, hapus berkas cadangan dari iCloud Drive Anda (melalui aplikasi Files atau dari dalam Kelora) untuk menghapus salinan tersebut. Jika Anda menambahkan perpanjangan ke kalender Anda, hapus acara-acara tersebut dari aplikasi kalender Anda. Kami tidak menyimpan salinan data Anda, jadi tidak ada yang perlu Anda minta dari kami dan tidak ada yang perlu kami hapus atas nama Anda."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Hak privasi Anda",
+        "body": [
+          "Bergantung pada tempat tinggal Anda, undang-undang perlindungan data — seperti Nigeria Data Protection Act 2023, General Data Protection Regulation (GDPR) Uni Eropa dan Britania Raya, serta California Consumer Privacy Act (CCPA/CPRA) — memberi Anda hak atas informasi pribadi Anda, termasuk hak untuk mengakses, memperbaiki, menghapus, dan memindahkannya, serta menolak pemrosesan tertentu.",
+          "Kelora dirancang agar Anda sudah memiliki hak-hak ini secara langsung: informasi Anda berada di perangkat Anda, tempat Anda dapat melihat, mengubah, mengekspor, dan menghapusnya sendiri, kapan saja, tanpa meminta kepada kami. Kami tidak mengumpulkan, menyimpan, menjual, atau membagikan informasi pribadi Anda, dan kami tidak \"menjual\" atau \"membagikan\" informasi tersebut untuk periklanan sebagaimana istilah tersebut didefinisikan menurut CCPA.",
+          "Jika Anda yakin kami menyimpan informasi pribadi tentang Anda, atau Anda memiliki pertanyaan tentang hak Anda, hubungi kami di [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) dan kami akan menanggapi. Anda juga berhak mengajukan pengaduan kepada otoritas perlindungan data setempat Anda."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Pengguna internasional",
+        "body": [
+          "Kelora tersedia di seluruh dunia, dan data Anda tetap berada di perangkat Anda di mana pun Anda berada. Ketika Anda menggunakan fitur daring opsional (nilai tukar, pencarian logo atau ikon), permintaan tersebut ditangani oleh penyedia pihak ketiga itu, yang dapat memprosesnya di server di negara lain. Permintaan-permintaan tersebut hanya berisi informasi terbatas yang dijelaskan di bagian \"Koneksi jaringan\" di atas."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Perubahan pada kebijakan ini",
+        "body": [
+          "Kami dapat memperbarui Kebijakan Privasi ini seiring perkembangan Kelora atau sebagaimana diwajibkan oleh hukum. Ketika kami melakukannya, kami akan mengubah tanggal \"Berlaku\" di bagian atas halaman ini dan, untuk perubahan yang signifikan, mencatatnya di aplikasi atau catatan rilisnya. Versi terkini selalu berada di alamat ini. Terus menggunakan Kelora setelah pembaruan berarti Anda menerima kebijakan yang telah direvisi."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Hubungi kami",
+        "body": [
+          "Untuk pertanyaan apa pun tentang kebijakan ini atau privasi Anda, hubungi kami di [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). Untuk bantuan umum dengan aplikasi, hubungi [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Ketentuan Layanan",
+    "subtitle": "Ketentuan ini adalah perjanjian antara Anda dan NoSky Studios Ltd untuk penggunaan aplikasi Kelora. Harap baca dengan saksama.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Persetujuan atas ketentuan ini",
+        "body": [
+          "Ketentuan Layanan ini (\"Ketentuan\") adalah perjanjian hukum antara Anda dan NoSky Studios Ltd (RC 7631695), sebuah perusahaan yang terdaftar di Nigeria (\"NoSky Studios\", \"kami\", atau \"milik kami\"), yang mengatur penggunaan Anda atas aplikasi Kelora dan widget-nya (secara bersama-sama, \"Kelora\" atau \"Aplikasi\").",
+          "Dengan mengunduh, memasang, atau menggunakan Kelora, Anda menyetujui Ketentuan ini dan [Kebijakan Privasi](privacy.html) kami, yang tergabung di sini melalui rujukan. Jika Anda tidak setuju, harap jangan menggunakan Aplikasi ini."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Siapa yang boleh menggunakan Kelora",
+        "body": [
+          "Anda harus cukup umur untuk membuat kontrak yang mengikat di negara Anda, dan sekurang-kurangnya berusia 13 tahun (atau usia minimum lebih tinggi yang diwajibkan di tempat tinggal Anda), untuk menggunakan Kelora. Dengan menggunakan Aplikasi ini, Anda menegaskan bahwa Anda memenuhi persyaratan ini dan bahwa Anda akan menggunakan Kelora sesuai dengan Ketentuan ini dan hukum yang berlaku."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Lisensi Anda untuk menggunakan Aplikasi",
+        "body": [
+          "Tunduk pada Ketentuan ini, kami memberi Anda lisensi pribadi, terbatas, non-eksklusif, tidak dapat dialihkan, dan dapat dicabut untuk mengunduh dan menggunakan satu salinan Kelora pada perangkat Apple yang Anda miliki atau kendalikan, untuk penggunaan pribadi dan non-komersial Anda sendiri, sebagaimana diizinkan oleh aturan App Store.",
+          "Anda tidak boleh menyalin, mengubah, mendistribusikan, menjual, atau menyewakan bagian mana pun dari Aplikasi; merekayasa balik atau berupaya mengekstrak kode sumbernya kecuali sejauh yang diizinkan oleh hukum secara terbatas; atau menghapus pemberitahuan hak milik apa pun. Lisensi ini tidak mengalihkan kepemilikan apa pun atas Aplikasi kepada Anda."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Data Anda adalah milik Anda",
+        "body": [
+          "Kelora adalah alat untuk mengatur informasi yang Anda pilih untuk dimasukkan. Langganan, jumlah, catatan, anggaran, dan konten lain yang Anda masukkan ke Kelora adalah milik Anda. Sebagaimana dijelaskan dalam Kebijakan Privasi, konten ini disimpan di perangkat Anda; kami tidak mengumpulkannya dan tidak mengklaim kepemilikan atasnya.",
+          "Anda bertanggung jawab atas data Anda sendiri — termasuk menjaga keamanan perangkat Anda, dan menyimpan cadangan jika informasi itu penting bagi Anda. Kami tidak bertanggung jawab atas data yang hilang karena perangkat hilang, rusak, disetel ulang, atau karena Aplikasi dihapus."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Penggunaan yang dapat diterima",
+        "body": [
+          "Anda setuju untuk menggunakan Kelora hanya untuk tujuan yang sah dan pribadi, dan tidak menyalahgunakannya — misalnya dengan berupaya mengganggu atau mencampuri Aplikasi, widget-nya, atau layanan pihak ketiga yang diandalkannya, atau dengan menggunakan Aplikasi dengan cara yang melanggar hak orang lain atau melanggar hukum."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, pembelian, dan langganan",
+        "body": [
+          "Kelora gratis untuk diunduh dan digunakan dengan seperangkat fitur inti. Kelora Pro membuka seluruh rangkaian fitur dan ditawarkan sebagai pembelian \"seumur hidup\" satu kali atau langganan bulanan yang diperpanjang otomatis. Uji coba gratis dapat ditawarkan; jika ditawarkan, ketentuan uji coba tersebut ditampilkan kepada Anda sebelum Anda memulainya.",
+          "Semua pembelian dilakukan melalui App Store Apple dan ditagihkan ke Apple Account Anda. Untuk langganan yang diperpanjang otomatis, Apple Account Anda ditagih saat konfirmasi pembelian dan kembali pada awal setiap periode perpanjangan, dan langganan diperpanjang secara otomatis kecuali Anda membatalkannya sekurang-kurangnya 24 jam sebelum akhir periode berjalan. Anda mengelola atau membatalkan langganan di pengaturan Apple Account Anda; menghapus Aplikasi tidak membatalkan langganan.",
+          "Harga ditampilkan di Aplikasi sebelum Anda membeli dan dapat berubah dari waktu ke waktu; perubahan apa pun hanya berlaku untuk pembelian atau perpanjangan di masa mendatang. Pembelian, penagihan, dan pengembalian dana ditangani oleh Apple berdasarkan ketentuan Apple — kami tidak memproses pembayaran dan tidak dapat menerbitkan pengembalian dana secara langsung. Permintaan pengembalian dana diajukan kepada Apple melalui App Store. Pembelian \"seumur hidup\" satu kali membuka fitur berbayar Kelora sebagaimana adanya dan terus ditawarkan; hal itu bukan janji bahwa Aplikasi, fitur tertentu, atau layanan pihak ketiga mana pun akan tetap tersedia selamanya."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Ketentuan App Store Apple",
+        "body": [
+          "Anda memperoleh Kelora melalui App Store Apple, dan penggunaan Anda juga tunduk pada ketentuan Apple yang berlaku, termasuk Licensed Application End User License Agreement (EULA) standar. Ketentuan ini hanya antara Anda dan NoSky Studios, bukan dengan Apple; Apple tidak bertanggung jawab atas Aplikasi atau kontennya.",
+          "Anda setuju bahwa Apple, dan anak perusahaan Apple, adalah penerima manfaat pihak ketiga dari Ketentuan ini dan dapat menegakkannya. Apple tidak berkewajiban untuk menyediakan dukungan atau pemeliharaan untuk Aplikasi, dan setiap klaim jaminan, tanggung jawab produk, hukum, atau kekayaan intelektual yang berkaitan dengan Aplikasi adalah tanggung jawab kami dan bukan Apple, sejauh kami memang bertanggung jawab menurut Ketentuan ini."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Layanan pihak ketiga",
+        "body": [
+          "Beberapa fitur opsional mengandalkan layanan pihak ketiga — misalnya nilai tukar mata uang dan pencarian logo atau ikon merek, sebagaimana dijelaskan dalam Kebijakan Privasi. Kami tidak mengendalikan layanan-layanan ini, dan kami tidak bertanggung jawab atas ketersediaan, keakuratan, atau kontennya. Data mereka disediakan \"sebagaimana adanya\", dan penggunaan Anda atasnya juga dapat tunduk pada ketentuan penyedia tersebut."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora bukan nasihat keuangan",
+        "body": [
+          "Kelora adalah alat pengorganisasian pribadi. Kelora tidak memindahkan uang, terhubung ke bank atau kartu Anda, mengeksekusi pembayaran, atau memberikan nasihat keuangan, investasi, pajak, atau hukum.",
+          "Jumlah, tanggal, total, dan proyeksi yang ditampilkan Kelora didasarkan pada apa yang Anda masukkan dan pada nilai tukar indikatif yang mungkin tertinggal dari pasar. Angka-angka itu mungkin tidak lengkap atau tidak akurat. Selalu perlakukan angka-angka Kelora sebagai rujukan pribadi, dan verifikasikan tagihan aktual, tanggal perpanjangan, dan pembatalan secara langsung dengan penyedia, bank, atau App Store Anda. Keputusan yang Anda buat berdasarkan Aplikasi adalah keputusan Anda sendiri."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Kekayaan intelektual kami",
+        "body": [
+          "Aplikasi itu sendiri — termasuk perangkat lunaknya, desain, nama dan logo \"Kelora\" dan \"NoSky Studios\", serta konten orisinal lain yang kami sediakan — dimiliki oleh NoSky Studios Ltd dan dilindungi oleh undang-undang kekayaan intelektual. Ketentuan ini memberi Anda lisensi untuk menggunakan Aplikasi; ketentuan ini tidak memberi Anda hak apa pun atas merek atau materi kami di luar itu. Logo merek yang ditampilkan untuk layanan yang Anda lacak adalah milik pemiliknya masing-masing dan hanya digunakan untuk membantu Anda mengenali layanan tersebut."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Penafian jaminan",
+        "body": [
+          "Kelora disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\", tanpa jaminan dalam bentuk apa pun, baik tersurat maupun tersirat, termasuk jaminan tersirat atas kelayakan untuk diperdagangkan, kesesuaian untuk tujuan tertentu, dan tidak melanggar. Kami tidak menjamin bahwa Aplikasi akan bebas gangguan, bebas kesalahan, atau bahwa angka, nilai, logo, atau pengingat apa pun yang dihasilkannya akan akurat atau tepat waktu.",
+          "Beberapa yurisdiksi tidak mengizinkan pengecualian jaminan tertentu, sehingga sebagian dari hal di atas mungkin tidak berlaku bagi Anda; dalam hal itu, jaminan yang dikecualikan dibatasi hingga tingkat minimum yang diizinkan oleh hukum."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Pembatasan tanggung jawab",
+        "body": [
+          "Sejauh yang diizinkan sepenuhnya oleh hukum, NoSky Studios beserta pemilik dan personelnya tidak akan bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau punitif, atau atas kehilangan data, keuntungan, tabungan, atau reputasi, yang timbul dari atau berkaitan dengan penggunaan Anda — atau ketidakmampuan untuk menggunakan — Kelora, sekalipun kami telah diberitahu tentang kemungkinan kerugian tersebut.",
+          "Sejauh yang diizinkan sepenuhnya oleh hukum, total tanggung jawab kami atas semua klaim yang berkaitan dengan Kelora tidak akan melebihi yang lebih besar antara jumlah yang Anda bayarkan kepada kami untuk Aplikasi dalam 12 bulan sebelum klaim, atau lima dolar Amerika Serikat (US$5). Tidak ada dalam Ketentuan ini yang membatasi tanggung jawab apa pun yang tidak dapat dibatasi menurut hukum yang berlaku."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Tanggung jawab Anda",
+        "body": [
+          "Anda setuju untuk bertanggung jawab atas penggunaan Anda terhadap Kelora dan, sejauh yang diizinkan oleh hukum, membebaskan NoSky Studios dari klaim yang timbul akibat penyalahgunaan Aplikasi oleh Anda atau pelanggaran Anda terhadap Ketentuan ini."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Pengakhiran",
+        "body": [
+          "Anda dapat berhenti menggunakan Kelora kapan saja dengan menghapusnya dari perangkat Anda. Kami dapat menangguhkan atau mengakhiri lisensi Anda untuk menggunakan Aplikasi jika Anda melanggar Ketentuan ini secara material. Bagian-bagian yang menurut sifatnya harus tetap berlaku — termasuk kepemilikan, penafian, pembatasan tanggung jawab, dan hukum yang mengatur — terus berlaku setelah penggunaan Anda berakhir."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Perubahan pada Aplikasi dan Ketentuan ini",
+        "body": [
+          "Kami terus menyempurnakan Kelora dan dapat menambahkan, mengubah, atau menghapus fitur dari waktu ke waktu. Kami juga dapat memperbarui Ketentuan ini; ketika kami membuat perubahan yang signifikan, kami akan memperbarui tanggal \"Berlaku\" di atas dan, jika sesuai, mencatat perubahan tersebut di Aplikasi atau catatan rilisnya. Jika Anda terus menggunakan Kelora setelah perubahan berlaku, Anda menerima Ketentuan yang diperbarui. Jika Anda tidak setuju, harap berhenti menggunakan Aplikasi."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Hukum yang mengatur dan sengketa",
+        "body": [
+          "Ketentuan ini diatur oleh hukum Republik Federal Nigeria, tanpa memperhatikan aturan pertentangan hukumnya, dan, jika berlaku bagi Anda, oleh undang-undang perlindungan konsumen yang bersifat wajib di negara tempat tinggal Anda, yang tidak dikesampingkan oleh Ketentuan ini. Tunduk pada undang-undang wajib tersebut, Anda setuju bahwa sengketa yang berkaitan dengan Kelora atau Ketentuan ini akan ditangani oleh pengadilan Nigeria.",
+          "Tidak ada dalam bagian ini yang menghalangi Anda untuk mengajukan klaim, atau mencari perlindungan dari regulator, di negara asal Anda apabila hukum memberi Anda hak tersebut."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Umum",
+        "body": [
+          "Ketentuan ini, bersama dengan Kebijakan Privasi, merupakan keseluruhan perjanjian antara Anda dan NoSky Studios tentang Aplikasi. Jika bagian mana pun dari Ketentuan ini dianggap tidak dapat ditegakkan, sisanya tetap berlaku. Ketidaktegasan kami dalam menegakkan suatu ketentuan bukanlah pelepasan atasnya. Anda tidak boleh mengalihkan hak Anda berdasarkan Ketentuan ini tanpa persetujuan kami; kami dapat mengalihkan hak kami sehubungan dengan penggabungan, akuisisi, atau penjualan aset, atau berdasarkan ketentuan hukum."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Hubungi kami",
+        "body": [
+          "Pertanyaan tentang Ketentuan ini? Hubungi kami di [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), atau untuk urusan privasi di [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  }
+}

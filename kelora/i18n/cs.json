@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "cs",
+    "dir": "ltr",
+    "langName": "Čeština",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigérie",
+    "effectiveDate": "24. července 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Toto je překlad právních dokumentů aplikace Kelora poskytnutý pro vaše pohodlí. Oficiální a právně závaznou verzí je anglická verze. Pokud mezi tímto překladem a anglickou verzí existuje jakýkoli rozdíl ve významu, má přednost anglická verze."
+  },
+  "ui": {
+    "privacyLink": "Zásady ochrany osobních údajů",
+    "termsLink": "Podmínky služby",
+    "languageLabel": "Jazyk",
+    "lastUpdated": "Naposledy aktualizováno",
+    "effectiveLabel": "Účinné od",
+    "versionLabel": "Verze",
+    "backToTop": "Zpět nahoru",
+    "readPrivacy": "Přečíst zásady ochrany osobních údajů",
+    "readTerms": "Přečíst podmínky služby",
+    "onThisPage": "Na této stránce",
+    "app": {
+      "fullPrivacy": "Úplné zásady ochrany osobních údajů",
+      "fullTerms": "Úplné podmínky služby",
+      "opensOnline": "Otevře se ve vašem jazyce na noskystudios.ng"
+    }
+  },
+  "privacy": {
+    "title": "Zásady ochrany osobních údajů",
+    "subtitle": "Kelora je vytvořena tak, aby váš finanční život zůstal na vašem vlastním zařízení. Tyto zásady srozumitelně vysvětlují, co to znamená.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "Stručná verze",
+        "body": [
+          "Kelora je osobní nástroj pro sledování předplatných a rozpočtu vytvořený společností NoSky Studios Ltd. Je postaven na jednoduché myšlence: údaje o tom, za co platíte, patří vám a měly by zůstat u vás.",
+          "Nemáme účty. Nežádáme vás o přihlášení. Neprovozujeme žádnou analytiku, reklamu ani sledování jakéhokoli druhu. Předplatná, ceny, data, poznámky a rozpočty, které zadáte, jsou uloženy ve vašem zařízení a nikdy nejsou odesílány nám.",
+          "Zbytek těchto zásad vysvětluje těch několik míst, kde se data přece jen přesouvají – vždy kvůli funkci, kterou jste zvolili, a nikdy na server, který ovládáme."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Kdo jsme",
+        "body": [
+          "Aplikaci Kelora vydává společnost NoSky Studios Ltd (RC 7631695), společnost registrovaná v Nigérii („NoSky Studios“, „my“, „nás“ nebo „naše“).",
+          "Tyto zásady ochrany osobních údajů se vztahují na aplikaci Kelora pro iOS a její widgety na domovské obrazovce. S jakýmkoli dotazem ohledně ochrany osobních údajů se na nás obraťte na adrese [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Co neshromažďujeme",
+        "body": [
+          "Chceme být konkrétní, protože samotné „vážíme si vašeho soukromí“ znamená jen málo. V aplikaci Kelora není:"
+        ],
+        "list": [
+          "Žádný účet a žádné přihlašování. Nevytváříte profil a nikdy vás nežádáme o vaše jméno, e-mail ani telefonní číslo pro používání aplikace.",
+          "Žádná analytika ani sledování používání. Kelora neobsahuje žádný analytický, reportovací software pro pády, reklamní ani atribuční software. Neměříme, jak aplikaci používáte.",
+          "Žádné reklamní identifikátory. Kelora nežádá o oprávnění App Tracking Transparency a nepřistupuje k reklamnímu identifikátoru zařízení (IDFA).",
+          "Žádný prodej ani sdílení dat. Vaše osobní údaje neprodáváme, nepronajímáme ani nesdílíme, protože je vůbec nedostáváme."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Informace uložené ve vašem zařízení",
+        "body": [
+          "Vše, co do aplikace Kelora vložíte, je uloženo lokálně ve vašem zařízení. To zahrnuje předplatná a obchodníky, které sledujete, jejich ceny, měny, fakturační cykly, data zahájení a obnovení, zkušební období, historii cen, připomenutí, data zrušení, označení platebních metod, kategorie, štítky, poznámky, rozpočty a jakékoli vlastní ikony, které zvolíte.",
+          "Pole platební metody je pouze textovým označením ve volné formě (například „Visa končící 1234“). Kelora se nepřipojuje k vaší bance, kartě ani k žádné finanční instituci a nemůže číst vaše skutečná čísla účtů či karet.",
+          "Tyto informace zůstávají ve vašem zařízení, pokud je záměrně nepřesunete – například zapnutím zálohy na iCloud, exportem souboru nebo přidáním obnovení do kalendáře. Tyto volby jsou popsány níže. Protože data žijí ve vašem zařízení, jsou zahrnuta i do vašich běžných záloh zařízení (například šifrované zálohy iPhonu nebo zálohy zařízení na iCloud), které ovládáte prostřednictvím Apple, nikoli prostřednictvím nás."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Skenování účtenek a dokumentů",
+        "body": [
+          "Pokud naskenujete účtenku nebo potvrzení předplatného nebo importujete výpis, tabulku či dokument, Kelora jej celý přečte ve vašem zařízení pomocí vestavěné technologie rozpoznávání textu od Apple. Obraz a rozpoznaný text jsou zpracovávány lokálně, aby pomohly vyplnit údaje předplatného.",
+          "Naskenované obrázky a jejich obsah nejsou nahrávány k nám ani k žádné třetí straně."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Síťová připojení a služby třetích stran",
+        "body": [
+          "Kelora funguje offline pro své základní funkce. Provádí malý počet volitelných síťových požadavků, pouze za účelem umožnění konkrétních funkcí, a nikdy proto, aby nám odeslala vaše finanční data. Zde je úplný seznam:"
+        ],
+        "list": [
+          "Směnné kurzy měn. Pro převod mezi měnami načítá Kelora referenční kurzy ze služby ExchangeRate-API (open.er-api.com). Požadavek obsahuje pouze kód měny (například „USD“). Neobsahuje vaše předplatná, částky ani žádné osobní údaje.",
+          "Loga a ikony značek. Když přidáte nebo upravíte předplatné, může Kelora načíst logo značky, aby bylo rozpoznatelné. Za tímto účelem odesílá název značky nebo doménu webu (odvozené z toho, co upravujete) poskytovatelům log a ikon – Logo.dev, Brandfetch a jako záložní řešení službám favicon od Google a DuckDuckGo. Pokud vyhledáváte vlastní ikonu, může být váš vyhledávací výraz odeslán také do obrazového vyhledávání Openverse a Wikimedia Commons. Tyto požadavky obsahují pouze značku nebo vyhledávací výraz – nikdy vaše ceny, data ani jiné údaje."
+        ],
+        "after": [
+          "Tito poskytovatelé obdrží pouze informace popsané výše, jakožto provozovatelé služeb, které Kelora kontaktuje vaším jménem, a jejich používání se řídí jejich vlastními zásadami ochrany osobních údajů: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org) a [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Stejně jako u jakéhokoli internetového požadavku mohou tito poskytovatelé obdržet IP adresu vašeho zařízení a standardní informace o požadavku; my tyto informace nedostáváme a nekombinujeme je s ničím, co se vás týká.",
+          "Těmto požadavkům se můžete vyhnout tím, že nebudete používat vyhledávání log ani hledání ikon a budete se spoléhat na ruční směnné kurzy, které Kelora podporuje."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Volitelná záloha na iCloud",
+        "body": [
+          "Kelora nabízí volitelnou zálohu do vašeho vlastního iCloud Drive. Ve výchozím nastavení je vypnutá. Pokud ji zapnete, Kelora zapíše jediný záložní soubor do vašeho osobního iCloud Drive, abyste jej mohli obnovit na svých vlastních zařízeních.",
+          "Tato záloha se nachází ve vašem účtu Apple iCloud, pod vaší kontrolou. Není uložena na žádném serveru NoSky Studios a my ji nemůžeme vidět ani k ní přistupovat. Její zpracování podléhá [zásadám ochrany osobních údajů společnosti Apple](https://www.apple.com/legal/privacy/). Zálohu můžete kdykoli smazat z aplikace Soubory nebo přímo z aplikace Kelora a tuto funkci můžete vypnout, abyste zastavili budoucí zálohy."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Integrace s kalendářem",
+        "body": [
+          "Pokud povolíte integraci s kalendářem, přidá Kelora vaše nadcházející data obnovení jako události do vašeho vlastního kalendáře, abyste je viděli spolu se zbytkem svého rozvrhu. Tyto události se zapisují do kalendáře vašeho zařízení (a všude tam, kde jej synchronizujete, například do vašeho kalendáře iCloud). Žádný server, který provozujeme, není zapojen a váš kalendář nečteme."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Nákupy a upgrade Kelora Pro",
+        "body": [
+          "Kelora je na začátku zdarma a nabízí placený upgrade, Kelora Pro, jako jednorázový „doživotní“ nákup nebo měsíční předplatné. Všechny nákupy zpracovává Apple prostřednictvím App Store pomocí vašeho Apple Account.",
+          "Platbu zpracovává výhradně Apple. Kelora nikdy nevidí ani nedostává údaje o vaší kartě, bance ani platbě. Za účelem správy oprávnění dostává aplikace od Apple pouze skutečnost, že existuje platný nákup – nikoli vaši totožnost ani platební údaje. Nákupy, obnovení a vrácení peněz se řídí podmínkami Apple a [zásadami ochrany osobních údajů společnosti Apple](https://www.apple.com/legal/privacy/)."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Oprávnění zařízení, o která žádáme",
+        "body": [
+          "Kelora žádá o oprávnění pouze tehdy, když použijete funkci, která jej potřebuje, a v okamžiku žádosti vysvětlí proč:"
+        ],
+        "list": [
+          "Fotoaparát – pouze pro naskenování účtenky nebo potvrzení předplatného. Skenování probíhá ve vašem zařízení.",
+          "Knihovna fotografií – pouze abyste mohli vybrat obrázek, který se použije jako vlastní ikona předplatného.",
+          "Kalendáře – pouze pokud zapnete integraci s kalendářem, pro přidání dat obnovení do vašeho vlastního kalendáře.",
+          "Oznámení – pouze pro zobrazení připomenutí, která si naplánujete, například nadcházejícího obnovení nebo data pro zrušení. Jde o lokální oznámení generovaná ve vašem zařízení."
+        ],
+        "after": [
+          "Kelora nežádá o oprávnění k poloze, mikrofonu, kontaktům ani sledování. Kterékoli oprávnění můžete kdykoli zkontrolovat nebo změnit v aplikaci Nastavení systému iOS."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Oznámení",
+        "body": [
+          "Připomenutí aplikace Kelora jsou lokální oznámení, naplánovaná a doručovaná ve vašem zařízení. Kelora nepoužívá push oznámení a neregistruje vaše zařízení u žádného serveru pro zasílání zpráv. Nemůžeme vám posílat zprávy a nevíme, zda nebo kdy se připomenutí zobrazí."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Widgety na domovské obrazovce",
+        "body": [
+          "Widgety aplikace Kelora zobrazují momentku vašich předplatných a rozpočtu – například příští platbu, váš měsíční součet a kolik předplatných je aktivních. Za tímto účelem aplikace a její widgety sdílejí malý soubor s momentkou v soukromé úložné oblasti v zařízení vyhrazené pro aplikaci. Tato data nikdy neopouštějí vaše zařízení."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Soukromí dětí",
+        "body": [
+          "Kelora je obecný finanční nástroj určený pro dospělé a není zaměřen na děti. Vědomě neshromažďujeme osobní údaje od nikoho, včetně dětí mladších 13 let (nebo odpovídajícího minimálního věku ve vaší zemi). Protože Kelora nemá žádné účty a neshromažďuje žádné osobní údaje, neexistují žádné takové informace, které bychom mohli uchovávat nebo mazat."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Jak jsou vaše informace chráněny",
+        "body": [
+          "Vaše data v aplikaci Kelora jsou uložena ve vašem zařízení a chráněna zabezpečením systému iOS, včetně přístupového kódu zařízení, šifrování a sandboxingu aplikací, které poskytuje Apple. Značka bezplatné zkušební verze je uložena v Keychain zařízení.",
+          "Protože vaše data nesídlí na našich serverech, nejdůležitější ochranou je ta, kterou ovládáte vy: udržujte zařízení uzamčené přístupovým kódem nebo biometrikou a udržujte iOS aktuální. Žádný způsob ukládání ani přenosu není zcela bezpečný, ale ponechání vašich dat v zařízení odstraňuje velký, centrální cíl, který by cloudová databáze představovala."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Uchovávání a mazání vašich dat",
+        "body": [
+          "Vy rozhodujete, jak dlouho jsou vaše data uchovávána, protože je držíte vy. Kterékoli předplatné, rozpočet nebo jiný záznam můžete v aplikaci kdykoli upravit nebo smazat. Smazáním aplikace Kelora odstraníte její data v zařízení z daného zařízení.",
+          "Pokud jste zapnuli zálohu na iCloud, smažte záložní soubor ze svého iCloud Drive (prostřednictvím aplikace Soubory nebo přímo z aplikace Kelora), abyste tuto kopii odstranili. Pokud jste přidali obnovení do svého kalendáře, odstraňte tyto události ze své aplikace kalendáře. My nedržíme žádnou kopii vašich dat, takže není nic, o co byste nás mohli žádat, a nic, co bychom měli vaším jménem mazat."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Vaše práva na ochranu soukromí",
+        "body": [
+          "V závislosti na tom, kde žijete, vám zákony o ochraně osobních údajů – například nigerijský zákon o ochraně údajů z roku 2023 (Nigeria Data Protection Act 2023), obecné nařízení o ochraně osobních údajů EU a Spojeného království (GDPR) a kalifornský zákon o ochraně soukromí spotřebitelů (CCPA/CPRA) – dávají práva k vašim osobním údajům, včetně práva na přístup, opravu, výmaz a přenositelnost a práva vznést námitku proti určitému zpracování.",
+          "Kelora je navržena tak, abyste tato práva již měli přímo: vaše informace jsou ve vašem zařízení, kde je můžete sami kdykoli zobrazit, změnit, exportovat a smazat, aniž byste se nás museli ptát. Vaše osobní údaje neshromažďujeme, neukládáme, neprodáváme ani nesdílíme a „neprodáváme“ ani „nesdílíme“ je pro účely reklamy, jak jsou tyto pojmy definovány v CCPA.",
+          "Pokud se domníváte, že o vás uchováváme osobní údaje, nebo máte dotaz ohledně svých práv, kontaktujte nás na adrese [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) a my odpovíme. Máte také právo podat stížnost u svého místního úřadu pro ochranu osobních údajů."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Mezinárodní uživatelé",
+        "body": [
+          "Kelora je dostupná po celém světě a vaše data zůstávají ve vašem zařízení, ať jste kdekoli. Když použijete volitelnou online funkci (směnné kurzy, vyhledávání log nebo ikon), požadavek zpracuje daný poskytovatel třetí strany, který jej může zpracovávat na serverech v jiné zemi. Tyto požadavky obsahují pouze omezené informace popsané v části „Síťová připojení“ výše."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Změny těchto zásad",
+        "body": [
+          "Tyto zásady ochrany osobních údajů můžeme aktualizovat, jak se Kelora vyvíjí nebo jak vyžaduje zákon. Když tak učiníme, změníme datum „Účinné od“ v horní části této stránky a u významných změn na ně upozorníme v aplikaci nebo v poznámkách k vydání. Aktuální verze vždy žije na této adrese. Pokračování v používání aplikace Kelora po aktualizaci znamená, že přijímáte revidované zásady."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Kontaktujte nás",
+        "body": [
+          "S jakýmkoli dotazem ohledně těchto zásad nebo vašeho soukromí nás kontaktujte na adrese [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). Pro obecnou pomoc s aplikací se obraťte na [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigérie."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Podmínky služby",
+    "subtitle": "Tyto podmínky jsou dohodou mezi vámi a společností NoSky Studios Ltd o používání aplikace Kelora. Přečtěte si je prosím.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Souhlas s těmito podmínkami",
+        "body": [
+          "Tyto podmínky služby („Podmínky“) jsou právní dohodou mezi vámi a společností NoSky Studios Ltd (RC 7631695), společností registrovanou v Nigérii („NoSky Studios“, „my“, „nás“ nebo „naše“), která upravuje vaše používání aplikace Kelora a jejích widgetů (společně „Kelora“ nebo „Aplikace“).",
+          "Stažením, instalací nebo používáním aplikace Kelora souhlasíte s těmito Podmínkami a s našimi [Zásadami ochrany osobních údajů](privacy.html), které jsou zde začleněny odkazem. Pokud nesouhlasíte, Aplikaci prosím nepoužívejte."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Kdo může používat aplikaci Kelora",
+        "body": [
+          "K používání aplikace Kelora musíte být dostatečně staří na to, abyste ve své zemi mohli uzavřít závaznou smlouvu, a alespoň 13 let (nebo vyšší minimální věk vyžadovaný tam, kde žijete). Používáním Aplikace potvrzujete, že tento požadavek splňujete a že budete aplikaci Kelora používat v souladu s těmito Podmínkami a platnými zákony."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Vaše licence k používání Aplikace",
+        "body": [
+          "S výhradou těchto Podmínek vám udělujeme osobní, omezenou, nevýhradní, nepřenosnou, odvolatelnou licenci ke stažení a používání jedné kopie aplikace Kelora na zařízeních Apple, která vlastníte nebo ovládáte, pro vaše vlastní osobní, nekomerční použití, jak to povolují pravidla App Store.",
+          "Nesmíte kopírovat, upravovat, distribuovat, prodávat ani pronajímat žádnou část Aplikace; provádět zpětné inženýrství ani se pokoušet získat její zdrojový kód s výjimkou omezeného rozsahu, který povoluje zákon; ani odstraňovat jakákoli vlastnická upozornění. Tato licence na vás nepřevádí žádné vlastnictví Aplikace."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Vaše data jsou vaše",
+        "body": [
+          "Kelora je nástroj pro uspořádání informací, které se rozhodnete zadat. Předplatná, částky, poznámky, rozpočty a další obsah, který do aplikace Kelora vložíte, patří vám. Jak je vysvětleno v zásadách ochrany osobních údajů, tento obsah je uložen ve vašem zařízení; my jej neshromažďujeme a nečiníme si na něj žádný nárok na vlastnictví.",
+          "Za svá vlastní data odpovídáte vy – včetně udržování zařízení v bezpečí a pořizování záloh, pokud jsou pro vás informace důležité. Neneseme odpovědnost za data ztracená kvůli tomu, že je zařízení ztraceno, poškozeno, resetováno nebo že je Aplikace smazána."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Přijatelné používání",
+        "body": [
+          "Souhlasíte, že aplikaci Kelora budete používat pouze pro zákonné, osobní účely a nebudete ji zneužívat – například pokusy narušit nebo zasahovat do Aplikace, jejích widgetů nebo služeb třetích stran, na které se spoléhá, nebo používáním Aplikace způsobem, který porušuje práva druhých nebo zákon."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, nákupy a předplatná",
+        "body": [
+          "Kelora je zdarma ke stažení a používání se sadou základních funkcí. Kelora Pro odemyká úplnou sadu funkcí a je nabízena buď jako jednorázový „doživotní“ nákup, nebo jako automaticky obnovované měsíční předplatné. Může být nabídnuta bezplatná zkušební verze; pokud ano, podmínky zkušební verze se vám zobrazí předtím, než ji zahájíte.",
+          "Všechny nákupy se provádějí prostřednictvím App Store společnosti Apple a jsou účtovány na váš Apple Account. U automaticky obnovovaného předplatného je váš Apple Account účtován při potvrzení nákupu a znovu na začátku každého obnovovacího období a předplatné se automaticky obnovuje, pokud jej nezrušíte alespoň 24 hodin před koncem aktuálního období. Předplatné spravujete nebo rušíte v nastavení svého Apple Account; smazání Aplikace předplatné neruší.",
+          "Ceny se zobrazují v Aplikaci před nákupem a mohou se v čase měnit; jakákoli změna se vztahuje pouze na budoucí nákupy nebo obnovení. Nákupy, fakturaci a vrácení peněz zpracovává Apple podle podmínek Apple – my neprovádíme platby a nemůžeme přímo vracet peníze. Žádosti o vrácení peněz se podávají Apple prostřednictvím App Store. Jednorázový „doživotní“ nákup odemyká placené funkce aplikace Kelora tak, jak existuje a je nadále nabízena; není příslibem, že Aplikace, jakákoli konkrétní funkce nebo jakákoli služba třetí strany zůstane dostupná navždy."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Podmínky Apple App Store",
+        "body": [
+          "Aplikaci Kelora získáváte prostřednictvím Apple App Store a vaše používání podléhá také platným podmínkám společnosti Apple, včetně standardní licenční smlouvy s koncovým uživatelem licencované aplikace (EULA). Tyto Podmínky jsou pouze mezi vámi a NoSky Studios, nikoli s Apple; Apple neodpovídá za Aplikaci ani její obsah.",
+          "Souhlasíte s tím, že Apple a dceřiné společnosti Apple jsou třetími oprávněnými osobami z těchto Podmínek a mohou je vymáhat. Apple nemá žádnou povinnost poskytovat pro Aplikaci podporu nebo údržbu a jakýkoli nárok týkající se záruky, odpovědnosti za výrobek, právní nebo duševního vlastnictví ve vztahu k Aplikaci je naší odpovědností, nikoli Apple, v rozsahu, v jakém jsme podle těchto Podmínek vůbec odpovědní."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Služby třetích stran",
+        "body": [
+          "Některé volitelné funkce se spoléhají na služby třetích stran – například směnné kurzy měn a vyhledávání log nebo ikon značek, jak je popsáno v zásadách ochrany osobních údajů. Tyto služby neovládáme a neodpovídáme za jejich dostupnost, přesnost ani obsah. Jejich data jsou poskytována „tak, jak jsou“, a vaše používání může podléhat také vlastním podmínkám těchto poskytovatelů."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora není finanční poradenství",
+        "body": [
+          "Kelora je nástroj pro osobní organizaci. Nepřevádí peníze, nepřipojuje se k vaší bance ani kartám, neprovádí platby a neposkytuje finanční, investiční, daňové ani právní poradenství.",
+          "Částky, data, součty a prognózy, které Kelora zobrazuje, vycházejí z toho, co zadáte, a z orientačních směnných kurzů, které mohou za trhem zaostávat. Mohou být neúplné nebo nepřesné. Vždy zacházejte s údaji aplikace Kelora jako s osobní referencí a skutečné platby, data obnovení a zrušení si ověřujte přímo u svého poskytovatele, banky nebo v App Store. Rozhodnutí, která na základě Aplikace učiníte, jsou vaše vlastní."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Naše duševní vlastnictví",
+        "body": [
+          "Samotná Aplikace – včetně jejího softwaru, designu, názvů a log „Kelora“ a „NoSky Studios“ a dalšího původního obsahu, který poskytujeme – je vlastnictvím společnosti NoSky Studios Ltd a je chráněna zákony o duševním vlastnictví. Tyto Podmínky vám dávají licenci k používání Aplikace; nedávají vám nad rámec toho žádné právo k naší značce ani materiálům. Loga značek zobrazená u služeb, které sledujete, patří jejich příslušným vlastníkům a používají se pouze k tomu, aby vám pomohla tyto služby identifikovat."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Vyloučení záruk",
+        "body": [
+          "Kelora je poskytována „tak, jak je“ a „jak je dostupná“, bez záruk jakéhokoli druhu, ať už výslovných nebo předpokládaných, včetně předpokládaných záruk prodejnosti, vhodnosti pro určitý účel a neporušení práv. Nezaručujeme, že Aplikace bude nepřerušovaná, bezchybná ani že jakýkoli údaj, kurz, logo nebo připomenutí, které vytvoří, bude přesné nebo včasné.",
+          "Některé jurisdikce neumožňují vyloučení určitých záruk, takže část výše uvedeného se na vás nemusí vztahovat; v takovém případě jsou vyloučené záruky omezeny na minimum povolené zákonem."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Omezení odpovědnosti",
+        "body": [
+          "V nejširším rozsahu povoleném zákonem nebudou NoSky Studios ani jejich vlastníci a zaměstnanci odpovědní za jakékoli nepřímé, náhodné, zvláštní, následné nebo sankční škody ani za jakoukoli ztrátu dat, zisků, úspor nebo dobrého jména vzniklou v důsledku vašeho používání – nebo nemožnosti používání – aplikace Kelora nebo v souvislosti s ním, i kdybychom byli na možnost takových škod upozorněni.",
+          "V nejširším rozsahu povoleném zákonem nepřekročí naše celková odpovědnost za všechny nároky týkající se aplikace Kelora vyšší z těchto částek: částku, kterou jste nám za Aplikaci zaplatili během 12 měsíců před vznikem nároku, nebo pět amerických dolarů (US$5). Nic v těchto Podmínkách neomezuje odpovědnost, kterou nelze podle platných zákonů omezit."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Vaše odpovědnost",
+        "body": [
+          "Souhlasíte, že ponesete odpovědnost za své používání aplikace Kelora a v rozsahu povoleném zákonem ochráníte NoSky Studios před nároky vzniklými z vašeho zneužití Aplikace nebo z vašeho porušení těchto Podmínek."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Ukončení",
+        "body": [
+          "Používání aplikace Kelora můžete kdykoli ukončit tím, že ji smažete ze svého zařízení. Vaši licenci k používání Aplikace můžeme pozastavit nebo ukončit, pokud podstatně porušíte tyto Podmínky. Ustanovení, která by svou povahou měla přetrvat – včetně vlastnictví, vyloučení záruk, omezení odpovědnosti a rozhodného práva – platí i po skončení vašeho používání."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Změny Aplikace a těchto Podmínek",
+        "body": [
+          "Aplikaci Kelora neustále vylepšujeme a můžeme v čase přidávat, měnit nebo odebírat funkce. Můžeme také aktualizovat tyto Podmínky; při významných změnách aktualizujeme datum „Účinné od“ výše a tam, kde je to vhodné, změnu poznamenáme v Aplikaci nebo v poznámkách k vydání. Pokud budete aplikaci Kelora používat i poté, co změny nabydou účinnosti, přijímáte aktualizované Podmínky. Pokud nesouhlasíte, přestaňte prosím Aplikaci používat."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Rozhodné právo a spory",
+        "body": [
+          "Tyto Podmínky se řídí zákony Nigerijské federativní republiky, bez ohledu na její kolizní normy, a tam, kde se na vás vztahují, kogentními zákony na ochranu spotřebitele vaší země bydliště, které tyto Podmínky nenahrazují. S výhradou těchto kogentních zákonů souhlasíte, že spory týkající se aplikace Kelora nebo těchto Podmínek budou řešeny soudy Nigérie.",
+          "Nic v této části vám nebrání uplatnit nárok nebo hledat ochranu regulačního orgánu ve vaší domovské zemi tam, kde vám to zákon umožňuje."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Obecná ustanovení",
+        "body": [
+          "Tyto Podmínky spolu se zásadami ochrany osobních údajů představují úplnou dohodu mezi vámi a NoSky Studios ohledně Aplikace. Pokud bude jakákoli část těchto Podmínek shledána nevymahatelnou, zbytek zůstává v platnosti. To, že nějaké ustanovení nevymáháme, není jeho vzdáním se. Svá práva podle těchto Podmínek nesmíte převádět bez našeho souhlasu; my můžeme převést svá práva v souvislosti s fúzí, akvizicí nebo prodejem aktiv, případně ze zákona."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Kontaktujte nás",
+        "body": [
+          "Máte dotazy k těmto Podmínkám? Napište nám na [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), nebo ohledně záležitostí soukromí na [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigérie."
+        ]
+      }
+    ]
+  }
+}

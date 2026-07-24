@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "sv",
+    "dir": "ltr",
+    "langName": "Svenska",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigeria",
+    "effectiveDate": "24 juli 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Detta är en översättning av Keloras juridiska dokument som tillhandahålls för din bekvämlighet. Den officiella och juridiskt bindande versionen är den engelska versionen. Om det finns någon skillnad i betydelse mellan denna översättning och den engelska versionen, har den engelska versionen företräde."
+  },
+  "ui": {
+    "privacyLink": "Integritetspolicy",
+    "termsLink": "Användarvillkor",
+    "languageLabel": "Språk",
+    "lastUpdated": "Senast uppdaterad",
+    "effectiveLabel": "Gäller från",
+    "versionLabel": "Version",
+    "backToTop": "Tillbaka till toppen",
+    "readPrivacy": "Läs integritetspolicyn",
+    "readTerms": "Läs användarvillkoren",
+    "onThisPage": "På den här sidan",
+    "app": {
+      "fullPrivacy": "Fullständig integritetspolicy",
+      "fullTerms": "Fullständiga användarvillkor",
+      "opensOnline": "Öppnas på ditt språk på noskystudios.ng"
+    }
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "subtitle": "Kelora är byggt för att hålla ditt ekonomiska liv på din egen enhet. Denna policy förklarar, i klartext, vad det innebär.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "Den korta versionen",
+        "body": [
+          "Kelora är en personlig prenumerations- och budgetspårare från NoSky Studios Ltd. Den är utformad kring en enkel idé: uppgifterna om vad du betalar för tillhör dig och bör stanna hos dig.",
+          "Vi har inga konton. Vi ber dig inte att logga in. Vi bedriver ingen analys, annonsering eller spårning av något slag. De prenumerationer, priser, datum, anteckningar och budgetar du anger lagras på din enhet och skickas aldrig till oss.",
+          "Resten av denna policy förklarar de få ställen där data faktiskt flyttas — alltid för en funktion du valt, och aldrig till en server vi kontrollerar."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Vilka vi är",
+        "body": [
+          "Kelora ges ut av NoSky Studios Ltd (RC 7631695), ett företag registrerat i Nigeria (”NoSky Studios”, ”vi”, ”oss” eller ”vår”).",
+          "Denna integritetspolicy gäller iOS-appen Kelora och dess widgetar för hemskärmen. För alla integritetsfrågor, kontakta oss på [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Vad vi inte samlar in",
+        "body": [
+          "Vi vill vara konkreta, eftersom ”vi värnar om din integritet” betyder föga i sig självt. I Kelora finns det:"
+        ],
+        "list": [
+          "Inget konto och ingen inloggning. Du skapar ingen profil, och vi ber aldrig om ditt namn, din e-post eller ditt telefonnummer för att använda appen.",
+          "Ingen analys eller användningsspårning. Kelora innehåller ingen analys-, kraschrapporterings-, annonserings- eller attributionsprogramvara. Vi mäter inte hur du använder appen.",
+          "Inga annonsidentifierare. Kelora begär inte behörigheten App Tracking Transparency och kommer inte åt enhetens annonsidentifierare (IDFA).",
+          "Ingen försäljning eller delning av data. Vi säljer, hyr ut eller delar inte din personliga information, eftersom vi inte tar emot den från första början."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Information som lagras på din enhet",
+        "body": [
+          "Allt du lägger in i Kelora lagras lokalt på din enhet. Detta inkluderar de prenumerationer och handlare du spårar, deras priser, valutor, faktureringscykler, start- och förnyelsedatum, provperioder, prishistorik, påminnelser, uppsägningsdatum, etiketter för betalningsmetod, kategorier, taggar, anteckningar, budgetar och alla anpassade ikoner du väljer.",
+          "Fältet för betalningsmetod är endast en fritextetikett (till exempel ”Visa som slutar på 1234”). Kelora ansluter inte till din bank, ditt kort eller något finansinstitut, och kan inte läsa dina riktiga konto- eller kortnummer.",
+          "Denna information stannar på din enhet om du inte medvetet flyttar den — till exempel genom att slå på iCloud-säkerhetskopiering, exportera en fil eller lägga till en förnyelse i din kalender. Dessa val beskrivs nedan. Eftersom datan finns på din enhet ingår den även i dina vanliga säkerhetskopior av enheten (såsom en krypterad iPhone- eller iCloud-enhetssäkerhetskopia) som du styr via Apple, inte via oss."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Skanning av kvitton och dokument",
+        "body": [
+          "Om du skannar ett kvitto eller en prenumerationsbekräftelse, eller importerar ett kontoutdrag, ett kalkylark eller ett dokument, läser Kelora det helt och hållet på din enhet med Apples inbyggda teknik för textigenkänning. Bilden och den igenkända texten bearbetas lokalt för att hjälpa till att fylla i uppgifterna om en prenumeration.",
+          "Skannade bilder och deras innehåll laddas inte upp till oss eller till någon tredje part."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Nätverksanslutningar och tredjepartstjänster",
+        "body": [
+          "Kelora fungerar offline för sina kärnfunktioner. Den gör ett litet antal valfria nätverksförfrågningar, endast för att driva specifika funktioner, och aldrig för att skicka oss dina finansiella data. Här är den fullständiga listan:"
+        ],
+        "list": [
+          "Valutakurser. För att konvertera mellan valutor hämtar Kelora referenskurser från ExchangeRate-API (open.er-api.com). Förfrågan innehåller endast en valutakod (såsom ”USD”). Den innehåller inte dina prenumerationer, belopp eller någon personlig information.",
+          "Varumärkeslogotyper och ikoner. När du lägger till eller redigerar en prenumeration kan Kelora hämta en varumärkeslogotyp för att göra den igenkännbar. För att göra detta skickar den ett varumärkesnamn eller en webbdomän (gissad utifrån vad du redigerar) till logotyp- och ikonleverantörer — Logo.dev, Brandfetch och, som reservlösning, Googles och DuckDuckGos favicon-tjänster. Om du söker efter en anpassad ikon kan din sökterm även skickas till bildsökningen hos Openverse och Wikimedia Commons. Dessa förfrågningar innehåller endast varumärket eller söktermen — aldrig dina priser, datum eller andra data."
+        ],
+        "after": [
+          "Dessa leverantörer tar endast emot den information som beskrivs ovan, i egenskap av operatörer av de tjänster som Kelora kontaktar å dina vägnar, och deras användning av den styrs av deras egna integritetspolicyer: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org) och [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Som med alla internetförfrågningar kan dessa leverantörer ta emot din enhets IP-adress och standardinformation om förfrågan; vi tar inte emot den informationen och kombinerar den inte med något om dig.",
+          "Du kan undvika dessa förfrågningar genom att inte använda logotypuppslagning eller ikonsökning och genom att förlita dig på manuella valutakurser, vilket Kelora stöder."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Valfri iCloud-säkerhetskopiering",
+        "body": [
+          "Kelora erbjuder en valfri säkerhetskopiering till din egen iCloud Drive. Den är avstängd som standard. Om du slår på den skriver Kelora en enda säkerhetskopieringsfil till din personliga iCloud Drive så att du kan återställa den på dina egna enheter.",
+          "Denna säkerhetskopia finns i ditt Apple iCloud-konto, under din kontroll. Den lagras inte på någon server hos NoSky Studios, och vi kan inte se eller komma åt den. Hanteringen av den omfattas av [Apples integritetspolicy](https://www.apple.com/legal/privacy/). Du kan radera säkerhetskopian när som helst från appen Filer eller inifrån Kelora, och du kan stänga av funktionen för att stoppa framtida säkerhetskopieringar."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Kalenderintegration",
+        "body": [
+          "Om du aktiverar kalenderintegrationen lägger Kelora till dina kommande förnyelsedatum som händelser i din egen kalender, så att du ser dem tillsammans med resten av ditt schema. Dessa händelser skrivs till din enhets kalender (och överallt där du synkroniserar den, såsom din iCloud-kalender). Ingen server som drivs av oss är inblandad, och vi läser inte din kalender."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Köp och uppgraderingen Kelora Pro",
+        "body": [
+          "Kelora är gratis att börja med och erbjuder en betald uppgradering, Kelora Pro, som ett engångsköp för ”livstid” eller en månadsprenumeration. Alla köp hanteras av Apple via App Store med ditt Apple Account.",
+          "Betalning behandlas helt och hållet av Apple. Kelora ser eller tar aldrig emot dina kort-, bank- eller betalningsuppgifter. För att hantera rättigheter tar appen från Apple endast emot uppgiften om att ett giltigt köp existerar — inte din identitet eller betalningsinformation. Köp, förnyelser och återbetalningar styrs av Apples villkor och [Apples integritetspolicy](https://www.apple.com/legal/privacy/)."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Enhetsbehörigheter vi begär",
+        "body": [
+          "Kelora ber om en behörighet endast när du använder den funktion som behöver den, och förklarar varför i samma stund som den frågar:"
+        ],
+        "list": [
+          "Kamera — endast för att skanna ett kvitto eller en prenumerationsbekräftelse. Skanning sker på din enhet.",
+          "Fotobibliotek — endast så att du kan välja en bild att använda som anpassad prenumerationsikon.",
+          "Kalendrar — endast om du slår på kalenderintegrationen, för att lägga till förnyelsedatum i din egen kalender.",
+          "Notiser — endast för att visa de påminnelser du schemalägger, såsom en kommande förnyelse eller ett sista-datum för uppsägning. Detta är lokala notiser som genereras på din enhet."
+        ],
+        "after": [
+          "Kelora begär inte behörighet för plats, mikrofon, kontakter eller spårning. Du kan granska eller ändra vilken behörighet som helst när som helst i iOS-appen Inställningar."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Notiser",
+        "body": [
+          "Keloras påminnelser är lokala notiser, schemalagda och levererade på din enhet. Kelora använder inte push-notiser och registrerar inte din enhet med någon meddelandeserver. Vi kan inte skicka meddelanden till dig, och vi vet inte om eller när en påminnelse visas."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Widgetar för hemskärmen",
+        "body": [
+          "Keloras widgetar visar en ögonblicksbild av dina prenumerationer och din budget — till exempel nästa debitering, din månadssumma och hur många prenumerationer som är aktiva. För att göra detta delar appen och dess widgetar en liten ögonblicksbildsfil i ett privat lagringsområde på enheten som är reserverat för appen. Denna data lämnar aldrig din enhet."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Barns integritet",
+        "body": [
+          "Kelora är ett allmänt finansverktyg avsett för vuxna och riktar sig inte till barn. Vi samlar inte medvetet in personlig information från någon, inklusive barn under 13 år (eller motsvarande lägsta ålder i ditt land). Eftersom Kelora inte har några konton och inte samlar in någon personlig information finns det ingen sådan information för oss att inneha eller radera."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Hur din information skyddas",
+        "body": [
+          "Dina Kelora-data lagras på din enhet och skyddas av säkerheten i iOS, inklusive enhetens lösenkod, kryptering och den app-sandlåda som Apple tillhandahåller. Markören för gratis provperiod lagras i enhetens Keychain.",
+          "Eftersom dina data inte ligger på våra servrar är det viktigaste skyddet det som du kontrollerar: håll din enhet låst med en lösenkod eller biometri, och håll iOS uppdaterat. Ingen metod för lagring eller överföring är helt säker, men att hålla dina data på enheten avlägsnar det stora, centrala mål som en molndatabas skulle utgöra."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Att behålla och radera dina data",
+        "body": [
+          "Du bestämmer hur länge dina data behålls, eftersom du innehar dem. Du kan redigera eller radera vilken prenumeration, budget eller annan post som helst inuti appen när som helst. Att radera appen Kelora tar bort dess data på enheten från just den enheten.",
+          "Om du slog på iCloud-säkerhetskopiering, radera säkerhetskopieringsfilen från din iCloud Drive (via appen Filer eller inifrån Kelora) för att ta bort den kopian. Om du lade till förnyelser i din kalender, ta bort de händelserna från din kalenderapp. Vi innehar ingen kopia av dina data, så det finns inget för dig att begära av oss och inget för oss att radera å dina vägnar."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Dina integritetsrättigheter",
+        "body": [
+          "Beroende på var du bor ger dataskyddslagar — såsom Nigerias dataskyddslag 2023 (Nigeria Data Protection Act 2023), EU:s och Storbritanniens allmänna dataskyddsförordning (GDPR) samt Kaliforniens konsumentintegritetslag (CCPA/CPRA) — dig rättigheter över din personliga information, inklusive rätten att få tillgång till, korrigera, radera och överföra den, samt att invända mot viss behandling.",
+          "Kelora är utformat så att du redan har dessa rättigheter direkt: din information finns på din enhet, där du kan visa, ändra, exportera och radera den själv, när som helst, utan att fråga oss. Vi samlar inte in, lagrar, säljer eller delar din personliga information, och vi ”säljer” eller ”delar” den inte för annonsering enligt hur dessa termer definieras i CCPA.",
+          "Om du tror att vi innehar personlig information om dig, eller om du har en fråga om dina rättigheter, kontakta oss på [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) så svarar vi. Du har också rätt att lämna in ett klagomål till din lokala dataskyddsmyndighet."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Internationella användare",
+        "body": [
+          "Kelora är tillgängligt över hela världen, och dina data stannar på din enhet var du än befinner dig. När du använder en valfri onlinefunktion (valutakurser, uppslagning av logotyp eller ikon) hanteras förfrågan av den tredjepartsleverantören, som kan behandla den på servrar i ett annat land. Dessa förfrågningar innehåller endast den begränsade information som beskrivs i avsnittet ”Nätverksanslutningar” ovan."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Ändringar av denna policy",
+        "body": [
+          "Vi kan uppdatera denna integritetspolicy allteftersom Kelora utvecklas eller lagen kräver det. När vi gör det ändrar vi datumet ”Gäller från” högst upp på denna sida och, vid betydande ändringar, noterar dem i appen eller dess versionsinformation. Den aktuella versionen finns alltid på denna adress. Att fortsätta använda Kelora efter en uppdatering innebär att du accepterar den reviderade policyn."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Kontakta oss",
+        "body": [
+          "För alla frågor om denna policy eller din integritet, nå oss på [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). För allmän hjälp med appen, kontakta [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "subtitle": "Dessa villkor är avtalet mellan dig och NoSky Studios Ltd för att använda appen Kelora. Läs dem.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Godkännande av dessa villkor",
+        "body": [
+          "Dessa användarvillkor (”Villkor”) är ett juridiskt avtal mellan dig och NoSky Studios Ltd (RC 7631695), ett företag registrerat i Nigeria (”NoSky Studios”, ”vi”, ”oss” eller ”vår”), som reglerar din användning av appen Kelora och dess widgetar (tillsammans ”Kelora” eller ”appen”).",
+          "Genom att ladda ner, installera eller använda Kelora godkänner du dessa villkor och vår [integritetspolicy](privacy.html), som införlivas här genom hänvisning. Om du inte godkänner dem, använd inte appen."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Vem som får använda Kelora",
+        "body": [
+          "Du måste vara tillräckligt gammal för att ingå ett bindande avtal i ditt land, och minst 13 år (eller den högre lägsta ålder som krävs där du bor), för att använda Kelora. Genom att använda appen bekräftar du att du uppfyller detta krav och att du kommer att använda Kelora i enlighet med dessa villkor och tillämplig lag."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Din licens att använda appen",
+        "body": [
+          "Med förbehåll för dessa villkor beviljar vi dig en personlig, begränsad, icke-exklusiv, icke-överlåtbar och återkallelig licens att ladda ner och använda en kopia av Kelora på Apple-enheter som du äger eller kontrollerar, för ditt eget personliga, icke-kommersiella bruk, i enlighet med App Store-reglerna.",
+          "Du får inte kopiera, modifiera, distribuera, sälja eller hyra ut någon del av appen; bakåtkompilera eller försöka extrahera dess källkod annat än i den begränsade utsträckning lagen tillåter; eller avlägsna några äganderättsliga meddelanden. Denna licens överför inget ägande av appen till dig."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Dina data tillhör dig",
+        "body": [
+          "Kelora är ett verktyg för att organisera information som du väljer att ange. De prenumerationer, belopp, anteckningar, budgetar och annat innehåll du lägger in i Kelora tillhör dig. Som förklaras i integritetspolicyn lagras detta innehåll på din enhet; vi samlar inte in det och gör inga anspråk på äganderätt till det.",
+          "Du är ansvarig för dina egna data — inklusive att hålla din enhet säker och att spara säkerhetskopior om informationen betyder något för dig. Vi är inte ansvariga för data som går förlorade för att en enhet tappas bort, skadas, återställs eller för att appen raderas."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Godtagbar användning",
+        "body": [
+          "Du samtycker till att använda Kelora endast för lagliga, personliga ändamål, och att inte missbruka den — till exempel genom att försöka störa eller ingripa i appen, dess widgetar eller de tredjepartstjänster den förlitar sig på, eller genom att använda appen på ett sätt som kränker andras rättigheter eller bryter mot lagen."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, köp och prenumerationer",
+        "body": [
+          "Kelora är gratis att ladda ner och använda med en uppsättning kärnfunktioner. Kelora Pro låser upp den fullständiga funktionsuppsättningen och erbjuds antingen som ett engångsköp för ”livstid” eller som en automatiskt förnyad månadsprenumeration. En gratis provperiod kan erbjudas; om så är fallet visas villkoren för provperioden för dig innan du påbörjar den.",
+          "Alla köp görs via Apples App Store och debiteras ditt Apple Account. För en automatiskt förnyad prenumeration debiteras ditt Apple Account vid bekräftelse av köpet och igen vid början av varje förnyelseperiod, och prenumerationen förnyas automatiskt om du inte säger upp den minst 24 timmar före slutet av den aktuella perioden. Du hanterar eller säger upp en prenumeration i inställningarna för ditt Apple Account; att radera appen säger inte upp en prenumeration.",
+          "Priser visas i appen innan du köper och kan ändras över tid; en eventuell ändring gäller endast framtida köp eller förnyelser. Köp, fakturering och återbetalningar hanteras av Apple enligt Apples villkor — vi behandlar inte betalningar och kan inte utfärda återbetalningar direkt. Begäranden om återbetalning görs till Apple via App Store. Engångsköpet för ”livstid” låser upp de betalda funktionerna i Kelora som appen existerar och fortsätter att erbjudas; det är inget löfte om att appen, någon specifik funktion eller någon tredjepartstjänst kommer att förbli tillgänglig för alltid."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Villkor för Apple App Store",
+        "body": [
+          "Du erhåller Kelora via Apples App Store, och din användning omfattas även av Apples tillämpliga villkor, inklusive standardavtalet Licensed Application End User License Agreement (EULA). Dessa villkor gäller endast mellan dig och NoSky Studios, inte med Apple; Apple ansvarar inte för appen eller dess innehåll.",
+          "Du samtycker till att Apple, och Apples dotterbolag, är tredjepartsförmånstagare av dessa villkor och kan göra dem gällande. Apple har ingen skyldighet att tillhandahålla support eller underhåll för appen, och alla anspråk gällande garanti, produktansvar, juridik eller immaterialrätt som rör appen är vårt ansvar och inte Apples, i den utsträckning vi över huvud taget är ansvariga enligt dessa villkor."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Tredjepartstjänster",
+        "body": [
+          "Vissa valfria funktioner förlitar sig på tredjepartstjänster — till exempel valutakurser och uppslagning av varumärkeslogotyper eller ikoner, såsom beskrivs i integritetspolicyn. Vi kontrollerar inte dessa tjänster, och vi ansvarar inte för deras tillgänglighet, riktighet eller innehåll. Deras data tillhandahålls ”i befintligt skick”, och din användning av den kan även omfattas av dessa leverantörers egna villkor."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora är inte finansiell rådgivning",
+        "body": [
+          "Kelora är ett verktyg för personlig organisation. Det flyttar inte pengar, ansluter inte till din bank eller dina kort, utför inte betalningar och tillhandahåller inte finansiell, investerings-, skatte- eller juridisk rådgivning.",
+          "De belopp, datum, summor och prognoser som Kelora visar baseras på det du anger och på indikativa valutakurser som kan släpa efter marknaden. De kan vara ofullständiga eller felaktiga. Behandla alltid Keloras siffror som en personlig referens, och verifiera faktiska debiteringar, förnyelsedatum och uppsägningar direkt med din leverantör, din bank eller App Store. Beslut du fattar utifrån appen är dina egna."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Vår immaterialrätt",
+        "body": [
+          "Appen i sig — inklusive dess programvara, design, namnen och logotyperna ”Kelora” och ”NoSky Studios” samt annat originalinnehåll som vi tillhandahåller — ägs av NoSky Studios Ltd och skyddas av immaterialrättsliga lagar. Dessa villkor ger dig en licens att använda appen; de ger dig ingen rätt till vårt varumärke eller material utöver det. Varumärkeslogotyper som visas för de tjänster du spårar tillhör sina respektive ägare och används endast för att hjälpa dig identifiera dessa tjänster."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Friskrivning från garantier",
+        "body": [
+          "Kelora tillhandahålls ”i befintligt skick” och ”i mån av tillgång”, utan garantier av något slag, vare sig uttryckliga eller underförstådda, inklusive underförstådda garantier om säljbarhet, lämplighet för ett visst ändamål och icke-intrång. Vi garanterar inte att appen kommer att vara oavbruten, felfri, eller att någon siffra, kurs, logotyp eller påminnelse som den producerar kommer att vara korrekt eller i rätt tid.",
+          "Vissa jurisdiktioner tillåter inte uteslutande av vissa garantier, så en del av det ovanstående kanske inte gäller dig; i så fall begränsas de uteslutna garantierna till det minimum som lagen tillåter."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Ansvarsbegränsning",
+        "body": [
+          "I den utsträckning lagen tillåter kommer NoSky Studios och dess ägare och personal inte att vara ansvariga för några indirekta, tillfälliga, särskilda, följd- eller straffskadestånd, eller för någon förlust av data, vinst, besparingar eller goodwill, som uppstår ur eller är relaterad till din användning av — eller oförmåga att använda — Kelora, även om vi har informerats om möjligheten av sådana skador.",
+          "I den utsträckning lagen tillåter kommer vårt totala ansvar för alla anspråk som rör Kelora inte att överstiga det högre av det belopp du betalat oss för appen under de 12 månaderna före anspråket, eller fem amerikanska dollar (US$5). Ingenting i dessa villkor begränsar något ansvar som inte kan begränsas enligt tillämplig lag."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Ditt ansvar",
+        "body": [
+          "Du samtycker till att vara ansvarig för din användning av Kelora och, i den utsträckning lagen tillåter, att hålla NoSky Studios skadeslöst från anspråk som uppstår ur ditt missbruk av appen eller ditt brott mot dessa villkor."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Uppsägning",
+        "body": [
+          "Du kan sluta använda Kelora när som helst genom att radera den från din enhet. Vi kan tillfälligt eller permanent avsluta din licens att använda appen om du väsentligt bryter mot dessa villkor. Avsnitt som till sin natur bör kvarstå — inklusive äganderätt, friskrivningar, ansvarsbegränsning och tillämplig lag — fortsätter att gälla efter att din användning upphör."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Ändringar av appen och dessa villkor",
+        "body": [
+          "Vi förbättrar kontinuerligt Kelora och kan lägga till, ändra eller ta bort funktioner över tid. Vi kan också uppdatera dessa villkor; när vi gör betydande ändringar uppdaterar vi datumet ”Gäller från” ovan och, där det är lämpligt, noterar ändringen i appen eller dess versionsinformation. Om du fortsätter att använda Kelora efter att ändringarna trätt i kraft, accepterar du de uppdaterade villkoren. Om du inte godkänner dem, sluta använda appen."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Tillämplig lag och tvister",
+        "body": [
+          "Dessa villkor regleras av lagarna i Förbundsrepubliken Nigeria, utan hänsyn till dess lagvalsregler, och, där de gäller för dig, av de tvingande konsumentskyddslagarna i ditt bosättningsland, vilka dessa villkor inte åsidosätter. Med förbehåll för dessa tvingande lagar samtycker du till att tvister som rör Kelora eller dessa villkor kommer att hanteras av domstolarna i Nigeria.",
+          "Ingenting i detta avsnitt hindrar dig från att väcka ett anspråk, eller söka skydd hos en tillsynsmyndighet, i ditt hemland där lagen ger dig den rätten."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Allmänt",
+        "body": [
+          "Dessa villkor, tillsammans med integritetspolicyn, utgör hela avtalet mellan dig och NoSky Studios om appen. Om någon del av dessa villkor befinns vara ogenomförbar, förblir resten i kraft. Att vi inte gör en bestämmelse gällande är inte ett avstående från den. Du får inte överlåta dina rättigheter enligt dessa villkor utan vårt samtycke; vi får överlåta våra i samband med en fusion, ett förvärv eller en försäljning av tillgångar, eller genom lagens verkan."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Kontakta oss",
+        "body": [
+          "Frågor om dessa villkor? Nå oss på [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), eller för integritetsärenden på [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  }
+}

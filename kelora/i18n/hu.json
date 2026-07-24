@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "hu",
+    "dir": "ltr",
+    "langName": "Magyar",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigéria",
+    "effectiveDate": "24 July 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Ez a Kelora jogi dokumentumainak az Ön kényelmét szolgáló fordítása. A hivatalos és jogilag kötelező érvényű változat az angol nyelvű verzió. Amennyiben e fordítás és az angol nyelvű verzió jelentése között bármilyen eltérés mutatkozik, az angol nyelvű verzió az irányadó."
+  },
+  "ui": {
+    "privacyLink": "Adatvédelmi szabályzat",
+    "termsLink": "Felhasználási feltételek",
+    "languageLabel": "Nyelv",
+    "lastUpdated": "Utoljára frissítve",
+    "effectiveLabel": "Hatályos",
+    "versionLabel": "Verzió",
+    "backToTop": "Vissza a tetejére",
+    "readPrivacy": "Olvassa el az Adatvédelmi szabályzatot",
+    "readTerms": "Olvassa el a Felhasználási feltételeket",
+    "onThisPage": "Ezen az oldalon",
+    "app": {
+      "fullPrivacy": "Teljes Adatvédelmi szabályzat",
+      "fullTerms": "Teljes Felhasználási feltételek",
+      "opensOnline": "Az Ön nyelvén nyílik meg a noskystudios.ng oldalon"
+    }
+  },
+  "privacy": {
+    "title": "Adatvédelmi szabályzat",
+    "subtitle": "A Kelorát arra terveztük, hogy pénzügyi élete a saját eszközén maradjon. Ez a szabályzat egyszerűen elmagyarázza, mit jelent ez.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "A rövid változat",
+        "body": [
+          "A Kelora egy személyes előfizetés- és költségvetés-követő alkalmazás, amelyet a NoSky Studios Ltd készített. Egy egyszerű gondolat köré épül: annak részletei, amiért fizet, az Önéi, és Önnél is kell maradniuk.",
+          "Nem használunk fiókokat. Nem kérjük, hogy jelentkezzen be. Nem futtatunk semmiféle analitikát, hirdetést vagy nyomkövetést. Az Ön által megadott előfizetéseket, árakat, dátumokat, jegyzeteket és költségvetéseket az eszközén tároljuk, és soha nem küldjük el nekünk.",
+          "A szabályzat további része azt a néhány helyzetet magyarázza el, amikor adatok mozognak — mindig egy Ön által választott funkció miatt, és soha nem az általunk üzemeltetett kiszolgálóra."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Kik vagyunk",
+        "body": [
+          "A Kelorát a NoSky Studios Ltd (RC 7631695) adja ki, amely egy Nigériában bejegyzett vállalat (a továbbiakban „NoSky Studios”, „mi”, „minket” vagy „miénk”).",
+          "Ez az Adatvédelmi szabályzat a Kelora iOS-alkalmazásra és annak kezdőképernyős widgetjeire vonatkozik. Bármilyen adatvédelemmel kapcsolatos kérdéssel forduljon hozzánk a következő címen: [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Amit nem gyűjtünk",
+        "body": [
+          "Konkrétak szeretnénk lenni, mert az „értékeljük a magánszféráját” önmagában keveset jelent. A Kelorában nincs:"
+        ],
+        "list": [
+          "Nincs fiók és nincs bejelentkezés. Nem hoz létre profilt, és soha nem kérjük a nevét, e-mail-címét vagy telefonszámát az alkalmazás használatához.",
+          "Nincs analitika vagy használatkövetés. A Kelora nem tartalmaz semmilyen analitikai, összeomlás-jelentő, hirdetési vagy attribúciós szoftvert. Nem mérjük, hogyan használja az alkalmazást.",
+          "Nincsenek hirdetési azonosítók. A Kelora nem kéri az App Tracking Transparency engedélyt, és nem fér hozzá az eszköz hirdetési azonosítójához (IDFA).",
+          "Nem adunk el és nem osztunk meg adatokat. Nem adjuk el, nem adjuk bérbe és nem osztjuk meg az Ön személyes adatait, mert eleve nem is kapjuk meg azokat."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Az eszközén tárolt információk",
+        "body": [
+          "Minden, amit a Kelorába visz, helyben, az eszközén tárolódik. Ez magában foglalja az Ön által követett előfizetéseket és kereskedőket, azok árait, pénznemeit, számlázási ciklusait, kezdő- és megújítási dátumait, próbaidőszakait, árelőzményeit, emlékeztetőit, lemondási dátumait, fizetésimód-címkéit, kategóriáit, címkéit, jegyzeteit, költségvetéseit, valamint bármely Ön által választott egyedi ikont.",
+          "A fizetésimód-mező csak egy szabad szöveges címke (például „Visa, végződése: 1234”). A Kelora nem csatlakozik a bankjához, kártyájához vagy bármely pénzintézethez, és nem tudja beolvasni a valódi számla- vagy kártyaszámait.",
+          "Ez az információ az eszközén marad, hacsak Ön szándékosan el nem mozdítja — például az iCloud biztonsági mentés bekapcsolásával, egy fájl exportálásával vagy egy megújítás naptárához való hozzáadásával. Ezeket a lehetőségeket az alábbiakban ismertetjük. Mivel az adatok az eszközén találhatók, a szokásos eszközmentései (például egy titkosított iPhone- vagy iCloud-eszközmentés) is tartalmazzák azokat, amelyeket Ön az Apple-en keresztül vezérel, nem pedig rajtunk keresztül."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Nyugta- és dokumentumbeolvasás",
+        "body": [
+          "Ha beolvas egy nyugtát vagy előfizetési visszaigazolást, vagy importál egy kivonatot, táblázatot vagy dokumentumot, a Kelora azt teljes egészében az eszközén olvassa be az Apple beépített szövegfelismerő technológiájával. A kép és a felismert szöveg helyben kerül feldolgozásra, hogy segítsen kitölteni egy előfizetés részleteit.",
+          "A beolvasott képeket és azok tartalmát nem töltjük fel sem hozzánk, sem semmilyen harmadik félhez."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Hálózati kapcsolatok és harmadik felek szolgáltatásai",
+        "body": [
+          "A Kelora alapfunkciói offline működnek. Kis számú, opcionális hálózati kérést indít, kizárólag bizonyos funkciók működtetéséhez, és soha nem azért, hogy elküldje nekünk pénzügyi adatait. Íme a teljes lista:"
+        ],
+        "list": [
+          "Valutaárfolyamok. A pénznemek közötti átváltáshoz a Kelora referenciaárfolyamokat kér le az ExchangeRate-API-tól (open.er-api.com). A kérés csak egy pénznemkódot (például „USD”) tartalmaz. Nem tartalmazza az előfizetéseit, összegeit vagy bármilyen személyes adatát.",
+          "Márkalogók és ikonok. Amikor előfizetést ad hozzá vagy szerkeszt, a Kelora lekérhet egy márkalogót, hogy felismerhetővé tegye. Ehhez egy márkanevet vagy webhely-domaint (a szerkesztett tartalomból kikövetkeztetve) küld logó- és ikonszolgáltatóknak — a Logo.dev, a Brandfetch, és tartalékként a Google és a DuckDuckGo favicon-szolgáltatásainak. Ha egyedi ikonra keres, a keresési kifejezése az Openverse és a Wikimedia Commons képkereséséhez is elküldésre kerülhet. Ezek a kérések csak a márkát vagy a keresési kifejezést tartalmazzák — soha nem az árait, dátumait vagy egyéb adatait."
+        ],
+        "after": [
+          "Ezek a szolgáltatók csak a fent leírt információkat kapják meg, mint azon szolgáltatások üzemeltetői, amelyekhez a Kelora az Ön nevében kapcsolódik, és ezek felhasználását a saját adatvédelmi szabályzataik szabályozzák: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org) és [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Mint bármely internetes kérésnél, ezek a szolgáltatók megkaphatják az eszköze IP-címét és a szokásos kérésinformációkat; mi ezt az információt nem kapjuk meg, és nem kapcsoljuk össze semmilyen Önre vonatkozó adattal.",
+          "Elkerülheti ezeket a kéréseket, ha nem használja a logókeresést vagy az ikonkeresést, és a Kelora által támogatott kézi árfolyamokra hagyatkozik."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Opcionális iCloud biztonsági mentés",
+        "body": [
+          "A Kelora opcionális biztonsági mentést kínál az Ön saját iCloud Drive-jára. Ez alapértelmezés szerint ki van kapcsolva. Ha bekapcsolja, a Kelora egyetlen biztonsági mentési fájlt ír az Ön személyes iCloud Drive-jára, hogy visszaállíthassa azt a saját eszközein.",
+          "Ez a biztonsági mentés az Ön Apple iCloud-fiókjában, az Ön ellenőrzése alatt található. Nem tárolódik semmilyen NoSky Studios kiszolgálón, és mi nem látjuk és nem férünk hozzá. Kezelésére [az Apple Adatvédelmi szabályzata](https://www.apple.com/legal/privacy/) vonatkozik. A biztonsági mentést bármikor törölheti a Fájlok alkalmazásból vagy a Keloráról belülről, és kikapcsolhatja a funkciót a jövőbeli mentések leállításához."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Naptárintegráció",
+        "body": [
+          "Ha engedélyezi a naptárintegrációt, a Kelora hozzáadja a közelgő megújítási dátumait eseményekként a saját naptárához, hogy azokat a menetrendje többi részével együtt láthassa. Ezek az események az eszköze naptárába íródnak (és bárhová, ahová szinkronizálja, például az iCloud-naptárába). Ebben nem vesz részt általunk üzemeltetett kiszolgáló, és mi nem olvassuk a naptárát."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Vásárlások és a Kelora Pro fejlesztés",
+        "body": [
+          "A Kelora ingyenesen kezdhető, és fizetős fejlesztést kínál, a Kelora Prót, egyszeri „élettartamra szóló” vásárlásként vagy havi előfizetésként. Minden vásárlást az Apple kezel az App Store-on keresztül, az Ön Apple Account-jának használatával.",
+          "A fizetést teljes egészében az Apple dolgozza fel. A Kelora soha nem látja és nem kapja meg az Ön kártya-, banki vagy fizetési adatait. A jogosultságok kezeléséhez az alkalmazás az Apple-től csak azt a tényt kapja meg, hogy érvényes vásárlás létezik — nem pedig az Ön személyazonosságát vagy fizetési adatait. A vásárlásokra, megújításokra és visszatérítésekre az Apple feltételei és [az Apple Adatvédelmi szabályzata](https://www.apple.com/legal/privacy/) vonatkoznak."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Az általunk kért eszközengedélyek",
+        "body": [
+          "A Kelora csak akkor kér engedélyt, amikor azt a funkciót használja, amelynek szüksége van rá, és a kérés pillanatában elmagyarázza, hogy miért:"
+        ],
+        "list": [
+          "Kamera — csak nyugta vagy előfizetési visszaigazolás beolvasásához. A beolvasás az eszközén történik.",
+          "Fotókönyvtár — csak azért, hogy kiválaszthasson egy képet egyedi előfizetési ikonként való használatra.",
+          "Naptárak — csak akkor, ha bekapcsolja a naptárintegrációt, a megújítási dátumok saját naptárához való hozzáadásához.",
+          "Értesítések — csak az Ön által ütemezett emlékeztetők megjelenítéséhez, például egy közelgő megújításról vagy egy lemondási határidőről. Ezek helyi értesítések, amelyek az eszközén jönnek létre."
+        ],
+        "after": [
+          "A Kelora nem kér helymeghatározási, mikrofon-, névjegy- vagy nyomkövetési engedélyeket. Bármely engedélyt bármikor áttekinthet vagy módosíthat az iOS Beállítások alkalmazásában."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Értesítések",
+        "body": [
+          "A Kelora emlékeztetői helyi értesítések, amelyeket az eszközén ütemezünk és kézbesítünk. A Kelora nem használ push-értesítéseket, és nem regisztrálja az eszközét semmilyen üzenetküldő kiszolgálón. Nem tudunk Önnek üzeneteket küldeni, és nem tudjuk, hogy egy emlékeztető megjelenik-e, és ha igen, mikor."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Kezdőképernyős widgetek",
+        "body": [
+          "A Kelora widgetjei az előfizetéseinek és költségvetésének pillanatképét jelenítik meg — például a következő terhelést, a havi összeget és azt, hogy hány előfizetés aktív. Ehhez az alkalmazás és widgetjei egy kis pillanatkép-fájlt osztanak meg egy privát, eszközön belüli, az alkalmazás számára fenntartott tárolóterületen. Ezek az adatok soha nem hagyják el az eszközét."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Gyermekek adatvédelme",
+        "body": [
+          "A Kelora egy általános célú pénzügyi eszköz, amelyet felnőtteknek szántunk, és nem gyermekeknek szól. Nem gyűjtünk tudatosan személyes adatokat senkitől, beleértve a 13 év alatti gyermekeket (vagy az Ön országában érvényes megfelelő minimális életkort). Mivel a Kelorának nincsenek fiókjai és nem gyűjt személyes adatokat, nincs is ilyen információ, amelyet megőrizhetnénk vagy törölhetnénk."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Hogyan védjük az információit",
+        "body": [
+          "A Kelora-adatai az eszközén tárolódnak, és az iOS biztonsága védi őket, beleértve az Apple által biztosított eszközkódot, titkosítást és alkalmazás-elkülönítést (sandboxing). Az ingyenes próbaidőszak jelzője az eszköz Keychainjében tárolódik.",
+          "Mivel az adatai nem a mi kiszolgálóinkon vannak, a legfontosabb védelem az, amelyet Ön irányít: tartsa az eszközét lezárva kóddal vagy biometrikus azonosítással, és tartsa naprakészen az iOS-t. Egyetlen tárolási vagy továbbítási módszer sem teljesen biztonságos, de az adatok eszközön tartása kiküszöböli azt a nagy, központi célpontot, amelyet egy felhőalapú adatbázis jelentene."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Adatai megőrzése és törlése",
+        "body": [
+          "Ön dönti el, hogy meddig őrzik meg az adatait, mert Ön birtokolja azokat. Bármely előfizetést, költségvetést vagy egyéb bejegyzést bármikor szerkeszthet vagy törölhet az alkalmazáson belül. A Kelora alkalmazás törlése eltávolítja annak eszközön tárolt adatait az adott eszközről.",
+          "Ha bekapcsolta az iCloud biztonsági mentést, törölje a biztonsági mentési fájlt az iCloud Drive-járól (a Fájlok alkalmazáson keresztül vagy a Keloráról belülről) az adott másolat eltávolításához. Ha megújításokat adott a naptárához, távolítsa el azokat az eseményeket a naptáralkalmazásából. Nem őrzünk másolatot az adatairól, így nincs mit kérnie tőlünk, és nincs mit törölnünk az Ön nevében."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Az Ön adatvédelmi jogai",
+        "body": [
+          "Attól függően, hogy hol él, az adatvédelmi törvények — mint például a nigériai 2023. évi adatvédelmi törvény (Nigeria Data Protection Act 2023), az EU és az Egyesült Királyság általános adatvédelmi rendelete (GDPR), valamint a kaliforniai fogyasztói adatvédelmi törvény (CCPA/CPRA) — jogokat biztosítanak Önnek a személyes adatai felett, beleértve a hozzáférés, helyesbítés, törlés és hordozhatóság jogát, valamint az egyes adatkezelések elleni tiltakozás jogát.",
+          "A Kelorát úgy terveztük, hogy Ön ezekkel a jogokkal már közvetlenül rendelkezzen: az információi az eszközén vannak, ahol Ön maga tekintheti meg, módosíthatja, exportálhatja és törölheti azokat, bármikor, anélkül, hogy minket kérdezne. Nem gyűjtjük, nem tároljuk, nem adjuk el és nem osztjuk meg az Ön személyes adatait, és nem „adjuk el” vagy „osztjuk meg” azokat hirdetési célból, ahogyan ezeket a fogalmakat a CCPA meghatározza.",
+          "Ha úgy véli, hogy személyes adatokat őrzünk Önről, vagy kérdése van a jogaival kapcsolatban, forduljon hozzánk a következő címen: [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng), és mi válaszolni fogunk. Önnek joga van panaszt tenni a helyi adatvédelmi hatóságánál is."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Nemzetközi felhasználók",
+        "body": [
+          "A Kelora világszerte elérhető, és az adatai az eszközén maradnak, bárhol is legyen. Amikor egy opcionális online funkciót használ (árfolyamok, logó- vagy ikonkeresés), a kérést az adott harmadik fél szolgáltatója kezeli, amely egy másik országban lévő kiszolgálókon dolgozhatja fel azt. Ezek a kérések csak a fenti „Hálózati kapcsolatok” szakaszban leírt korlátozott információkat tartalmazzák."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "A szabályzat módosításai",
+        "body": [
+          "Ezt az Adatvédelmi szabályzatot frissíthetjük, ahogy a Kelora fejlődik, vagy ahogy a törvény megköveteli. Amikor ezt tesszük, megváltoztatjuk az oldal tetején található „Hatályos” dátumot, és jelentős változások esetén megjegyezzük azokat az alkalmazásban vagy annak kiadási megjegyzéseiben. Az aktuális verzió mindig ezen a címen található. A Kelora további használata a frissítést követően azt jelenti, hogy elfogadja a módosított szabályzatot."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Lépjen kapcsolatba velünk",
+        "body": [
+          "A szabályzattal vagy az adatvédelmével kapcsolatos bármely kérdéssel forduljon hozzánk a következő címen: [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). Az alkalmazással kapcsolatos általános segítségért írjon a következő címre: [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigéria."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Felhasználási feltételek",
+    "subtitle": "Ezek a feltételek az Ön és a NoSky Studios Ltd közötti megállapodás a Kelora alkalmazás használatáról. Kérjük, olvassa el őket.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. A jelen feltételek elfogadása",
+        "body": [
+          "Ezek a Felhasználási feltételek (a továbbiakban „Feltételek”) jogi megállapodást jelentenek Ön és a NoSky Studios Ltd (RC 7631695), egy Nigériában bejegyzett vállalat (a továbbiakban „NoSky Studios”, „mi”, „minket” vagy „miénk”) között, amely a Kelora alkalmazás és annak widgetjei (együttesen „Kelora” vagy az „Alkalmazás”) használatát szabályozza.",
+          "A Kelora letöltésével, telepítésével vagy használatával Ön elfogadja a jelen Feltételeket és az [Adatvédelmi szabályzatunkat](privacy.html), amely hivatkozással beépül ide. Ha nem ért egyet, kérjük, ne használja az Alkalmazást."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Ki használhatja a Kelorát",
+        "body": [
+          "A Kelora használatához elegendő idősnek kell lennie ahhoz, hogy az országában kötelező érvényű szerződést kössön, és legalább 13 évesnek (vagy a lakóhelyén megkövetelt magasabb minimális életkorúnak). Az Alkalmazás használatával megerősíti, hogy megfelel ennek a követelménynek, és hogy a Kelorát a jelen Feltételekkel és az alkalmazandó joggal összhangban fogja használni."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Az Ön engedélye az Alkalmazás használatára",
+        "body": [
+          "A jelen Feltételek függvényében személyes, korlátozott, nem kizárólagos, nem átruházható, visszavonható engedélyt biztosítunk Önnek a Kelora egy példányának letöltésére és használatára az Ön tulajdonában lévő vagy ellenőrzése alatt álló Apple-eszközökön, saját személyes, nem kereskedelmi célú felhasználásra, az App Store szabályai által megengedett mértékben.",
+          "Nem másolhatja, módosíthatja, terjesztheti, adhatja el vagy adhatja bérbe az Alkalmazás egyetlen részét sem; nem fejtheti vissza (reverse-engineer) vagy kísérelheti meg kinyerni a forráskódját, kivéve a törvény által megengedett korlátozott mértékben; és nem távolíthat el semmilyen tulajdonjogi közleményt. Ez az engedély nem ruházza át Önre az Alkalmazás tulajdonjogát."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Az Ön adatai az Önéi",
+        "body": [
+          "A Kelora egy eszköz az Ön által megadni kívánt információk rendszerezésére. Az előfizetések, összegek, jegyzetek, költségvetések és egyéb tartalmak, amelyeket a Kelorába visz, az Önéi. Ahogy az Adatvédelmi szabályzatban kifejtettük, ez a tartalom az eszközén tárolódik; mi nem gyűjtjük, és nem támasztunk rá tulajdonjogi igényt.",
+          "Ön felel a saját adataiért — beleértve az eszköze biztonságának megőrzését, valamint a biztonsági mentések készítését, ha az információ fontos Önnek. Nem vállalunk felelősséget az elveszett adatokért, amelyek egy eszköz elvesztése, sérülése, visszaállítása vagy az Alkalmazás törlése miatt keletkeznek."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Elfogadható használat",
+        "body": [
+          "Ön vállalja, hogy a Kelorát kizárólag jogszerű, személyes célokra használja, és nem él vele vissza — például úgy, hogy megkísérli megzavarni vagy akadályozni az Alkalmazást, annak widgetjeit vagy azokat a harmadik fél szolgáltatásokat, amelyekre támaszkodik, vagy úgy, hogy az Alkalmazást mások jogait sértő vagy a törvényt megszegő módon használja."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, vásárlások és előfizetések",
+        "body": [
+          "A Kelora ingyenesen letölthető és használható egy sor alapfunkcióval. A Kelora Pro feloldja a teljes funkciókészletet, és vagy egyszeri „élettartamra szóló” vásárlásként, vagy automatikusan megújuló havi előfizetésként kínáljuk. Ingyenes próbaidőszak felajánlható; ha felajánljuk, a próbaidőszak feltételeit a megkezdése előtt megmutatjuk Önnek.",
+          "Minden vásárlás az Apple App Store-on keresztül történik, és az Ön Apple Account-jára kerül kiszámlázásra. Automatikusan megújuló előfizetés esetén az Ön Apple Account-ját a vásárlás megerősítésekor, majd minden megújítási időszak elején újra megterheljük, és az előfizetés automatikusan megújul, hacsak Ön nem mondja le legalább 24 órával az aktuális időszak vége előtt. Az előfizetést az Apple Account beállításaiban kezelheti vagy mondhatja le; az Alkalmazás törlése nem mondja le az előfizetést.",
+          "Az árak a vásárlás előtt megjelennek az Alkalmazásban, és idővel változhatnak; bármely változás csak a jövőbeli vásárlásokra vagy megújításokra vonatkozik. A vásárlásokat, számlázást és visszatérítéseket az Apple kezeli az Apple feltételei szerint — mi nem dolgozunk fel fizetéseket, és nem tudunk közvetlenül visszatérítést kiadni. A visszatérítési kérelmeket az Apple-hez kell benyújtani az App Store-on keresztül. Az egyszeri „élettartamra szóló” vásárlás feloldja a Kelora fizetős funkcióit, ahogy az létezik és továbbra is kínálásra kerül; ez nem ígéret arra, hogy az Alkalmazás, bármely konkrét funkció vagy bármely harmadik fél szolgáltatás örökké elérhető marad."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Az Apple App Store feltételei",
+        "body": [
+          "A Kelorát az Apple App Store-on keresztül szerzi be, és a használatára az Apple alkalmazandó feltételei is vonatkoznak, beleértve a szokásos Licensed Application End User License Agreement (EULA) dokumentumot. Ezek a Feltételek kizárólag Ön és a NoSky Studios között állnak fenn, nem az Apple-lel; az Apple nem felelős az Alkalmazásért vagy annak tartalmáért.",
+          "Ön elfogadja, hogy az Apple és az Apple leányvállalatai a jelen Feltételek harmadik fél kedvezményezettjei, és jogosultak azok érvényesítésére. Az Apple-nek nincs kötelezettsége az Alkalmazás támogatásának vagy karbantartásának biztosítására, és az Alkalmazással kapcsolatos bármely szavatossági, termékfelelősségi, jogi vagy szellemitulajdon-igény a mi felelősségünk, nem az Apple-é, olyan mértékben, amennyiben egyáltalán felelősek vagyunk a jelen Feltételek szerint."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Harmadik felek szolgáltatásai",
+        "body": [
+          "Egyes opcionális funkciók harmadik fél szolgáltatásokra támaszkodnak — például valutaárfolyamokra és márkalogó- vagy ikonkeresésekre, ahogy az Adatvédelmi szabályzatban leírtuk. Ezeket a szolgáltatásokat nem ellenőrizzük, és nem vállalunk felelősséget azok elérhetőségéért, pontosságáért vagy tartalmáért. Az adataik „ahogy vannak” alapon kerülnek biztosításra, és azok felhasználására az adott szolgáltatók saját feltételei is vonatkozhatnak."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. A Kelora nem pénzügyi tanácsadás",
+        "body": [
+          "A Kelora egy személyes rendszerezési eszköz. Nem mozgat pénzt, nem csatlakozik a bankjához vagy kártyáihoz, nem hajt végre fizetéseket, és nem nyújt pénzügyi, befektetési, adózási vagy jogi tanácsot.",
+          "Az összegek, dátumok, végösszegek és előrejelzések, amelyeket a Kelora megjelenít, az Ön által megadott adatokon és olyan tájékoztató jellegű árfolyamokon alapulnak, amelyek elmaradhatnak a piactól. Ezek hiányosak vagy pontatlanok lehetnek. A Kelora számadatait mindig személyes referenciaként kezelje, és ellenőrizze a tényleges terheléseket, megújítási dátumokat és lemondásokat közvetlenül a szolgáltatójánál, bankjánál vagy az App Store-ban. Az Alkalmazás alapján hozott döntések a saját döntései."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. A mi szellemi tulajdonunk",
+        "body": [
+          "Maga az Alkalmazás — beleértve a szoftverét, a dizájnját, a „Kelora” és „NoSky Studios” neveket és logókat, valamint az általunk biztosított egyéb eredeti tartalmakat — a NoSky Studios Ltd tulajdonát képezi, és a szellemitulajdon-jogok védelme alatt áll. Ezek a Feltételek engedélyt adnak Önnek az Alkalmazás használatára; ezen túlmenően nem adnak Önnek semmilyen jogot a márkánkhoz vagy anyagainkhoz. Az Ön által követett szolgáltatásokhoz megjelenített márkalogók az adott tulajdonosaik tulajdonát képezik, és kizárólag azon szolgáltatások azonosításának megkönnyítésére szolgálnak."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. A szavatosság kizárása",
+        "body": [
+          "A Kelora „ahogy van” és „ahogy elérhető” alapon kerül biztosításra, mindenféle kifejezett vagy hallgatólagos szavatosság nélkül, beleértve az értékesíthetőségre, egy adott célra való alkalmasságra és a jogsértésmentességre vonatkozó hallgatólagos szavatosságokat. Nem szavatoljuk, hogy az Alkalmazás megszakításmentes vagy hibamentes lesz, vagy hogy bármely általa előállított számadat, árfolyam, logó vagy emlékeztető pontos vagy időszerű lesz.",
+          "Egyes joghatóságok nem engedik meg bizonyos szavatosságok kizárását, így a fentiek egy része esetleg nem vonatkozik Önre; ebben az esetben a kizárt szavatosságok a törvény által megengedett minimumra korlátozódnak."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. A felelősség korlátozása",
+        "body": [
+          "A törvény által megengedett legteljesebb mértékben a NoSky Studios, valamint tulajdonosai és munkatársai nem felelnek semmilyen közvetett, véletlenszerű, különleges, következményi vagy büntető jellegű kárért, sem semmilyen adat-, nyereség-, megtakarítás- vagy jóhírnév-veszteségért, amely a Kelora használatából — vagy használatra való képtelenségéből — ered vagy azzal kapcsolatos, még akkor sem, ha figyelmeztettek minket az ilyen károk lehetőségére.",
+          "A törvény által megengedett legteljesebb mértékben a Kelorával kapcsolatos összes igényért fennálló teljes felelősségünk nem haladja meg a következők közül a nagyobbat: az az összeg, amelyet Ön az Alkalmazásért az igény benyújtását megelőző 12 hónapban fizetett nekünk, vagy öt amerikai dollár (US$5). A jelen Feltételek semmi nem korlátozza azt a felelősséget, amely az alkalmazandó jog szerint nem korlátozható."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Az Ön felelőssége",
+        "body": [
+          "Ön vállalja, hogy felelős a Kelora használatáért, és a törvény által megengedett mértékben mentesíti a NoSky Studiost az Alkalmazás visszaéléséből vagy a jelen Feltételek megszegéséből eredő igényektől."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Megszűnés",
+        "body": [
+          "Ön bármikor abbahagyhatja a Kelora használatát az eszközéről való törlésével. Felfüggeszthetjük vagy megszüntethetjük az Ön engedélyét az Alkalmazás használatára, ha lényegesen megszegi a jelen Feltételeket. Azok a szakaszok, amelyeknek természetüknél fogva fenn kell maradniuk — beleértve a tulajdonjogot, a felelősség kizárását, a felelősség korlátozását és az irányadó jogot — a használat megszűnése után is érvényben maradnak."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Az Alkalmazás és a jelen Feltételek módosításai",
+        "body": [
+          "Folyamatosan fejlesztjük a Kelorát, és idővel funkciókat adhatunk hozzá, módosíthatunk vagy távolíthatunk el. A jelen Feltételeket is frissíthetjük; amikor jelentős változtatásokat végzünk, frissítjük a fenti „Hatályos” dátumot, és ahol helyénvaló, megjegyezzük a változást az Alkalmazásban vagy annak kiadási megjegyzéseiben. Ha a változtatások hatálybalépése után továbbra is használja a Kelorát, elfogadja a frissített Feltételeket. Ha nem ért egyet, kérjük, hagyjon fel az Alkalmazás használatával."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Irányadó jog és jogviták",
+        "body": [
+          "A jelen Feltételekre a Nigériai Szövetségi Köztársaság joga az irányadó, annak kollíziós szabályaira való tekintet nélkül, továbbá — ahol azok Önre vonatkoznak — az Ön lakóhelye szerinti ország kötelező fogyasztóvédelmi törvényei, amelyeket a jelen Feltételek nem írnak felül. Az említett kötelező törvények függvényében Ön elfogadja, hogy a Kelorával vagy a jelen Feltételekkel kapcsolatos jogvitákat Nigéria bíróságai kezelik.",
+          "E szakasz semmi nem akadályozza meg abban, hogy igényt érvényesítsen, vagy egy szabályozó hatóság védelmét kérje a saját országában, ahol a törvény erre jogot biztosít Önnek."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Általános rendelkezések",
+        "body": [
+          "A jelen Feltételek az Adatvédelmi szabályzattal együtt az Ön és a NoSky Studios közötti teljes megállapodást jelentik az Alkalmazásra vonatkozóan. Ha a jelen Feltételek bármely része végrehajthatatlannak bizonyul, a többi rész továbbra is érvényben marad. Az, hogy egy rendelkezést nem érvényesítünk, nem jelenti annak lemondását. Ön nem ruházhatja át a jelen Feltételek szerinti jogait a beleegyezésünk nélkül; mi átruházhatjuk a miénket egy egyesülés, felvásárlás vagy vagyoneladás kapcsán, vagy a törvény erejénél fogva."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Lépjen kapcsolatba velünk",
+        "body": [
+          "Kérdései vannak a jelen Feltételekkel kapcsolatban? Forduljon hozzánk a következő címen: [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), adatvédelmi ügyekben pedig a következő címen: [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigéria."
+        ]
+      }
+    ]
+  }
+}

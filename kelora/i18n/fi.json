@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "lang": "fi",
+    "dir": "ltr",
+    "langName": "Suomi",
+    "app": "Kelora",
+    "company": "NoSky Studios Ltd",
+    "rc": "RC 7631695",
+    "country": "Nigeria",
+    "effectiveDate": "24. heinäkuuta 2026",
+    "version": "1.0",
+    "privacyEmail": "privacy@noskystudios.ng",
+    "supportEmail": "appstore@noskystudios.ng",
+    "convenienceNote": "Tämä on Keloran oikeudellisten asiakirjojen käännös, joka tarjotaan avuksesi. Virallinen ja oikeudellisesti sitova versio on englanninkielinen versio. Jos tämän käännöksen ja englanninkielisen version merkityksissä on eroa, englanninkielinen versio on ratkaiseva."
+  },
+  "ui": {
+    "privacyLink": "Tietosuojakäytäntö",
+    "termsLink": "Käyttöehdot",
+    "languageLabel": "Kieli",
+    "lastUpdated": "Viimeksi päivitetty",
+    "effectiveLabel": "Voimassa",
+    "versionLabel": "Versio",
+    "backToTop": "Takaisin ylös",
+    "readPrivacy": "Lue tietosuojakäytäntö",
+    "readTerms": "Lue käyttöehdot",
+    "onThisPage": "Tällä sivulla",
+    "app": {
+      "fullPrivacy": "Koko tietosuojakäytäntö",
+      "fullTerms": "Koko käyttöehdot",
+      "opensOnline": "Avautuu omalla kielelläsi osoitteessa noskystudios.ng"
+    }
+  },
+  "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "subtitle": "Kelora on rakennettu pitämään taloudellinen elämäsi omalla laitteellasi. Tämä käytäntö selittää selkeästi, mitä se tarkoittaa.",
+    "sections": [
+      {
+        "id": "summary",
+        "h": "Lyhyt versio",
+        "body": [
+          "Kelora on NoSky Studios Ltd:n tekemä henkilökohtainen tilausten ja budjetin seurantasovellus. Se on suunniteltu yksinkertaisen ajatuksen ympärille: tiedot siitä, mistä maksat, ovat sinun ja niiden tulee pysyä sinulla.",
+          "Meillä ei ole tilejä. Emme pyydä sinua kirjautumaan sisään. Emme harjoita minkäänlaista analytiikkaa, mainontaa emmekä seurantaa. Syöttämäsi tilaukset, hinnat, päivämäärät, muistiinpanot ja budjetit tallennetaan laitteellesi, eikä niitä koskaan lähetetä meille.",
+          "Tämän käytännön loppuosa selittää ne harvat tilanteet, joissa tietoja siirtyy — aina valitsemaasi toimintoa varten eikä koskaan hallinnassamme olevalle palvelimelle."
+        ]
+      },
+      {
+        "id": "who-we-are",
+        "h": "Keitä me olemme",
+        "body": [
+          "Keloran julkaisee NoSky Studios Ltd (RC 7631695), Nigeriaan rekisteröity yhtiö (\"NoSky Studios\", \"me\" tai \"meidän\").",
+          "Tämä tietosuojakäytäntö koskee Keloran iOS-sovellusta ja sen aloitusnäytön widgettejä. Kaikissa tietosuojaa koskevissa kysymyksissä ota meihin yhteyttä osoitteessa [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+        ]
+      },
+      {
+        "id": "no-collection",
+        "h": "Mitä emme kerää",
+        "body": [
+          "Haluamme olla täsmällisiä, koska \"arvostamme yksityisyyttäsi\" merkitsee sellaisenaan vähän. Kelorassa ei ole:"
+        ],
+        "list": [
+          "Ei tiliä eikä sisäänkirjautumista. Et luo profiilia, emmekä koskaan pyydä nimeäsi, sähköpostiasi tai puhelinnumeroasi sovelluksen käyttöä varten.",
+          "Ei analytiikkaa eikä käytön seurantaa. Kelora ei sisällä analytiikka-, kaatumisraportointi-, mainonta- eikä attribuutio-ohjelmistoa. Emme mittaa, miten käytät sovellusta.",
+          "Ei mainostunnisteita. Kelora ei pyydä sovellusten seurannan läpinäkyvyyden (App Tracking Transparency) lupaa eikä käytä laitteen mainostunnistetta (IDFA).",
+          "Ei tietojen myyntiä eikä jakamista. Emme myy, vuokraa emmekä jaa henkilökohtaisia tietojasi, koska emme edes saa niitä."
+        ]
+      },
+      {
+        "id": "on-device",
+        "h": "Laitteellesi tallennetut tiedot",
+        "body": [
+          "Kaikki, mitä syötät Keloraan, tallennetaan paikallisesti laitteellesi. Tämä sisältää seuraamasi tilaukset ja kauppiaat, niiden hinnat, valuutat, laskutuskaudet, alkamis- ja uusiutumispäivät, kokeilujaksot, hintahistorian, muistutukset, peruutuspäivät, maksutavan merkinnät, kategoriat, tunnisteet, muistiinpanot, budjetit ja kaikki valitsemasi mukautetut kuvakkeet.",
+          "Maksutapakenttä on vain vapaamuotoinen tekstimerkintä (esimerkiksi \"Visa, päättyy 1234\"). Kelora ei muodosta yhteyttä pankkiisi, korttiisi eikä mihinkään rahoituslaitokseen, eikä se voi lukea todellisia tili- tai korttinumeroitasi.",
+          "Nämä tiedot pysyvät laitteellasi, ellet siirrä niitä tarkoituksellisesti — esimerkiksi ottamalla käyttöön iCloud-varmuuskopioinnin, viemällä tiedoston tai lisäämällä uusiutumisen kalenteriisi. Nämä valinnat kuvataan jäljempänä. Koska tiedot sijaitsevat laitteellasi, ne sisältyvät myös tavanomaisiin laitteesi varmuuskopioihin (kuten salattuun iPhonen tai iCloudin laitevarmuuskopioon), joita hallitset Applen kautta, et meidän kauttamme."
+        ]
+      },
+      {
+        "id": "receipt-scan",
+        "h": "Kuittien ja asiakirjojen skannaus",
+        "body": [
+          "Jos skannaat kuitin tai tilausvahvistuksen tai tuot tiliotteen, laskentataulukon tai asiakirjan, Kelora lukee sen kokonaan laitteellasi Applen sisäänrakennetulla tekstintunnistustekniikalla. Kuva ja tunnistettu teksti käsitellään paikallisesti tilauksen tietojen täyttämisen helpottamiseksi.",
+          "Skannattuja kuvia ja niiden sisältöä ei ladata meille eikä millekään kolmannelle osapuolelle."
+        ]
+      },
+      {
+        "id": "network",
+        "h": "Verkkoyhteydet ja kolmansien osapuolten palvelut",
+        "body": [
+          "Kelora toimii offline-tilassa ydintoimintojensa osalta. Se tekee pienen määrän valinnaisia verkkopyyntöjä vain tiettyjen toimintojen mahdollistamiseksi eikä koskaan lähettääkseen meille taloudellisia tietojasi. Tässä on täydellinen luettelo:"
+        ],
+        "list": [
+          "Valuuttakurssit. Valuuttojen muuntamiseksi Kelora hakee viitekurssit palvelusta ExchangeRate-API (open.er-api.com). Pyyntö sisältää vain valuuttakoodin (kuten \"USD\"). Se ei sisällä tilauksiasi, summiasi eikä mitään henkilökohtaisia tietoja.",
+          "Brändien logot ja kuvakkeet. Kun lisäät tai muokkaat tilausta, Kelora voi hakea brändin logon tehdäkseen siitä tunnistettavan. Tätä varten se lähettää brändin nimen tai verkkotunnuksen (arvattuna siitä, mitä muokkaat) logo- ja kuvakepalveluntarjoajille — Logo.dev, Brandfetch ja varajärjestelmänä Googlen ja DuckDuckGon favicon-palvelut. Jos haet mukautettua kuvaketta, hakusanasi voidaan lähettää myös Openversen ja Wikimedia Commonsin kuvahakuun. Nämä pyynnöt sisältävät vain brändin tai hakusanan — ei koskaan hintojasi, päivämääriäsi tai muita tietojasi."
+        ],
+        "after": [
+          "Nämä palveluntarjoajat saavat vain edellä kuvatut tiedot niiden palvelujen ylläpitäjinä, joihin Kelora ottaa yhteyttä puolestasi, ja niiden käyttöä säätelevät niiden omat tietosuojakäytännöt: [Logo.dev](https://logo.dev), [Brandfetch](https://brandfetch.com), [Google](https://policies.google.com/privacy), [DuckDuckGo](https://duckduckgo.com/privacy), [Openverse](https://openverse.org) ja [Wikimedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Kuten minkä tahansa internetpyynnön kohdalla, nämä palveluntarjoajat voivat saada laitteesi IP-osoitteen ja pyynnön vakiotiedot; me emme saa näitä tietoja emmekä yhdistä niitä mihinkään sinua koskevaan.",
+          "Voit välttää nämä pyynnöt jättämällä logohaun ja kuvakehaun käyttämättä ja luottamalla manuaalisiin valuuttakursseihin, joita Kelora tukee."
+        ]
+      },
+      {
+        "id": "icloud",
+        "h": "Valinnainen iCloud-varmuuskopiointi",
+        "body": [
+          "Kelora tarjoaa valinnaisen varmuuskopioinnin omaan iCloud Drive -tallennustilaasi. Se on oletusarvoisesti pois päältä. Jos otat sen käyttöön, Kelora kirjoittaa yhden varmuuskopiotiedoston henkilökohtaiseen iCloud Driveesi, jotta voit palauttaa sen omilla laitteillasi.",
+          "Tämä varmuuskopio sijaitsee Apple iCloud -tililläsi sinun hallinnassasi. Sitä ei tallenneta millekään NoSky Studiosin palvelimelle, emmekä voi nähdä tai käyttää sitä. Sen käsittelyyn sovelletaan [Applen tietosuojakäytäntöä](https://www.apple.com/legal/privacy/). Voit poistaa varmuuskopion milloin tahansa Tiedostot-sovelluksesta tai Keloran sisältä, ja voit poistaa toiminnon käytöstä lopettaaksesi tulevat varmuuskopiot."
+        ]
+      },
+      {
+        "id": "calendar",
+        "h": "Kalenteri-integraatio",
+        "body": [
+          "Jos otat kalenteri-integraation käyttöön, Kelora lisää tulevat uusiutumispäiväsi tapahtumina omaan kalenteriisi, jotta näet ne muun aikataulusi ohella. Nämä tapahtumat kirjoitetaan laitteesi kalenteriin (ja kaikkialle, minne synkronoit sen, kuten iCloud-kalenteriisi). Mikään meidän ylläpitämämme palvelin ei ole osallisena, emmekä lue kalenteriasi."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "Ostot ja Kelora Pro -päivitys",
+        "body": [
+          "Kelora on aloittaa ilmaiseksi ja tarjoaa maksullisen päivityksen, Kelora Pron, joko kertaluonteisena \"elinikäisenä\" ostoksena tai kuukausittaisena tilauksena. Kaikki ostot hoitaa Apple App Storen kautta käyttäen Apple Accountiasi.",
+          "Maksun käsittelee kokonaisuudessaan Apple. Kelora ei koskaan näe eikä vastaanota korttiisi, pankkiisi tai maksuusi liittyviä tietoja. Käyttöoikeuksien hallitsemiseksi sovellus saa Applelta vain tiedon siitä, että voimassa oleva osto on olemassa — ei henkilöllisyyttäsi eikä maksutietojasi. Ostoihin, uusiutumisiin ja hyvityksiin sovelletaan Applen ehtoja ja [Applen tietosuojakäytäntöä](https://www.apple.com/legal/privacy/)."
+        ]
+      },
+      {
+        "id": "permissions",
+        "h": "Pyytämämme laiteoikeudet",
+        "body": [
+          "Kelora pyytää lupaa vain silloin, kun käytät sitä tarvitsevaa toimintoa, ja selittää syyn juuri sillä hetkellä, kun se pyytää:"
+        ],
+        "list": [
+          "Kamera — vain kuitin tai tilausvahvistuksen skannaamiseksi. Skannaus tapahtuu laitteellasi.",
+          "Kuvat — vain, jotta voit valita kuvan käytettäväksi mukautettuna tilauksen kuvakkeena.",
+          "Kalenterit — vain, jos otat kalenteri-integraation käyttöön, uusiutumispäivien lisäämiseksi omaan kalenteriisi.",
+          "Ilmoitukset — vain ajoittamiesi muistutusten näyttämiseksi, kuten tulevan uusiutumisen tai peruutuksen määräpäivän. Nämä ovat laitteellasi luotuja paikallisia ilmoituksia."
+        ],
+        "after": [
+          "Kelora ei pyydä sijainti-, mikrofoni-, yhteystieto- eikä seurantaoikeuksia. Voit tarkastella tai muuttaa mitä tahansa oikeutta milloin tahansa iOS:n Asetukset-sovelluksessa."
+        ]
+      },
+      {
+        "id": "notifications",
+        "h": "Ilmoitukset",
+        "body": [
+          "Keloran muistutukset ovat paikallisia ilmoituksia, jotka ajoitetaan ja toimitetaan laitteellasi. Kelora ei käytä push-ilmoituksia eikä rekisteröi laitettasi millekään viestipalvelimelle. Emme voi lähettää sinulle viestejä emmekä tiedä, näytetäänkö muistutus vai milloin se näytetään."
+        ]
+      },
+      {
+        "id": "widgets",
+        "h": "Aloitusnäytön widgetit",
+        "body": [
+          "Keloran widgetit näyttävät tilauksistasi ja budjetistasi tilannekuvan — esimerkiksi seuraavan veloituksen, kuukausisummasi ja kuinka monta tilausta on aktiivisena. Tätä varten sovellus ja sen widgetit jakavat pienen tilannekuvatiedoston yksityisellä, laitteella sijaitsevalla tallennusalueella, joka on varattu sovellukselle. Nämä tiedot eivät koskaan poistu laitteeltasi."
+        ]
+      },
+      {
+        "id": "children",
+        "h": "Lasten yksityisyys",
+        "body": [
+          "Kelora on yleiskäyttöinen taloustyökalu, joka on tarkoitettu aikuisille eikä sitä ole suunnattu lapsille. Emme tietoisesti kerää henkilökohtaisia tietoja keneltäkään, mukaan lukien alle 13-vuotiaat lapset (tai maasi vastaava vähimmäisikä). Koska Kelorassa ei ole tilejä eikä se kerää henkilökohtaisia tietoja, meillä ei ole tällaisia tietoja säilytettäväksi tai poistettavaksi."
+        ]
+      },
+      {
+        "id": "security",
+        "h": "Miten tietojasi suojataan",
+        "body": [
+          "Kelora-tietosi tallennetaan laitteellesi ja niitä suojaa iOS:n turvallisuus, mukaan lukien laitteen pääsykoodi, salaus ja sovellusten hiekkalaatikointi (sandboxing), jotka Apple tarjoaa. Ilmaisen kokeilun merkintä tallennetaan laitteen Keychainiin.",
+          "Koska tietosi eivät sijaitse palvelimillamme, tärkein suoja on se, jota sinä hallitset: pidä laitteesi lukittuna pääsykoodilla tai biometriikalla ja pidä iOS ajan tasalla. Mikään tallennus- tai siirtomenetelmä ei ole täysin turvallinen, mutta tietojesi pitäminen laitteella poistaa sen suuren keskitetyn kohteen, jonka pilvitietokanta muodostaisi."
+        ]
+      },
+      {
+        "id": "retention-deletion",
+        "h": "Tietojesi säilyttäminen ja poistaminen",
+        "body": [
+          "Sinä päätät, kuinka kauan tietojasi säilytetään, koska ne ovat hallussasi. Voit muokata tai poistaa minkä tahansa tilauksen, budjetin tai muun merkinnän sovelluksen sisällä milloin tahansa. Kelora-sovelluksen poistaminen poistaa sen laitteella olevat tiedot kyseiseltä laitteelta.",
+          "Jos otit iCloud-varmuuskopioinnin käyttöön, poista varmuuskopiotiedosto iCloud Drivestäsi (Tiedostot-sovelluksen kautta tai Keloran sisältä) poistaaksesi kyseisen kopion. Jos lisäsit uusiutumisia kalenteriisi, poista nämä tapahtumat kalenterisovelluksestasi. Meillä ei ole kopiota tiedoistasi, joten sinulla ei ole mitään pyydettävää meiltä eikä meillä mitään poistettavaa puolestasi."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "h": "Tietosuojaoikeutesi",
+        "body": [
+          "Asuinpaikastasi riippuen tietosuojalait — kuten Nigerian tietosuojalaki 2023 (Nigeria Data Protection Act 2023), EU:n ja Yhdistyneen kuningaskunnan yleinen tietosuoja-asetus (GDPR) ja Kalifornian kuluttajansuojalaki (CCPA/CPRA) — antavat sinulle oikeuksia henkilökohtaisiin tietoihisi, mukaan lukien oikeudet niiden käyttöön, oikaisuun, poistamiseen ja siirtämiseen sekä oikeus vastustaa tiettyä käsittelyä.",
+          "Kelora on suunniteltu siten, että sinulla on nämä oikeudet jo suoraan: tietosi ovat laitteellasi, jossa voit tarkastella, muuttaa, viedä ja poistaa niitä itse milloin tahansa kysymättä meiltä. Emme kerää, tallenna, myy emmekä jaa henkilökohtaisia tietojasi, emmekä \"myy\" tai \"jaa\" niitä mainontaa varten sen mukaan, kuin nämä käsitteet on määritelty CCPA:ssa.",
+          "Jos uskot, että meillä on sinusta henkilökohtaisia tietoja, tai sinulla on kysymys oikeuksistasi, ota meihin yhteyttä osoitteessa [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng), niin vastaamme. Sinulla on myös oikeus tehdä valitus paikalliselle tietosuojaviranomaisellesi."
+        ]
+      },
+      {
+        "id": "international",
+        "h": "Kansainväliset käyttäjät",
+        "body": [
+          "Kelora on saatavilla maailmanlaajuisesti, ja tietosi pysyvät laitteellasi missä ikinä oletkin. Kun käytät valinnaista verkkotoimintoa (valuuttakurssit, logo- tai kuvakehaku), pyynnön käsittelee kyseinen kolmannen osapuolen palveluntarjoaja, joka voi käsitellä sen toisessa maassa sijaitsevilla palvelimilla. Nämä pyynnöt sisältävät vain edellä \"Verkkoyhteydet\"-osiossa kuvatut rajoitetut tiedot."
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "Muutokset tähän käytäntöön",
+        "body": [
+          "Voimme päivittää tätä tietosuojakäytäntöä Keloran kehittyessä tai lain niin vaatiessa. Kun näin teemme, muutamme tämän sivun yläosassa olevaa \"Voimassa\"-päivämäärää ja, merkittävien muutosten osalta, mainitsemme niistä sovelluksessa tai sen julkaisutiedoissa. Nykyinen versio sijaitsee aina tässä osoitteessa. Keloran käytön jatkaminen päivityksen jälkeen tarkoittaa, että hyväksyt tarkistetun käytännön."
+        ]
+      },
+      {
+        "id": "privacy-contact",
+        "h": "Ota yhteyttä",
+        "body": [
+          "Kaikissa tätä käytäntöä tai yksityisyyttäsi koskevissa kysymyksissä tavoitat meidät osoitteessa [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). Yleisessä sovellukseen liittyvässä avussa ota yhteyttä osoitteeseen [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Käyttöehdot",
+    "subtitle": "Nämä ehdot muodostavat sinun ja NoSky Studios Ltd:n välisen sopimuksen Kelora-sovelluksen käytöstä. Lue ne huolellisesti.",
+    "sections": [
+      {
+        "id": "acceptance",
+        "h": "1. Näiden ehtojen hyväksyminen",
+        "body": [
+          "Nämä käyttöehdot (\"Ehdot\") ovat sinun ja NoSky Studios Ltd:n (RC 7631695), Nigeriaan rekisteröidyn yhtiön (\"NoSky Studios\", \"me\" tai \"meidän\"), välinen oikeudellinen sopimus, joka koskee Kelora-sovelluksen ja sen widgettien (yhdessä \"Kelora\" tai \"Sovellus\") käyttöäsi.",
+          "Lataamalla, asentamalla tai käyttämällä Keloraa hyväksyt nämä Ehdot ja [tietosuojakäytäntömme](privacy.html), joka liitetään tähän viittauksella. Jos et hyväksy niitä, älä käytä Sovellusta."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h": "2. Kuka saa käyttää Keloraa",
+        "body": [
+          "Sinun on oltava riittävän vanha muodostaaksesi sitovan sopimuksen maassasi ja vähintään 13-vuotias (tai asuinpaikkasi edellyttämä korkeampi vähimmäisikä) käyttääksesi Keloraa. Käyttämällä Sovellusta vahvistat täyttäväsi tämän vaatimuksen ja käyttäväsi Keloraa näiden Ehtojen ja sovellettavan lain mukaisesti."
+        ]
+      },
+      {
+        "id": "license",
+        "h": "3. Käyttöoikeutesi Sovellukseen",
+        "body": [
+          "Näiden Ehtojen mukaisesti myönnämme sinulle henkilökohtaisen, rajoitetun, ei-yksinomaisen, siirtokelvottoman ja peruutettavissa olevan käyttöoikeuden ladata ja käyttää yhtä kopiota Kelorasta omistamillasi tai hallinnassasi olevilla Apple-laitteilla omaan henkilökohtaiseen, ei-kaupalliseen käyttöösi App Store -sääntöjen sallimalla tavalla.",
+          "Et saa kopioida, muuttaa, jaella, myydä tai vuokrata mitään Sovelluksen osaa; suorittaa käänteismallinnusta tai yrittää purkaa sen lähdekoodia muutoin kuin lain sallimissa rajoitetuissa tapauksissa; etkä poistaa mitään omistusoikeutta koskevia merkintöjä. Tämä käyttöoikeus ei siirrä sinulle mitään omistusoikeutta Sovellukseen."
+        ]
+      },
+      {
+        "id": "your-data",
+        "h": "4. Tietosi ovat sinun",
+        "body": [
+          "Kelora on työkalu sellaisen tiedon järjestämiseen, jonka valitset syöttää. Keloraan syöttämäsi tilaukset, summat, muistiinpanot, budjetit ja muu sisältö kuuluvat sinulle. Kuten tietosuojakäytännössä selitetään, tämä sisältö tallennetaan laitteellesi; emme kerää sitä emmekä esitä siihen minkäänlaista omistusoikeutta.",
+          "Olet vastuussa omista tiedoistasi — mukaan lukien laitteesi turvassa pitäminen ja varmuuskopioiden säilyttäminen, jos tiedot ovat sinulle tärkeitä. Emme ole vastuussa tietojen menetyksestä, joka johtuu laitteen katoamisesta, vaurioitumisesta, nollaamisesta tai Sovelluksen poistamisesta."
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "h": "5. Hyväksyttävä käyttö",
+        "body": [
+          "Sitoudut käyttämään Keloraa vain laillisiin, henkilökohtaisiin tarkoituksiin etkä käyttämään sitä väärin — esimerkiksi yrittämällä häiritä tai keskeyttää Sovelluksen, sen widgettien tai sen käyttämien kolmansien osapuolten palvelujen toimintaa tai käyttämällä Sovellusta tavalla, joka loukkaa muiden oikeuksia tai rikkoo lakia."
+        ]
+      },
+      {
+        "id": "purchases",
+        "h": "6. Kelora Pro, ostot ja tilaukset",
+        "body": [
+          "Kelora on ilmainen ladata ja käyttää joukolla ydintoimintoja. Kelora Pro avaa täyden toimintovalikoiman ja sitä tarjotaan joko kertaluonteisena \"elinikäisenä\" ostoksena tai automaattisesti uusiutuvana kuukausittaisena tilauksena. Ilmainen kokeilu voidaan tarjota; jos näin on, kokeilun ehdot näytetään sinulle ennen kuin aloitat sen.",
+          "Kaikki ostot tehdään Applen App Storen kautta ja veloitetaan Apple Accountiltasi. Automaattisesti uusiutuvan tilauksen osalta Apple Accountiasi veloitetaan oston vahvistuksen yhteydessä ja uudelleen kunkin uusiutumiskauden alussa, ja tilaus uusiutuu automaattisesti, ellet peruuta sitä vähintään 24 tuntia ennen kuluvan kauden päättymistä. Hallitset tai peruutat tilauksen Apple Account -asetuksissasi; Sovelluksen poistaminen ei peruuta tilausta.",
+          "Hinnat näytetään Sovelluksessa ennen ostoa ja ne voivat muuttua ajan myötä; mahdollinen muutos koskee vain tulevia ostoja tai uusiutumisia. Ostot, laskutuksen ja hyvitykset hoitaa Apple Applen ehtojen mukaisesti — me emme käsittele maksuja emmekä voi myöntää hyvityksiä suoraan. Hyvityspyynnöt tehdään Applelle App Storen kautta. Kertaluonteinen \"elinikäinen\" osto avaa Keloran maksulliset ominaisuudet sellaisina kuin ne ovat olemassa ja niitä edelleen tarjotaan; se ei ole lupaus siitä, että Sovellus, jokin tietty ominaisuus tai jokin kolmannen osapuolen palvelu pysyy saatavilla ikuisesti."
+        ]
+      },
+      {
+        "id": "apple",
+        "h": "7. Applen App Store -ehdot",
+        "body": [
+          "Hankit Keloran Applen App Storen kautta, ja käyttöösi sovelletaan myös Applen soveltuvia ehtoja, mukaan lukien vakiomuotoinen lisensoidun sovelluksen loppukäyttäjän lisenssisopimus (EULA). Nämä Ehdot ovat vain sinun ja NoSky Studiosin välisiä, eivät Applen kanssa; Apple ei ole vastuussa Sovelluksesta eikä sen sisällöstä.",
+          "Hyväksyt, että Apple ja Applen tytäryhtiöt ovat näiden Ehtojen kolmansia edunsaajia ja voivat panna ne täytäntöön. Applella ei ole velvollisuutta tarjota tukea tai ylläpitoa Sovellukselle, ja mikä tahansa Sovellukseen liittyvä takuu-, tuotevastuu-, oikeudellinen tai immateriaalioikeudellinen vaatimus on meidän vastuullamme eikä Applen, siltä osin kuin olemme näiden Ehtojen mukaan lainkaan vastuussa."
+        ]
+      },
+      {
+        "id": "third-party",
+        "h": "8. Kolmansien osapuolten palvelut",
+        "body": [
+          "Jotkin valinnaiset toiminnot tukeutuvat kolmansien osapuolten palveluihin — esimerkiksi valuuttakursseihin ja brändien logo- tai kuvakehakuihin, kuten tietosuojakäytännössä kuvataan. Emme hallitse näitä palveluja emmekä ole vastuussa niiden saatavuudesta, tarkkuudesta tai sisällöstä. Niiden tiedot tarjotaan \"sellaisenaan\", ja niiden käyttöösi voidaan soveltaa myös näiden palveluntarjoajien omia ehtoja."
+        ]
+      },
+      {
+        "id": "not-advice",
+        "h": "9. Kelora ei ole taloudellista neuvontaa",
+        "body": [
+          "Kelora on henkilökohtainen järjestelytyökalu. Se ei siirrä rahaa, muodosta yhteyttä pankkiisi tai kortteihisi, suorita maksuja eikä tarjoa taloudellista, sijoitus-, vero- tai oikeudellista neuvontaa.",
+          "Keloran näyttämät summat, päivämäärät, kokonaismäärät ja ennusteet perustuvat siihen, mitä syötät, ja ohjeellisiin valuuttakursseihin, jotka voivat laahata markkinoita jäljessä. Ne voivat olla puutteellisia tai epätarkkoja. Kohtele Keloran lukuja aina henkilökohtaisena viitteenä ja tarkista todelliset veloitukset, uusiutumispäivät ja peruutukset suoraan palveluntarjoajaltasi, pankiltasi tai App Storesta. Sovelluksen perusteella tekemäsi päätökset ovat omiasi."
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "10. Immateriaalioikeutemme",
+        "body": [
+          "Itse Sovellus — mukaan lukien sen ohjelmisto, muotoilu, nimet ja logot \"Kelora\" ja \"NoSky Studios\" sekä muu tarjoamamme alkuperäinen sisältö — on NoSky Studios Ltd:n omaisuutta ja sitä suojaavat immateriaalioikeuslait. Nämä Ehdot antavat sinulle käyttöoikeuden Sovellukseen; ne eivät anna sinulle mitään oikeutta brändiimme tai materiaaleihimme sen ylitse. Seuraamiisi palveluihin näytetyt brändien logot kuuluvat niiden omistajille ja niitä käytetään vain auttamaan sinua tunnistamaan nämä palvelut."
+        ]
+      },
+      {
+        "id": "warranty",
+        "h": "11. Takuiden vastuuvapauslauseke",
+        "body": [
+          "Kelora tarjotaan \"sellaisenaan\" ja \"sitä mukaa kuin se on saatavilla\", ilman minkäänlaisia takuita, olivatpa ne nimenomaisia tai epäsuoria, mukaan lukien epäsuorat takuut myyntikelpoisuudesta, sopivuudesta tiettyyn tarkoitukseen ja oikeuksien loukkaamattomuudesta. Emme takaa, että Sovellus toimii keskeytyksettä tai virheettömästi tai että jokin sen tuottama luku, kurssi, logo tai muistutus on tarkka tai ajantasainen.",
+          "Jotkin lainkäyttöalueet eivät salli tiettyjen takuiden poissulkemista, joten osa edellä mainitusta ei ehkä koske sinua; siinä tapauksessa poissuljetut takuut rajoitetaan lain sallimaan vähimmäismäärään."
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "12. Vastuunrajoitus",
+        "body": [
+          "Lain sallimissa enimmäisrajoissa NoSky Studios sekä sen omistajat ja henkilöstö eivät ole vastuussa mistään epäsuorista, satunnaisista, erityisistä, välillisistä tai rangaistusluonteisista vahingoista eivätkä tietojen, voittojen, säästöjen tai liikearvon menetyksestä, joka johtuu Keloran käytöstäsi — tai kyvyttömyydestäsi käyttää sitä — tai liittyy siihen, vaikka meille olisi ilmoitettu tällaisten vahinkojen mahdollisuudesta.",
+          "Lain sallimissa enimmäisrajoissa kokonaisvastuumme kaikista Keloraan liittyvistä vaatimuksista ei ylitä suurempaa seuraavista: summa, jonka maksoit meille Sovelluksesta vaatimusta edeltäneiden 12 kuukauden aikana, tai viisi Yhdysvaltain dollaria (US$5). Mikään näissä Ehdoissa ei rajoita sellaista vastuuta, jota ei voida rajoittaa sovellettavan lain nojalla."
+        ]
+      },
+      {
+        "id": "indemnity",
+        "h": "13. Sinun vastuusi",
+        "body": [
+          "Sitoudut olemaan vastuussa Keloran käytöstäsi ja, lain sallimissa rajoissa, pitämään NoSky Studiosin vahingoittumattomana vaatimuksilta, jotka johtuvat Sovelluksen väärinkäytöstäsi tai näiden Ehtojen rikkomisestasi."
+        ]
+      },
+      {
+        "id": "termination",
+        "h": "14. Päättyminen",
+        "body": [
+          "Voit lopettaa Keloran käytön milloin tahansa poistamalla sen laitteeltasi. Voimme keskeyttää tai päättää käyttöoikeutesi Sovellukseen, jos rikot näitä Ehtoja olennaisesti. Osat, joiden luonteensa vuoksi tulisi säilyä voimassa — mukaan lukien omistusoikeus, vastuuvapauslausekkeet, vastuunrajoitus ja sovellettava laki — pysyvät voimassa käyttösi päätyttyä."
+        ]
+      },
+      {
+        "id": "changes-app",
+        "h": "15. Muutokset Sovellukseen ja näihin Ehtoihin",
+        "body": [
+          "Parannamme Keloraa jatkuvasti ja voimme lisätä, muuttaa tai poistaa ominaisuuksia ajan myötä. Voimme myös päivittää näitä Ehtoja; kun teemme merkittäviä muutoksia, päivitämme edellä olevan \"Voimassa\"-päivämäärän ja, tarvittaessa, mainitsemme muutoksesta Sovelluksessa tai sen julkaisutiedoissa. Jos jatkat Keloran käyttöä sen jälkeen, kun muutokset tulevat voimaan, hyväksyt päivitetyt Ehdot. Jos et hyväksy niitä, lopeta Sovelluksen käyttö."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "h": "16. Sovellettava laki ja riidat",
+        "body": [
+          "Näihin Ehtoihin sovelletaan Nigerian liittotasavallan lakeja, ottamatta huomioon niiden lainvalintasääntöjä, ja, siltä osin kuin ne koskevat sinua, asuinmaasi pakottavia kuluttajansuojalakeja, joita nämä Ehdot eivät syrjäytä. Näiden pakottavien lakien mukaisesti hyväksyt, että Keloraan tai näihin Ehtoihin liittyvät riidat käsitellään Nigerian tuomioistuimissa.",
+          "Mikään tässä osiossa ei estä sinua esittämästä vaatimusta tai hakemasta valvontaviranomaisen suojaa kotimaassasi, jos laki antaa sinulle tämän oikeuden."
+        ]
+      },
+      {
+        "id": "general",
+        "h": "17. Yleistä",
+        "body": [
+          "Nämä Ehdot yhdessä tietosuojakäytännön kanssa muodostavat sinun ja NoSky Studiosin välisen koko sopimuksen Sovelluksesta. Jos jokin näiden Ehtojen osa todetaan täytäntöönpanokelvottomaksi, muut osat pysyvät voimassa. Se, ettemme pane jotakin määräystä täytäntöön, ei ole siitä luopumista. Et saa siirtää näiden Ehtojen mukaisia oikeuksiasi ilman suostumustamme; me voimme siirtää omamme sulautumisen, yritysoston tai omaisuuden myynnin yhteydessä tai lain nojalla."
+        ]
+      },
+      {
+        "id": "terms-contact",
+        "h": "18. Ota yhteyttä",
+        "body": [
+          "Kysymyksiä näistä Ehdoista? Tavoitat meidät osoitteessa [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), tai tietosuoja-asioissa osoitteessa [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+          "NoSky Studios Ltd (RC 7631695), Nigeria."
+        ]
+      }
+    ]
+  }
+}
