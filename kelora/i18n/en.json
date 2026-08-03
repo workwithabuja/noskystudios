@@ -115,7 +115,7 @@
         "id": "purchases",
         "h": "Purchases and the Kelora Pro upgrade",
         "body": [
-          "Kelora is free to start and offers a paid upgrade, Kelora Pro, as a one-time \"lifetime\" purchase or a monthly subscription. All purchases are handled by Apple through the App Store using your Apple Account.",
+          "Kelora may offer App Store purchases for expanded features. All purchases are handled by Apple through the App Store using your Apple Account.",
           "Payment is processed entirely by Apple. Kelora never sees or receives your card, bank, or payment details. To manage entitlements, the app receives from Apple only the fact that a valid purchase exists — not your identity or payment information. Purchases, renewals, and refunds are governed by Apple's terms and [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)."
         ]
       },
@@ -249,11 +249,11 @@
       },
       {
         "id": "purchases",
-        "h": "6. Kelora Pro, purchases, and subscriptions",
+        "h": "6. Kelora Pro and App Store purchases",
         "body": [
-          "Kelora is free to download and use with a set of core features. Kelora Pro unlocks the full feature set and is offered as either a one-time \"lifetime\" purchase or an auto-renewing monthly subscription. A free trial may be offered; if it is, the terms of the trial are shown to you before you start it.",
-          "All purchases are made through Apple's App Store and billed to your Apple Account. For an auto-renewing subscription, your Apple Account is charged at confirmation of purchase and again at the start of each renewal period, and the subscription renews automatically unless you cancel at least 24 hours before the end of the current period. You manage or cancel a subscription in your Apple Account settings; deleting the App does not cancel a subscription.",
-          "Prices are shown in the App before you buy and may change over time; any change applies only to future purchases or renewals. Purchases, billing, and refunds are handled by Apple under Apple's terms — we do not process payments and cannot issue refunds directly. Refund requests are made to Apple through the App Store. The one-time \"lifetime\" purchase unlocks the paid features of Kelora as it exists and continues to be offered; it is not a promise that the App, any specific feature, or any third-party service will remain available forever."
+          "Kelora may offer App Store purchases for expanded features. If a purchase or trial is available, its terms are shown to you in the App Store or inside the app before you confirm.",
+          "All purchases are made through Apple's App Store and billed to your Apple Account. You manage eligible purchases, subscriptions, cancellations, and refunds through your Apple Account and Apple's App Store tools.",
+          "Purchases, billing, and refunds are handled by Apple under Apple's terms. We do not process payments, do not receive your payment details, and cannot issue refunds directly. Refund requests are made to Apple through the App Store."
         ]
       },
       {

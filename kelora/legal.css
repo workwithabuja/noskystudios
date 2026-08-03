@@ -29,10 +29,12 @@
 
 .legal-docnav {
   display: inline-flex;
+  flex-wrap: wrap;
   gap: 0.4rem;
   padding: 0.25rem;
   background: var(--bg-soft);
   border-radius: calc(var(--radius) + 4px);
+  min-width: 0;
 }
 
 .legal-doclink {
@@ -41,6 +43,7 @@
   font-weight: 600;
   color: var(--muted);
   border-radius: var(--radius);
+  white-space: nowrap;
   transition: color 0.18s ease, background 0.18s ease;
 }
 
@@ -111,6 +114,7 @@
 /* Document body. */
 .legal-doc {
   max-width: 760px;
+  overflow-wrap: anywhere;
 }
 
 .legal-note {
@@ -244,3 +248,40 @@
 }
 
 .legal-contact a { color: var(--accent); }
+
+@media (max-width: 720px) {
+  .legal-wrap {
+    padding-inline: 1rem;
+  }
+
+  .legal-bar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .legal-docnav {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .legal-doclink {
+    text-align: center;
+    white-space: normal;
+  }
+
+  .legal-langpick {
+    justify-content: space-between;
+    margin-inline-start: 0;
+    width: 100%;
+  }
+
+  .legal-select,
+  .legal-select select {
+    width: 100%;
+  }
+
+  .legal-select select {
+    max-width: none;
+  }
+}
