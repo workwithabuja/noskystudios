@@ -1,0 +1,342 @@
+{
+ "meta": {
+  "lang": "en",
+  "dir": "ltr",
+  "langName": "English",
+  "app": "AppWatch",
+  "company": "NoSky Studios Ltd",
+  "rc": "RC 7631695",
+  "country": "Nigeria",
+  "effectiveDate": "14 October 2026",
+  "version": "1.0",
+  "privacyEmail": "privacy@noskystudios.ng",
+  "supportEmail": "appstore@noskystudios.ng",
+  "convenienceNote": ""
+ },
+ "ui": {
+  "privacyLink": "Privacy Policy",
+  "termsLink": "Terms of Service",
+  "languageLabel": "Language",
+  "lastUpdated": "Last updated",
+  "effectiveLabel": "Effective",
+  "versionLabel": "Version",
+  "backToTop": "Back to top",
+  "readPrivacy": "Read the Privacy Policy",
+  "readTerms": "Read the Terms of Service",
+  "onThisPage": "On this page"
+ },
+ "privacy": {
+  "title": "Privacy Policy",
+  "subtitle": "AppWatch tracks how apps perform on the App Store, straight from your device. This policy explains, plainly, what it stores, what it sends, and to whom.",
+  "sections": [
+   {
+    "id": "summary",
+    "h": "The short version",
+    "body": [
+     "AppWatch is an App Store tracking app for developers and app enthusiasts, made by NoSky Studios Ltd. It follows apps' chart positions, ratings, reviews, and prices, and — if you link your own App Store Connect account — your sales, proceeds, and analytics.",
+     "AppWatch has no server. We do not have accounts, we do not ask you to sign in, and we do not run analytics, advertising, or tracking of any kind. Everything AppWatch fetches goes directly between your device and Apple (plus a few exchange-rate services), and everything it keeps is stored on your device. None of it is sent to us.",
+     "The rest of this policy explains exactly what is stored, what is sent, and how to delete it."
+    ]
+   },
+   {
+    "id": "who-we-are",
+    "h": "Who we are",
+    "body": [
+     "AppWatch is published by NoSky Studios Ltd (RC 7631695), a company registered in Nigeria (\"NoSky Studios\", \"we\", \"us\", or \"our\").",
+     "This Privacy Policy applies to the AppWatch app for iPhone and iPad. For any privacy question, contact us at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng)."
+    ]
+   },
+   {
+    "id": "no-collection",
+    "h": "What we do not collect",
+    "body": [
+     "We want to be specific, because \"we value your privacy\" means little on its own. In AppWatch there is:"
+    ],
+    "list": [
+     "No server and no account. AppWatch does not send anything to a server operated by us. You do not create a profile, and we never ask for your name, email, or phone number.",
+     "No analytics or usage tracking. AppWatch contains no analytics, crash-reporting, advertising, or attribution software, and no third-party code libraries of any kind. We do not measure how you use the app.",
+     "No advertising identifiers. AppWatch does not request the App Tracking Transparency permission and does not access the device advertising identifier (IDFA).",
+     "No access to your App Store Connect data. Your sales, proceeds, analytics, and reviews travel only between your device and Apple. We never see them.",
+     "No selling or sharing of data. We do not sell, rent, or share your personal information, because we do not receive it in the first place."
+    ]
+   },
+   {
+    "id": "on-device",
+    "h": "Information stored on your device",
+    "body": [
+     "Everything AppWatch keeps is stored locally on your device, in storage private to the app. This includes:"
+    ],
+    "list": [
+     "The apps you watch and their public App Store details — name, developer, icon, price, genre, version, description, screenshots, and similar.",
+     "Chart history: each app's rank by country, chart, and category over time, its best positions, and the checks AppWatch has run.",
+     "Ratings, reviews, and prices: daily rating, review, price, and version history, plus cached copies of public App Store reviews. Public reviews include the reviewer's chosen nickname and country, exactly as Apple publishes them.",
+     "Your alert rules and alert history, and your settings — such as your home country (which starts from your device's region), currency, and appearance.",
+     "If you link App Store Connect: the account's name, Key ID, and Vendor Number, the list of apps on the account, and the sales, proceeds, and analytics reports AppWatch downloads from Apple. These reports contain aggregated figures by country and date — not your customers' names or contact details."
+    ],
+    "after": [
+     "AppWatch does not use iCloud sync for this data, and there is no cloud copy of your library. Your watched apps, history, and settings are included in your normal device backups that you control through Apple; App Store Connect reports are excluded from device backups and are downloaded again from Apple when needed."
+    ]
+   },
+   {
+    "id": "asc-key",
+    "h": "Your App Store Connect API key",
+    "body": [
+     "Linking App Store Connect is optional. If you do, you give AppWatch an App Store Connect API key that you create in your own App Store Connect account: its Issuer ID, Key ID, private key (.p8), and your Vendor Number.",
+     "The private key is stored in your iCloud Keychain, Apple's end-to-end encrypted password store, so that it is available on your other devices signed in to the same Apple Account. It is not stored on any NoSky Studios server, and we cannot see or access it.",
+     "The private key never leaves your devices except through iCloud Keychain. AppWatch uses it on your device to sign a short-lived access token, and sends only that token to Apple's App Store Connect API (api.appstoreconnect.apple.com). No one else receives it.",
+     "You can unlink an account at any time in Settings. Unlinking deletes the key from iCloud Keychain on all your devices, along with that account's downloaded reports. You can also revoke the key at any time in App Store Connect."
+    ]
+   },
+   {
+    "id": "asc-actions",
+    "h": "Things AppWatch does in your App Store Connect account",
+    "body": [
+     "With a linked key, AppWatch reads your sales reports, the apps on your account, customer reviews, and analytics reports. It also takes two kinds of action on your behalf, only when you use the related feature:"
+    ],
+    "list": [
+     "Replying to reviews. If you write a reply to a customer review, AppWatch sends it to Apple, which publishes it publicly on the App Store next to that review. You can delete a reply from AppWatch, which asks Apple to remove it.",
+     "Analytics reports. To show App Store analytics, AppWatch asks App Store Connect to start generating ongoing analytics reports for your apps. That request is created in your App Store Connect account and is managed by Apple."
+    ]
+   },
+   {
+    "id": "network",
+    "h": "Network connections and third-party services",
+    "body": [
+     "AppWatch makes network requests only to the services below, and only to power its features. Here is the complete list:"
+    ],
+    "list": [
+     "Apple's public App Store services. To check charts, look up and search apps, and read ratings, reviews, and prices, AppWatch contacts Apple's public App Store services (such as rss.marketingtools.apple.com, itunes.apple.com, and apps.apple.com). Requests contain app IDs, country codes, your search terms, and a language setting — nothing about you. App icons and screenshots are downloaded from Apple's servers.",
+     "Apple's App Store Connect API. Only if you link an account, as described above.",
+     "Exchange rates. To show prices and proceeds in your currency, AppWatch fetches reference exchange rates from ExchangeRate-API (open.er-api.com), with Fawaz Ahmed's currency API (via cdn.jsdelivr.net) and Frankfurter (api.frankfurter.dev) as fallbacks. These requests contain no information about you or your apps.",
+     "Apple system features. AppWatch can show App Store pages inside the app, and can translate reviews using Apple's Translation feature. Purchases go through Apple's App Store. These are provided and handled by Apple."
+    ],
+    "after": [
+     "These providers receive only the information described above, and their use of it is governed by their own privacy policies: [Apple's Privacy Policy](https://www.apple.com/legal/privacy/), [ExchangeRate-API](https://www.exchangerate-api.com/terms), [jsDelivr](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net), and [Frankfurter](https://frankfurter.dev). As with any internet request, these providers may receive your device's IP address and standard request information; we do not receive that information and do not combine it with anything about you."
+    ]
+   },
+   {
+    "id": "purchases",
+    "h": "Purchases and AppWatch Pro",
+    "body": [
+     "AppWatch is free to use with one watched app. AppWatch Pro — a one-time App Store purchase, not a subscription — lets you watch as many apps as you like. All purchases are handled by Apple through the App Store using your Apple Account.",
+     "Payment is processed entirely by Apple. AppWatch never sees or receives your card, bank, or payment details. To manage your purchase, the app receives from Apple only the fact that a valid purchase exists — not your identity or payment information. Purchases, restores, and refunds are governed by Apple's terms and [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)."
+    ]
+   },
+   {
+    "id": "permissions",
+    "h": "Notifications and background activity",
+    "body": [
+     "The only permission AppWatch asks for is notifications, and only if you turn on alerts. Its notifications are local notifications, generated on your device — for example when an app moves in the charts, gets a new rating or review, changes price, or releases a new version, a summary of yesterday's downloads and proceeds, or a reminder that a full check is due. AppWatch does not use push notifications and does not register your device with any messaging server.",
+     "Notifications can show business figures, such as proceeds, on your Lock Screen. You can turn individual alerts off in AppWatch, or hide notification previews in the iOS Settings app.",
+     "AppWatch uses iOS background refresh to run chart checks while you are not using it, and may keep the screen awake while a check you started is running. AppWatch does not request location, contacts, camera, microphone, photos, or tracking permissions."
+    ]
+   },
+   {
+    "id": "export-backup",
+    "h": "Exports and backups",
+    "body": [
+     "You can export rankings, history, ratings, prices, and sales as CSV files, and share images of an app's chart positions, using the iOS share sheet. What you share, and with whom, is up to you.",
+     "\"Back Up to Files\" creates a single backup file containing your watched apps, history, settings, cached App Store data, and any downloaded App Store Connect reports. Your API keys are never included. The backup file is not encrypted, so store it somewhere you trust — anyone who has the file can read your sales figures from it."
+    ]
+   },
+   {
+    "id": "children",
+    "h": "Children's privacy",
+    "body": [
+     "AppWatch is a business tool for app developers and is not directed to children. We do not knowingly collect personal information from anyone, including children under the age of 13 (or the equivalent minimum age in your country). Because AppWatch has no accounts and sends nothing to us, there is no such information for us to hold or delete."
+    ]
+   },
+   {
+    "id": "security",
+    "h": "How your information is protected",
+    "body": [
+     "Your AppWatch data is stored on your device and is protected by the security of iOS, including the device passcode, encryption, and app sandboxing that Apple provides. Your App Store Connect private key is kept in iCloud Keychain, which Apple encrypts end to end, and access tokens are signed on your device and expire within minutes.",
+     "Because your data does not sit on our servers, the most important protection is the one you control: keep your devices locked with a passcode or biometrics, keep iOS up to date, give App Store Connect keys only the access they need, and revoke any key you no longer use. No method of storage or transmission is completely secure, but keeping your data on-device removes the large, central target that a cloud database would present."
+    ]
+   },
+   {
+    "id": "retention-deletion",
+    "h": "Keeping and deleting your data",
+    "body": [
+     "You decide how long your data is kept, because you hold it. In Settings you can stop watching any app, delete ranking history, clear the chart cache, unlink an App Store Connect account, or \"Erase All Data\". Erase All Data removes everything AppWatch stores on the device but keeps your linked API keys; unlink each account to remove its key too.",
+     "Deleting the AppWatch app removes its data from that device. Because API keys are kept in iCloud Keychain, unlink your accounts in AppWatch before deleting it if you want the keys removed from all your devices — and revoke the key in App Store Connect to disable it completely. If you made backup or export files, delete them wherever you saved them.",
+     "Replies you posted to customer reviews are published by Apple on the App Store; remove them from AppWatch or App Store Connect. We hold no copy of your data, so there is nothing for you to request from us and nothing for us to delete on your behalf."
+    ]
+   },
+   {
+    "id": "your-rights",
+    "h": "Your privacy rights",
+    "body": [
+     "Depending on where you live, data-protection laws — such as the Nigeria Data Protection Act 2023, the EU and UK General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA/CPRA) — give you rights over your personal information, including the rights to access, correct, delete, and port it, and to object to certain processing.",
+     "AppWatch is designed so that you already have these rights directly: your information is on your device, where you can view, export, and delete it yourself, at any time, without asking us. We do not collect, store, sell, or share your personal information, and we do not \"sell\" or \"share\" it for advertising as those terms are defined under the CCPA.",
+     "If you believe we hold personal information about you, or you have a question about your rights, contact us at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng) and we will respond. You also have the right to lodge a complaint with your local data-protection authority."
+    ]
+   },
+   {
+    "id": "international",
+    "h": "International users",
+    "body": [
+     "AppWatch is available worldwide, and your data stays on your device wherever you are. Requests to Apple and to the exchange-rate services are handled by those providers, which may process them on servers in another country. Those requests contain only the limited information described in the \"Network connections\" section above."
+    ]
+   },
+   {
+    "id": "changes",
+    "h": "Changes to this policy",
+    "body": [
+     "We may update this Privacy Policy as AppWatch evolves or as the law requires. If we ever add a feature that sends any data to a server operated by us, it will be optional and off by default, and we will update this policy before it is released. When we update the policy, we will change the \"Effective\" date at the top of this page and, for significant changes, note them in the app or its release notes. The current version always lives at this address. Continuing to use AppWatch after an update means you accept the revised policy."
+    ]
+   },
+   {
+    "id": "privacy-contact",
+    "h": "Contact us",
+    "body": [
+     "For any question about this policy or your privacy, reach us at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng). For general help with the app, contact [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng).",
+     "NoSky Studios Ltd (RC 7631695), Nigeria."
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "title": "Terms of Service",
+  "subtitle": "These terms are the agreement between you and NoSky Studios Ltd for using the AppWatch app. Please read them.",
+  "sections": [
+   {
+    "id": "acceptance",
+    "h": "1. Agreement to these terms",
+    "body": [
+     "These Terms of Service (\"Terms\") are a legal agreement between you and NoSky Studios Ltd (RC 7631695), a company registered in Nigeria (\"NoSky Studios\", \"we\", \"us\", or \"our\"), governing your use of the AppWatch app (\"AppWatch\" or the \"App\").",
+     "By downloading, installing, or using AppWatch, you agree to these Terms and to our [Privacy Policy](privacy.html), which is incorporated here by reference. If you do not agree, please do not use the App."
+    ]
+   },
+   {
+    "id": "eligibility",
+    "h": "2. Who may use AppWatch",
+    "body": [
+     "You must be old enough to form a binding contract in your country, and at least 13 years old (or the higher minimum age required where you live), to use AppWatch. By using the App you confirm that you meet this requirement and that you will use AppWatch in line with these Terms and applicable law. If you use AppWatch on behalf of a company, you confirm that you are authorised to accept these Terms for it."
+    ]
+   },
+   {
+    "id": "license",
+    "h": "3. Your licence to use the App",
+    "body": [
+     "Subject to these Terms, we grant you a personal, limited, non-exclusive, non-transferable, revocable licence to download and use AppWatch on Apple devices that you own or control, as permitted by the App Store rules. You may use AppWatch for your own work, including to track your own business's apps.",
+     "You may not copy, modify, distribute, sell, or lease any part of the App; reverse-engineer or attempt to extract its source code except to the limited extent the law allows; or remove any proprietary notices. This licence does not transfer any ownership of the App to you."
+    ]
+   },
+   {
+    "id": "what-it-shows",
+    "h": "4. What AppWatch shows",
+    "body": [
+     "AppWatch reads publicly available App Store data from Apple and, if you link it, your own App Store Connect data. We do not control Apple's data or services. Chart positions, ratings, reviews, prices, and reports may be delayed, incomplete, or wrong, and Apple may change, limit, or stop these services at any time. Some charts cannot be checked as often as you might like, because Apple limits how often they can be read.",
+     "Prices and proceeds shown in another currency use indicative exchange rates that may lag the market. AppWatch is provided for information only. Do not rely on it as the only basis for business, financial, tax, or legal decisions; verify important figures in App Store Connect."
+    ]
+   },
+   {
+    "id": "asc-key",
+    "h": "5. Your App Store Connect key",
+    "body": [
+     "If you link App Store Connect, you are responsible for the API key you add: that you are allowed to use it, that it has only the access you intend, and that it is kept secure. AppWatch uses it only to talk to Apple on your behalf, from your devices. You can unlink it in AppWatch at any time and revoke it in App Store Connect.",
+     "You are responsible for actions AppWatch takes in your App Store Connect account at your request — including replies to customer reviews, which Apple publishes publicly, and analytics report requests. Your use of App Store Connect remains subject to Apple's own terms."
+    ]
+   },
+   {
+    "id": "acceptable-use",
+    "h": "6. Acceptable use",
+    "body": [
+     "You agree to use AppWatch lawfully and in line with Apple's terms for its services, and not to misuse it — for example by linking App Store Connect accounts you are not authorised to access, posting review replies that are unlawful, abusive, or misleading, attempting to overload or interfere with Apple's services or the App, or using AppWatch in a way that infringes the rights of others."
+    ]
+   },
+   {
+    "id": "purchases",
+    "h": "7. AppWatch Pro and App Store purchases",
+    "body": [
+     "AppWatch is free to use with one watched app. AppWatch Pro lets you watch as many apps as you like. It is a one-time, non-consumable App Store purchase — not a subscription — charged to your Apple Account when you confirm and never renewed. Its price is shown in the App Store and inside the app before you confirm. You can restore it on your devices from inside the app.",
+     "Purchases, billing, and refunds are handled by Apple under Apple's terms. We do not process payments, do not receive your payment details, and cannot issue refunds directly. Refund requests are made to Apple through the App Store."
+    ]
+   },
+   {
+    "id": "apple",
+    "h": "8. Apple App Store terms",
+    "body": [
+     "You obtain AppWatch through the Apple App Store, and your use is also subject to Apple's applicable terms, including the standard [Licensed Application End User License Agreement (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These Terms are between you and NoSky Studios only, not with Apple; Apple is not responsible for the App or its content.",
+     "You agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms and may enforce them. Apple has no obligation to provide support or maintenance for the App, and any warranty, product-liability, legal, or intellectual-property claim relating to the App is our responsibility and not Apple's, to the extent we are responsible at all under these Terms."
+    ]
+   },
+   {
+    "id": "third-party",
+    "h": "9. Third-party services and trademarks",
+    "body": [
+     "AppWatch relies on Apple's App Store and App Store Connect services and on third-party exchange-rate services, as described in the Privacy Policy. We do not control these services, and we are not responsible for their availability, accuracy, or content. Their data is provided \"as is\", and your use of it may also be subject to those providers' own terms.",
+     "App Store, App Store Connect, and Apple are trademarks of Apple Inc. AppWatch is an independent app and is not affiliated with, endorsed by, or sponsored by Apple. App names, icons, screenshots, and reviews shown in AppWatch belong to their respective owners."
+    ]
+   },
+   {
+    "id": "ip",
+    "h": "10. Our intellectual property",
+    "body": [
+     "The App itself — including its software, design, the \"AppWatch\" and \"NoSky Studios\" names and logos, and other original content we provide — is owned by NoSky Studios Ltd and protected by intellectual-property laws. These Terms give you a licence to use the App; they do not give you any right to our brand or materials beyond that."
+    ]
+   },
+   {
+    "id": "warranty",
+    "h": "11. Disclaimer of warranties",
+    "body": [
+     "AppWatch is provided \"as is\" and \"as available\", without warranties of any kind, whether express or implied, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the App will be uninterrupted or error-free, or that any rank, rating, review, price, report, figure, or alert it produces will be accurate, complete, or timely.",
+     "Some jurisdictions do not allow the exclusion of certain warranties, so some of the above may not apply to you; in that case, the excluded warranties are limited to the minimum permitted by law."
+    ]
+   },
+   {
+    "id": "liability",
+    "h": "12. Limitation of liability",
+    "body": [
+     "To the fullest extent permitted by law, NoSky Studios and its owners and personnel will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, revenue, profits, or goodwill, arising out of or relating to your use of — or inability to use — AppWatch, even if we have been advised of the possibility of such damages.",
+     "To the fullest extent permitted by law, our total liability for all claims relating to AppWatch will not exceed the greater of the amount you paid us for the App in the 12 months before the claim, or five United States dollars (US$5). Nothing in these Terms limits any liability that cannot be limited under applicable law."
+    ]
+   },
+   {
+    "id": "indemnity",
+    "h": "13. Your responsibility",
+    "body": [
+     "You agree to be responsible for your use of AppWatch, including the App Store Connect keys you link and the review replies you post, and, to the extent permitted by law, to hold NoSky Studios harmless from claims arising out of your misuse of the App or your breach of these Terms."
+    ]
+   },
+   {
+    "id": "termination",
+    "h": "14. Termination",
+    "body": [
+     "You may stop using AppWatch at any time by deleting it from your device; unlink and revoke your App Store Connect keys if you no longer want them to work. We may suspend or end your licence to use the App if you materially breach these Terms. Sections that by their nature should survive — including ownership, disclaimers, limitation of liability, and governing law — continue to apply after your use ends."
+    ]
+   },
+   {
+    "id": "changes-app",
+    "h": "15. Changes to the App and these Terms",
+    "body": [
+     "We are continually improving AppWatch and may add, change, or remove features over time, including when Apple changes its services. We may also update these Terms; when we make significant changes we will update the \"Effective\" date above and, where appropriate, note the change in the App or its release notes. If you keep using AppWatch after the changes take effect, you accept the updated Terms. If you do not agree, please stop using the App."
+    ]
+   },
+   {
+    "id": "governing-law",
+    "h": "16. Governing law and disputes",
+    "body": [
+     "These Terms are governed by the laws of the Federal Republic of Nigeria, without regard to its conflict-of-laws rules, and, where they apply to you, by the mandatory consumer-protection laws of your country of residence, which these Terms do not override. Subject to those mandatory laws, you agree that disputes relating to AppWatch or these Terms will be handled by the courts of Nigeria.",
+     "Nothing in this section prevents you from bringing a claim, or seeking the protection of a regulator, in your home country where the law gives you that right."
+    ]
+   },
+   {
+    "id": "general",
+    "h": "17. General",
+    "body": [
+     "These Terms, together with the Privacy Policy, are the entire agreement between you and NoSky Studios about the App. If any part of these Terms is found unenforceable, the rest remains in effect. Our not enforcing a provision is not a waiver of it. You may not transfer your rights under these Terms without our consent; we may transfer ours in connection with a merger, acquisition, or sale of assets, or by operation of law."
+    ]
+   },
+   {
+    "id": "terms-contact",
+    "h": "18. Contact us",
+    "body": [
+     "Questions about these Terms? Reach us at [appstore@noskystudios.ng](mailto:appstore@noskystudios.ng), or for privacy matters at [privacy@noskystudios.ng](mailto:privacy@noskystudios.ng).",
+     "NoSky Studios Ltd (RC 7631695), Nigeria."
+    ]
+   }
+  ]
+ }
+}

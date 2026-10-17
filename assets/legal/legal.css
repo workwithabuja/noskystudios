@@ -1,0 +1,290 @@
+/* NoSky app legal pages (shared by every app) — reading layout on top of the shared NoSky tokens.
+   Uses logical properties throughout so RTL (ar/he/ur) mirrors for free. */
+
+.legal-wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3rem) 1rem 4rem;
+}
+
+/* Top bar: product label, document tabs, language picker. */
+.legal-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.legal-kicker {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.legal-docnav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.25rem;
+  background: var(--bg-soft);
+  border-radius: calc(var(--radius) + 4px);
+  min-width: 0;
+}
+
+.legal-doclink {
+  padding: 0.42rem 0.9rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--muted);
+  border-radius: var(--radius);
+  white-space: nowrap;
+  transition: color 0.18s ease, background 0.18s ease;
+}
+
+.legal-doclink:hover { color: var(--text); }
+
+.legal-doclink.is-active {
+  color: var(--surface-strong);
+  background: var(--accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  .legal-doclink.is-active { color: #101010; }
+}
+:root[data-theme="dark"] .legal-doclink.is-active { color: #101010; }
+:root[data-theme="light"] .legal-doclink.is-active { color: #ffffff; }
+
+.legal-langpick {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-inline-start: auto;
+}
+
+/* Hidden by legal.js when an app ships a single language. */
+.legal-langpick[hidden] { display: none; }
+
+.legal-langpick label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.legal-select {
+  position: relative;
+}
+
+.legal-select::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 0.7rem;
+  top: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+.legal-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.5rem 2rem 0.5rem 0.85rem;
+  cursor: pointer;
+  max-width: 60vw;
+}
+[dir="rtl"] .legal-select select { padding: 0.5rem 0.85rem 0.5rem 2rem; }
+
+.legal-select select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Document body. */
+.legal-doc {
+  max-width: 760px;
+  overflow-wrap: anywhere;
+}
+
+.legal-note {
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
+  border-radius: var(--radius);
+}
+
+.legal-head h1 {
+  margin: 0 0 0.6rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.legal-lede {
+  margin: 0 0 0.9rem;
+  font-size: 1.08rem;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.legal-meta {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+/* On this page. */
+.legal-toc {
+  margin: 2.25rem 0;
+  padding: 1.1rem 1.3rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 4px);
+}
+
+.legal-toc-label {
+  margin: 0 0 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.legal-toc ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+@media (max-width: 560px) {
+  .legal-toc ol { columns: 1; }
+}
+
+.legal-toc li {
+  break-inside: avoid;
+  margin-bottom: 0.35rem;
+}
+
+.legal-toc a {
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-bottom: 1px solid transparent;
+}
+
+.legal-toc a:hover {
+  color: var(--accent);
+}
+
+/* Sections. */
+.legal-section {
+  scroll-margin-top: 90px;
+  margin-top: 2.4rem;
+}
+
+.legal-section h2 {
+  margin: 0 0 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.legal-section p {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.legal-section ul {
+  margin: 0 0 0.9rem;
+  padding-inline-start: 1.15rem;
+}
+
+.legal-section li {
+  margin-bottom: 0.5rem;
+  color: var(--muted);
+}
+
+.legal-doc a {
+  color: var(--accent);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  transition: border-color 0.18s ease;
+}
+
+.legal-doc a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* Cross-link to the other document + contact line. */
+.legal-cross {
+  margin-top: 3rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.legal-contact {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.legal-contact a { color: var(--accent); }
+
+@media (max-width: 720px) {
+  .legal-wrap {
+    padding-inline: 1rem;
+  }
+
+  .legal-bar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .legal-docnav {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .legal-doclink {
+    text-align: center;
+    white-space: normal;
+  }
+
+  .legal-langpick {
+    justify-content: space-between;
+    margin-inline-start: 0;
+    width: 100%;
+  }
+
+  .legal-select,
+  .legal-select select {
+    width: 100%;
+  }
+
+  .legal-select select {
+    max-width: none;
+  }
+}
