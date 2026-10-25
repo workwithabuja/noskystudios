@@ -7,8 +7,8 @@
   "company": "NoSky Studios Ltd",
   "rc": "RC 7631695",
   "country": "Nigeria",
-  "effectiveDate": "14 October 2026",
-  "version": "1.0",
+  "effectiveDate": "23 October 2026",
+  "version": "1.1",
   "privacyEmail": "privacy@noskystudios.ng",
   "supportEmail": "appstore@noskystudios.ng",
   "convenienceNote": ""
@@ -33,7 +33,7 @@
     "id": "summary",
     "h": "The short version",
     "body": [
-     "Anatomy is a music analysis app made by NoSky Studios Ltd. It listens to music — live through the microphone, in your headphones, or from a file you import — names it, and helps you understand and play with it.",
+     "Anatomy is a music analysis app made by NoSky Studios Ltd. It listens to music — live through the microphone or from a file you import — names it, and helps you understand and play with it.",
      "We do not have accounts. We do not ask you to sign in. We do not run analytics, advertising, or tracking of any kind. Your recordings, imported songs, and everything Anatomy works out about them are stored on your device and are never sent to us.",
      "All musical analysis happens on your device. The rest of this policy explains the few places data does move — always for a feature you used, and never to a server we control."
     ]
@@ -67,8 +67,8 @@
      "Everything Anatomy keeps is stored locally on your device, in storage private to the app and its widgets. This includes:"
     ],
     "list": [
-     "Your song library: each song's title, artist, genre, artwork, identification details (such as its Shazam ID, ISRC code, and Apple Music link), when it was added, and how it was captured (live, from headphones, or imported).",
-     "Audio: your live recordings, the songs you import, and — for songs heard through headphones — Apple's 30-second preview of the song rather than a recording.",
+     "Your song library: each song's title, artist, genre, artwork, identification details (such as its Shazam ID, ISRC code, and Apple Music link), when it was added, and how it was captured (live or imported).",
+     "Audio: your live recordings, which come only from the microphone, and the songs you import.",
      "Analysis results: key, tempo, loudness, song structure, chords, lyrics, the separated parts of a song (vocals, drums, bass, and so on), and any remixed versions you create.",
      "Preferences: your settings, where you left off in the player, and, for each Bluetooth or USB audio device you connect, its name and whether you told Anatomy it is headphones or a speaker.",
      "Lyrics you paste or import from a text file. Anatomy reads your clipboard only when you tap to paste."
@@ -94,7 +94,7 @@
     ],
     "list": [
      "Song identification (Apple Shazam). To name a song you listen to or import, Anatomy uses Apple's ShazamKit. ShazamKit sends Apple a compact acoustic signature — a fingerprint of the sound, not a recording that can be played back — and Apple returns the song's details. If you choose \"Add to Shazam Library\", the song is saved to your own Shazam library, which Apple keeps.",
-     "Song previews and details (Apple iTunes Search). For songs heard through headphones, Anatomy sends the song's title and artist, or its Apple Music ID, together with your device's region code, to Apple's iTunes Search service to fetch the song's 30-second preview, which is then analysed on your device. The same kind of request is used to look up a song's genre or its length when Anatomy needs them.",
+     "Song details (Apple iTunes Search). For a song Anatomy has named, it may look up the song's genre by sending its title and artist, and its album and length by sending its Apple Music ID, to Apple's public iTunes Search service, together with a country code (from the song's Apple Music link or your device's region). No audio is sent.",
      "Artwork. Cover images for identified songs are downloaded once from Apple's servers and cached on your device.",
      "Opening a song in another service (song.link). If you choose to open a song in Spotify or YouTube Music, Anatomy sends the song's Apple Music link to song.link (Odesli) to find the same song there. Opening a song in Apple Music, Spotify, or YouTube Music opens that service with the song's title and artist as the search.",
      "Importing from a link. If you paste a web link to import a song, Anatomy downloads the file directly from that address. Dropbox and Google Drive share links are converted to their direct-download form. Only the link you pasted is contacted.",
@@ -102,7 +102,7 @@
     ],
     "after": [
      "These providers receive only the information described above, as the operators of the services Anatomy contacts on your behalf, and their use of it is governed by their own privacy policies: [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) (which covers Shazam and iTunes), [Odesli](https://odesli.co/privacy), and the policy of any website you import from. As with any internet request, these providers may receive your device's IP address and standard request information; we do not receive that information and do not combine it with anything about you.",
-     "You can avoid these requests by importing songs from your device rather than listening live, and by not using the streaming-service or link-import features."
+     "Anatomy's analysis works without a connection; offline, songs simply aren't named. You can avoid the other requests by not using the streaming-service or link-import features."
     ]
    },
    {
@@ -116,7 +116,7 @@
     "id": "purchases",
     "h": "Purchases and Anatomy Pro",
     "body": [
-     "Anatomy Pro — a one-time App Store purchase, not a subscription — is needed to use Anatomy. All purchases are handled by Apple through the App Store using your Apple Account.",
+     "Anatomy is free to download and use. Anatomy Pro — a one-time App Store purchase, not a subscription — unlocks the Studio; the rest of Anatomy is free. There is no trial. All purchases are handled by Apple through the App Store using your Apple Account.",
      "Payment is processed entirely by Apple. Anatomy never sees or receives your card, bank, or payment details. To manage your purchase, the app receives from Apple only the fact that a valid purchase exists — not your identity or payment information. Purchases, restores, and refunds are governed by Apple's terms and [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)."
     ]
    },
@@ -181,7 +181,7 @@
     "id": "international",
     "h": "International users",
     "body": [
-     "Anatomy is available worldwide, and your data stays on your device wherever you are. When you use an online feature (song identification, previews, artwork, streaming-service links, or link import), the request is handled by that provider, which may process it on servers in another country. Those requests contain only the limited information described in the \"Network connections\" section above."
+     "Anatomy is available worldwide, and your data stays on your device wherever you are. When you use an online feature (song identification, song details, artwork, streaming-service links, or link import), the request is handled by that provider, which may process it on servers in another country. Those requests contain only the limited information described in the \"Network connections\" section above."
     ]
    },
    {
@@ -248,8 +248,8 @@
     "id": "purchases",
     "h": "6. Anatomy Pro and App Store purchases",
     "body": [
-     "Anatomy Pro is needed to use the App, beyond its introduction and demo. Anatomy Pro is a one-time, non-consumable App Store purchase — not a subscription. It is charged to your Apple Account when you confirm the purchase and is never renewed. Its price is shown in the App Store and inside the app before you confirm.",
-     "Anatomy Pro is tied to your Apple Account and can be restored on your devices from Settings → Restore Purchase.",
+     "Anatomy is free to download and use. Anatomy Pro is a one-time, non-consumable in-app purchase that unlocks the Studio — separating a song into its parts, key and tempo with chords, EQ, Remix, the song's Overview, and saving to Files. The player, the library, listening to name a song, lyrics, and Auto Mix are free. There is no trial and no subscription: Anatomy Pro is charged to your Apple Account once, when you confirm, and is never renewed. Its price is shown in the App Store and inside the app before you confirm.",
+     "Anatomy Pro is tied to your Apple Account and can be restored on your devices from Settings → Restore Purchase, or with Restore on the purchase screen.",
      "Purchases, billing, and refunds are handled by Apple under Apple's terms. We do not process payments, do not receive your payment details, and cannot issue refunds directly. Refund requests are made to Apple through the App Store."
     ]
    },
@@ -265,7 +265,7 @@
     "id": "third-party",
     "h": "8. Third-party services and trademarks",
     "body": [
-     "Some features rely on third-party services — for example Apple's Shazam for song identification, Apple's iTunes Search for previews and genres, song.link (Odesli) for finding songs on other services, and any website you import a file from, as described in the Privacy Policy. We do not control these services, and we are not responsible for their availability, accuracy, or content. Your use of them may also be subject to those providers' own terms.",
+     "Some features rely on third-party services — for example Apple's Shazam for song identification, Apple's iTunes Search for song details such as genre and album, song.link (Odesli) for finding songs on other services, and any website you import a file from, as described in the Privacy Policy. We do not control these services, and we are not responsible for their availability, accuracy, or content. Your use of them may also be subject to those providers' own terms.",
      "Apple Music, Shazam, Spotify, and YouTube Music are trademarks of their respective owners. Anatomy links to these services but is not affiliated with, endorsed by, or sponsored by them."
     ]
    },
@@ -281,7 +281,7 @@
     "h": "10. Our intellectual property",
     "body": [
      "The App itself — including its software, built-in models, design, the \"Anatomy\" and \"NoSky Studios\" names and logos, and other original content we provide — is owned by NoSky Studios Ltd or its licensors and protected by intellectual-property laws. These Terms give you a licence to use the App; they do not give you any right to our brand or materials beyond that.",
-     "The demo song included in the App, \"California Lullabye\" by Josh Woodward, is used under the [Creative Commons Attribution 4.0 licence](https://creativecommons.org/licenses/by/4.0/). The App's song-separation models are based on HTDemucs by Meta, used under the MIT licence. Song titles, artwork, and other details shown for identified songs belong to their respective owners."
+     "The demo song included in the App, \"California Lullabye\" by Josh Woodward, is used under the [Creative Commons Attribution 4.0 licence](https://creativecommons.org/licenses/by/4.0/). The App's song-separation models are based on HTDemucs by Meta, and its time-signature models are built on Beat This! by the Institute of Computational Perception, JKU Linz, both used under the MIT licence; the music those models learned from is credited in the App under Settings → About. Song titles, artwork, and other details shown for identified songs belong to their respective owners."
     ]
    },
    {
