@@ -7,7 +7,7 @@
   "company": "NoSky Studios Ltd",
   "rc": "RC 7631695",
   "country": "Nigeria",
-  "effectiveDate": "14 October 2026",
+  "effectiveDate": "29 October 2026",
   "version": "1.0",
   "privacyEmail": "privacy@noskystudios.ng",
   "supportEmail": "appstore@noskystudios.ng",
@@ -78,6 +78,13 @@
     ]
    },
    {
+    "id": "demo-data",
+    "h": "Demo data",
+    "body": [
+     "\"Try Demo Data\" fills AppWatch with a made-up App Store Connect account, Example Inc., and a set of fictional apps with their charts, reviews, sales, and alerts. All of it is generated on your device. No API key is created, nothing is stored in iCloud Keychain, and nothing about the demo is requested from Apple or sent to us. You can remove the demo at any time in Settings, which leaves your own apps and accounts in place."
+    ]
+   },
+   {
     "id": "asc-key",
     "h": "Your App Store Connect API key",
     "body": [
@@ -108,7 +115,8 @@
      "Apple's public App Store services. To check charts, look up and search apps, and read ratings, reviews, and prices, AppWatch contacts Apple's public App Store services (such as rss.marketingtools.apple.com, itunes.apple.com, and apps.apple.com). Requests contain app IDs, country codes, your search terms, and a language setting — nothing about you. App icons and screenshots are downloaded from Apple's servers.",
      "Apple's App Store Connect API. Only if you link an account, as described above.",
      "Exchange rates. To show prices and proceeds in your currency, AppWatch fetches reference exchange rates from ExchangeRate-API (open.er-api.com), with Fawaz Ahmed's currency API (via cdn.jsdelivr.net) and Frankfurter (api.frankfurter.dev) as fallbacks. These requests contain no information about you or your apps.",
-     "Apple system features. AppWatch can show App Store pages inside the app, and can translate reviews using Apple's Translation feature. Purchases go through Apple's App Store. These are provided and handled by Apple."
+     "Apple system features. AppWatch can show App Store pages inside the app, and can translate reviews on your device using Apple's Translation feature. Purchases go through Apple's App Store. These are provided and handled by Apple.",
+     "Web pages you open. Links such as Support, Privacy Policy, Terms of Service, and Apple's guide to creating an API key open in Apple's in-app browser (Safari). Those pages are loaded from the website you chose to open, such as noskystudios.ng or developer.apple.com, as in any browser. Our website has no analytics or tracking."
     ],
     "after": [
      "These providers receive only the information described above, and their use of it is governed by their own privacy policies: [Apple's Privacy Policy](https://www.apple.com/legal/privacy/), [ExchangeRate-API](https://www.exchangerate-api.com/terms), [jsDelivr](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net), and [Frankfurter](https://frankfurter.dev). As with any internet request, these providers may receive your device's IP address and standard request information; we do not receive that information and do not combine it with anything about you."
@@ -116,10 +124,10 @@
    },
    {
     "id": "purchases",
-    "h": "Purchases and AppWatch Pro",
+    "h": "Purchases and AppWatch Unlimited",
     "body": [
-     "AppWatch is free to use with one watched app. AppWatch Pro — a one-time App Store purchase, not a subscription — lets you watch as many apps as you like. All purchases are handled by Apple through the App Store using your Apple Account.",
-     "Payment is processed entirely by Apple. AppWatch never sees or receives your card, bank, or payment details. To manage your purchase, the app receives from Apple only the fact that a valid purchase exists — not your identity or payment information. Purchases, restores, and refunds are governed by Apple's terms and [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)."
+     "AppWatch is free to use with one watched app, with every feature included. AppWatch Unlimited is a one-time, non-consumable App Store purchase (US$9.99, or the equivalent price shown in your country's App Store) that lets you watch as many apps as you like. It is not a subscription and never renews. All purchases are handled by Apple through the App Store using your Apple Account.",
+     "Payment is processed entirely by Apple. AppWatch never sees or receives your card, bank, or payment details. To know whether Unlimited is unlocked, the app asks Apple's StoreKit on your device whether a valid purchase exists, and keeps a note of the answer on the device so it works offline. It does not receive your identity or payment information. Purchases, restores, offer codes, and refunds are governed by Apple's terms and [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)."
     ]
    },
    {
@@ -136,7 +144,7 @@
     "h": "Exports and backups",
     "body": [
      "You can export rankings, history, ratings, prices, and sales as CSV files, and share images of an app's chart positions, using the iOS share sheet. What you share, and with whom, is up to you.",
-     "\"Back Up to Files\" creates a single backup file containing your watched apps, history, settings, cached App Store data, and any downloaded App Store Connect reports. Your API keys are never included. The backup file is not encrypted, so store it somewhere you trust — anyone who has the file can read your sales figures from it."
+     "\"Back Up to Files\" creates a single backup file containing your watched apps, history, alert rules, settings, cached App Store data, and any downloaded App Store Connect reports, and \"Restore from Backup\" brings one back. Your API keys are never included. The backup file is not encrypted, so store it somewhere you trust, because anyone who has the file can read your sales figures from it."
     ]
    },
    {
@@ -158,7 +166,7 @@
     "id": "retention-deletion",
     "h": "Keeping and deleting your data",
     "body": [
-     "You decide how long your data is kept, because you hold it. In Settings you can stop watching any app, delete ranking history, clear the chart cache, unlink an App Store Connect account, or \"Erase All Data\". Erase All Data removes everything AppWatch stores on the device but keeps your linked API keys; unlink each account to remove its key too.",
+     "You decide how long your data is kept, because you hold it. Removing an app from AppWatch deletes its ranking history. In Settings you can unlink an App Store Connect account, remove the demo data, or erase everything: \"Erase All Data\" removes everything AppWatch stores on the device but keeps your linked API keys, and \"Erase and Unlink Keys\" also removes the keys from iCloud Keychain on all your devices.",
      "Deleting the AppWatch app removes its data from that device. Because API keys are kept in iCloud Keychain, unlink your accounts in AppWatch before deleting it if you want the keys removed from all your devices — and revoke the key in App Store Connect to disable it completely. If you made backup or export files, delete them wherever you saved them.",
      "Replies you posted to customer reviews are published by Apple on the App Store; remove them from AppWatch or App Store Connect. We hold no copy of your data, so there is nothing for you to request from us and nothing for us to delete on your behalf."
     ]
@@ -228,7 +236,8 @@
     "h": "4. What AppWatch shows",
     "body": [
      "AppWatch reads publicly available App Store data from Apple and, if you link it, your own App Store Connect data. We do not control Apple's data or services. Chart positions, ratings, reviews, prices, and reports may be delayed, incomplete, or wrong, and Apple may change, limit, or stop these services at any time. Some charts cannot be checked as often as you might like, because Apple limits how often they can be read.",
-     "Prices and proceeds shown in another currency use indicative exchange rates that may lag the market. AppWatch is provided for information only. Do not rely on it as the only basis for business, financial, tax, or legal decisions; verify important figures in App Store Connect."
+     "Prices and proceeds shown in another currency use indicative exchange rates that may lag the market. AppWatch is provided for information only. Do not rely on it as the only basis for business, financial, tax, or legal decisions; verify important figures in App Store Connect.",
+     "\"Try Demo Data\" shows a fictional account, Example Inc., with made-up apps and figures, so you can explore the App. Demo figures are not real App Store data."
     ]
    },
    {
@@ -248,10 +257,10 @@
    },
    {
     "id": "purchases",
-    "h": "7. AppWatch Pro and App Store purchases",
+    "h": "7. AppWatch Unlimited and App Store purchases",
     "body": [
-     "AppWatch is free to use with one watched app. AppWatch Pro lets you watch as many apps as you like. It is a one-time, non-consumable App Store purchase — not a subscription — charged to your Apple Account when you confirm and never renewed. Its price is shown in the App Store and inside the app before you confirm. You can restore it on your devices from inside the app.",
-     "Purchases, billing, and refunds are handled by Apple under Apple's terms. We do not process payments, do not receive your payment details, and cannot issue refunds directly. Refund requests are made to Apple through the App Store."
+     "AppWatch is free to use with one watched app, with every feature included. AppWatch Unlimited lets you watch as many apps as you like. It is a one-time, non-consumable App Store purchase, not a subscription: it is charged once to your Apple Account when you confirm and is never renewed. It costs US$9.99, or the equivalent price shown in your country's App Store, and the price is always shown in the App Store and inside the app before you confirm. You can restore it on your other devices signed in to the same Apple Account, or redeem an offer code, from inside the app. AppWatch Unlimited is not shared through Family Sharing.",
+     "Purchases, billing, and refunds are handled by Apple under Apple's terms. We do not process payments, do not receive your payment details, and cannot issue refunds directly. Refund requests are made to Apple at [reportaproblem.apple.com](https://reportaproblem.apple.com). If Apple refunds the purchase, AppWatch goes back to the free plan: the apps you already watch and their data stay, but adding apps beyond the free limit needs AppWatch Unlimited again."
     ]
    },
    {
@@ -259,7 +268,7 @@
     "h": "8. Apple App Store terms",
     "body": [
      "You obtain AppWatch through the Apple App Store, and your use is also subject to Apple's applicable terms, including the standard [Licensed Application End User License Agreement (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These Terms are between you and NoSky Studios only, not with Apple; Apple is not responsible for the App or its content.",
-     "You agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms and may enforce them. Apple has no obligation to provide support or maintenance for the App, and any warranty, product-liability, legal, or intellectual-property claim relating to the App is our responsibility and not Apple's, to the extent we are responsible at all under these Terms."
+     "You agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms and may enforce them. Apple has no obligation to provide support or maintenance for the App. If the App fails to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price you paid for it, if any; to the maximum extent permitted by law, Apple has no other warranty obligation with respect to the App. Any other warranty, product-liability, legal, or intellectual-property claim relating to the App is our responsibility and not Apple's, to the extent we are responsible at all under these Terms."
     ]
    },
    {

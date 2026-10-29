@@ -3,22 +3,45 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="apple-touch-icon" href="img/appwatch-appicon-256.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AppWatch — NoSky Studios</title>
-  <meta name="description" content="AppWatch by NoSky Studios Ltd — App Store rank, rating, review and sales tracker for iPhone and iPad. Support, Privacy Policy and Terms of Service.">
+  <title>AppWatch — App Store Rank, Review and Sales Tracker for iPhone and iPad</title>
+  <meta name="description" content="AppWatch follows App Store rankings in 175 countries, ratings, reviews and prices, and your App Store Connect sales, all on your device. No account, no tracking. Free for one app; AppWatch Unlimited is a one-time purchase.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://noskystudios.ng/appwatch/">
   <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#f7f5ef" media="(prefers-color-scheme: light)">
-  <meta property="og:title" content="AppWatch — NoSky Studios">
-  <meta property="og:description" content="App Store rank, rating, review and sales tracker for iPhone and iPad.">
+  <meta property="og:title" content="AppWatch — App Store Rank, Review and Sales Tracker">
+  <meta property="og:description" content="Rankings in 175 countries, reviews, prices and your sales in one private app. No account, no tracking, no subscription.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://noskystudios.ng/appwatch/">
+  <meta property="og:image" content="https://noskystudios.ng/appwatch/img/scene-header.webp">
   <meta property="og:site_name" content="NoSky Studios">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AppWatch",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "iOS, iPadOS",
+      "url": "https://noskystudios.ng/appwatch/",
+      "description": "AppWatch tracks App Store rankings in 175 countries, ratings, reviews and prices, and your own App Store Connect sales. Your data stays on your device: no account, no analytics, no tracking.",
+      "offers": [
+        { "@type": "Offer", "name": "AppWatch", "price": "0", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "AppWatch Unlimited", "price": "9.99", "priceCurrency": "USD" }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "NoSky Studios Ltd",
+        "url": "https://noskystudios.ng/"
+      }
+    }
+  </script>
   <link rel="stylesheet" href="../style.css?v=20260611c">
-  <link rel="stylesheet" href="../assets/legal/legal.css?v=5">
+  <link rel="stylesheet" href="appwatch.css?v=1">
 </head>
-<body>
+<body class="appwatch-page">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <nav class="nav" aria-label="Primary navigation">
@@ -28,42 +51,261 @@
       <div class="nav-menu" id="primary-menu"><a data-nav-link href="../index.html">Home</a><a data-nav-link href="../about.html">About</a><a data-nav-link href="../services.html">Services</a><a data-nav-link href="../portfolio.html">Portfolio</a><a data-nav-link href="../contact.html">Contact</a></div>
     </nav>
   </header>
+
   <main id="main">
-    <div class="legal-wrap">
-      <div class="legal-bar">
-        <p class="legal-kicker">AppWatch</p>
-        <div class="legal-docnav">
-          <a class="legal-doclink is-active" href="/appwatch/" aria-current="page">About AppWatch</a>
-          <a class="legal-doclink" href="/appwatch/privacy.html">Privacy Policy</a>
-          <a class="legal-doclink" href="/appwatch/terms.html">Terms of Service</a>
+
+    <!-- ================= Hero ================= -->
+    <section class="aw-hero aw-wrap">
+      <div data-reveal>
+        <img class="aw-appicon" src="img/appwatch-appicon-512.png" width="512" height="512" alt="AppWatch app icon: a pair of teal binoculars wearing a gold crown" fetchpriority="high">
+        <p class="aw-eyebrow" style="margin-top:1.4rem">For iPhone, iPad and iPhone Duo</p>
+        <h1>AppWatch</h1>
+        <p class="aw-tagline">Your apps on the App Store, watched for you.</p>
+        <p class="aw-lede">Rankings in 175 countries, ratings, reviews and prices, and your own App Store Connect sales, in one private app. No account to create and nothing sent to us.</p>
+        <div class="actions">
+          <!-- APP STORE LINK: point the first button at the listing once AppWatch is live. -->
+          <a class="button primary" href="#features">See What It Does</a>
+          <a class="button secondary" href="#support">Get Support</a>
+        </div>
+        <p class="aw-availability">Coming soon to the App Store. Made by NoSky Studios Ltd.</p>
+      </div>
+      <picture>
+        <source media="(max-width: 700px)" srcset="img/scene-header-960.webp">
+        <img class="aw-scene" src="img/scene-header.webp" width="1920" height="823" alt="Illustration of the AppWatch binoculars on a green hill, surrounded by app icons flying flags from around the world." decoding="async">
+      </picture>
+    </section>
+
+    <!-- ================= Screenshots ================= -->
+    <section class="aw-section aw-wrap" aria-labelledby="screens-heading">
+      <div class="aw-head is-centered" data-reveal>
+        <p class="aw-eyebrow">A Look Inside</p>
+        <h2 id="screens-heading">Every Chart, Review and Sale in One Place</h2>
+        <p>Shown here with Try Demo Data, a made-up account you can explore before linking your own.</p>
+      </div>
+      <div class="aw-gallery" data-reveal>
+        <figure>
+          <img class="aw-shot" src="img/iphone-home.webp" width="660" height="1434" alt="AppWatch home screen listing watched apps, each with its best chart position and the country it holds it in." loading="lazy" decoding="async">
+          <figcaption><b>Your Apps</b>Each app's best rank and where it holds it.</figcaption>
+        </figure>
+        <figure>
+          <img class="aw-shot" src="img/iphone-overview.webp" width="660" height="1434" alt="An app's overview with rankings grouped by position across 129 countries, and 30 days of downloads and proceeds." loading="lazy" decoding="async">
+          <figcaption><b>Overview</b>Rankings and sales side by side.</figcaption>
+        </figure>
+        <figure>
+          <img class="aw-shot" src="img/iphone-history.webp" width="660" height="1434" alt="Chart history for one country, listing each move up or down with its time and new position." loading="lazy" decoding="async">
+          <figcaption><b>History</b>Every move in every chart, day by day.</figcaption>
+        </figure>
+        <figure>
+          <img class="aw-shot" src="img/iphone-reviews.webp" width="660" height="1434" alt="Reviews from every country with a star breakdown, and buttons to reply and translate under each review." loading="lazy" decoding="async">
+          <figcaption><b>Reviews</b>Read, translate and reply from every country.</figcaption>
+        </figure>
+        <figure>
+          <img class="aw-shot" src="img/iphone-prices.webp" width="660" height="1434" alt="An app's price and in-app purchase prices compared across countries and converted to US dollars." loading="lazy" decoding="async">
+          <figcaption><b>Prices</b>175 storefronts in your own currency.</figcaption>
+        </figure>
+        <figure>
+          <img class="aw-shot" src="img/iphone-metrics.webp" width="660" height="1434" alt="Metrics for all apps with a daily downloads chart, proceeds and active subscriptions over the last 30 days." loading="lazy" decoding="async">
+          <figcaption><b>Metrics</b>Downloads, proceeds and subscriptions.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= Features ================= -->
+    <section class="aw-section aw-wrap" id="features" aria-labelledby="features-heading">
+      <div class="aw-head" data-reveal>
+        <p class="aw-eyebrow">Why AppWatch</p>
+        <h2 id="features-heading">Know How Your Apps Are Doing, Everywhere</h2>
+        <p>AppWatch checks the App Store for you and tells you when something moves, so you don't have to open App Store Connect and a dozen country charts to find out.</p>
+      </div>
+      <div class="aw-features" data-reveal>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Rankings in 175 Countries</h3>
+          <p>Top Free, Top Paid and Top Grossing, plus category charts, for iPhone, iPad and Mac. See peak ranks, daily changes and how many countries an app charts in.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Full Chart History</h3>
+          <p>Every move AppWatch has seen, by country and chart, over Today, 7 Days, 30 Days or All Time.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Reviews From Every Country</h3>
+          <p>Ratings and reviews from every storefront in one list, translated on your device. With an App Store Connect key, reply to your own reviews too.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Prices Worldwide</h3>
+          <p>App and in-app purchase prices in all 175 storefronts, converted to your currency and sorted cheapest to priciest.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>Your Sales and Downloads</h3>
+          <p>Link your own App Store Connect API key to see downloads, proceeds, refunds and subscriptions by app, country and device.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>Alerts That Matter</h3>
+          <p>An Activity feed and optional notifications when an app climbs or falls, gets a new rating or review, changes price, or ships a new version.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>Share and Export</h3>
+          <p>Share cards of an app's best chart positions, and export ranks, ratings, prices and sales as CSV.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Try Demo Data</h3>
+          <p>No key yet? Explore a made-up account, Example Inc., with three months of charts, reviews and sales.</p>
+        </article>
+        <article>
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8l6 6"/><path d="M4 14l6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="M22 22l-5-10-5 10"/><path d="M14 18h6"/></svg>50 Languages</h3>
+          <p>Translated into 50 App Store languages, with right-to-left layouts for Arabic, Hebrew and Urdu.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= iPad and iPhone Duo ================= -->
+    <section class="aw-section aw-wrap" aria-labelledby="ipad-heading">
+      <div class="aw-split">
+        <div class="aw-head" data-reveal>
+          <p class="aw-eyebrow">iPad and iPhone Duo</p>
+          <h2 id="ipad-heading">More Room for the Numbers</h2>
+          <p>On iPad and the foldable iPhone Duo, your apps, their charts and their sales sit side by side in a sidebar and split view, in portrait or landscape.</p>
+          <ul class="aw-checklist">
+            <li>Built in SwiftUI for iPhone, iPad and iPhone Duo</li>
+            <li>Portrait and landscape, folded or open</li>
+            <li>Light, dark and system appearance</li>
+          </ul>
+        </div>
+        <div class="aw-split-media aw-stack" data-reveal>
+          <img class="aw-shot is-wide" src="img/duo-overview.webp" width="1400" height="985" alt="AppWatch on iPhone Duo in landscape with the app list on the left and an app's rankings and downloads on the right." loading="lazy" decoding="async">
         </div>
       </div>
-      <article class="legal-doc">
-        <div class="legal-head">
-          <h1>AppWatch</h1>
-          <p class="legal-lede">App Store rank, rating, review and sales tracker for iPhone and iPad.</p>
-          <p class="legal-meta">By NoSky Studios Ltd · iOS app</p>
-        </div>
-        <section class="legal-section" id="about">
-          <h2>About the app</h2>
-          <p>AppWatch follows how apps perform on the App Store — chart positions in every country, ratings, reviews, prices, and versions — and alerts you when something moves. Link your own App Store Connect account to see your sales, proceeds, and analytics alongside.</p>
-          <p>AppWatch has no server, no accounts, and no analytics. Everything it fetches goes straight between your device and Apple, and your App Store Connect key stays in your iCloud Keychain.</p>
-        </section>
-        <section class="legal-section" id="support">
-          <h2>Support</h2>
-          <p>For help with AppWatch, questions about the App Store, or feedback, email <a href="mailto:appstore@noskystudios.ng?subject=AppWatch%20support">appstore@noskystudios.ng</a>. Include your device, iOS version, and the AppWatch version (in the app's Settings) and we can usually help on the first reply.</p>
-          <p>App Store purchase and refund requests are handled by Apple at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a>. For privacy questions, email <a href="mailto:privacy@noskystudios.ng?subject=AppWatch%20privacy">privacy@noskystudios.ng</a>.</p>
-        </section>
-        <section class="legal-section" id="legal">
-          <h2>Legal</h2>
-          <ul>
-            <li><a href="/appwatch/privacy.html">AppWatch Privacy Policy</a></li>
-            <li><a href="/appwatch/terms.html">AppWatch Terms of Service</a></li>
+    </section>
+
+    <section class="aw-section aw-wrap" aria-labelledby="ipad-metrics-heading">
+      <div class="aw-split is-flipped">
+        <div class="aw-head" data-reveal>
+          <p class="aw-eyebrow">App Store Connect</p>
+          <h2 id="ipad-metrics-heading">Your Sales, Straight From Apple</h2>
+          <p>Create an API key in App Store Connect and link it in a minute. AppWatch uses it on your device to talk to Apple, and nothing passes through us.</p>
+          <ul class="aw-checklist">
+            <li>Downloads, proceeds, refunds and subscriptions</li>
+            <li>Compare 7 Days, 30 Days, 90 Days and 12 Months</li>
+            <li>Reply to reviews with an Admin or Customer Support key</li>
+            <li>Keys stay in your iCloud Keychain, end-to-end encrypted</li>
           </ul>
-        </section>
-      </article>
-    </div>
+        </div>
+        <div class="aw-split-media" data-reveal>
+          <img class="aw-shot is-wide is-tall" src="img/ipad-metrics.webp" width="1100" height="1467" alt="AppWatch on iPad with Settings on the left and sales metrics for all apps on the right." loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Pricing + Privacy ================= -->
+    <section class="aw-section aw-wrap" id="pricing" aria-labelledby="pricing-heading">
+      <div class="aw-panel-grid">
+        <div class="aw-panel" data-reveal>
+          <p class="aw-eyebrow">Pricing</p>
+          <h2 id="pricing-heading">Free for One App, Unlimited for One Payment</h2>
+          <p>Every feature is in the free app. Watch one app for free, or buy AppWatch Unlimited once to watch as many as you like.</p>
+          <ul class="aw-contact-list">
+            <li><span class="aw-plan-name">AppWatch</span><span style="color:var(--muted)">Free, one watched app</span></li>
+            <li style="border-bottom:0;padding-bottom:0"><span class="aw-plan-name">AppWatch Unlimited</span><span style="color:var(--muted)">US$9.99, one time</span></li>
+          </ul>
+          <ul class="aw-checklist">
+            <li>No subscription, nothing renews</li>
+            <li>Restore it on your other devices, or redeem an offer code</li>
+            <li>Bought and refunded through Apple</li>
+          </ul>
+          <p class="aw-note">Prices outside the United States are set by the App Store in your local currency and shown before you buy. AppWatch Unlimited is not shared through Family Sharing.</p>
+        </div>
+        <div class="aw-panel" data-reveal>
+          <p class="aw-eyebrow">Private by Design</p>
+          <h2 id="privacy-heading">Your Data Stays on Your Device</h2>
+          <p>AppWatch has no server and no account. The apps you watch, their history and your sales reports live on your device, and AppWatch talks only to Apple.</p>
+          <ul class="aw-checklist">
+            <li>No sign-in, no account, no password</li>
+            <li>No analytics, no ads and no tracking of any kind</li>
+            <li>No iCloud sync of your data; only API keys sync, through iCloud Keychain</li>
+            <li>Back up to Files whenever you like</li>
+          </ul>
+          <p class="aw-note">Besides Apple, AppWatch only asks public exchange-rate services for currency rates, with nothing about you or your apps. Read the full <a class="aw-inline-link" href="/appwatch/privacy.html">AppWatch Privacy Policy</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Legal documents ================= -->
+    <section class="aw-section aw-wrap" aria-labelledby="legal-heading">
+      <div class="aw-legal-panel" data-reveal>
+        <div>
+          <p class="aw-eyebrow">Legal Documents</p>
+          <h2 id="legal-heading">AppWatch Privacy and Terms</h2>
+          <p>The full documents explain what AppWatch stores on your device, what it sends to Apple, how your App Store Connect key is kept, and the terms for using the app and buying AppWatch Unlimited.</p>
+        </div>
+        <div class="aw-legal-actions" aria-label="AppWatch legal links">
+          <a class="button secondary" href="/appwatch/privacy.html">Privacy Policy</a>
+          <a class="button secondary" href="/appwatch/terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Support ================= -->
+    <section class="aw-section aw-wrap" id="support" aria-labelledby="support-heading">
+      <div class="aw-head" data-reveal>
+        <p class="aw-eyebrow">Support</p>
+        <h2 id="support-heading">Questions? Write to Us</h2>
+        <p>A real person at NoSky Studios reads every message. We aim to reply within two business days.</p>
+      </div>
+      <div class="aw-panel-grid">
+        <div data-reveal>
+          <div class="aw-panel">
+            <ul class="aw-contact-list">
+              <li><span class="aw-label">App Support</span><a href="mailto:appstore@noskystudios.ng?subject=AppWatch%20support">appstore@noskystudios.ng</a></li>
+              <li><span class="aw-label">Privacy Questions</span><a href="mailto:privacy@noskystudios.ng?subject=AppWatch%20privacy">privacy@noskystudios.ng</a></li>
+              <li style="border-bottom:0;padding-bottom:0"><span class="aw-label">Published By</span><span style="color:var(--muted);font-size:0.92rem">NoSky Studios Ltd (RC 7631695), Nigeria</span></li>
+            </ul>
+            <p class="aw-note">Include your device, your iOS version and the AppWatch version (in Settings, under About), and we can usually help on the first reply.</p>
+          </div>
+          <img class="aw-scene" src="img/scene-search.webp" width="1400" height="933" alt="Illustration of the AppWatch binoculars beside a winners' podium of app icons flying the flags of Japan, the United States and Germany." loading="lazy" decoding="async">
+          <div class="aw-doclinks">
+            <a href="/appwatch/privacy.html">Privacy Policy</a>
+            <a href="/appwatch/terms.html">Terms of Service</a>
+            <a href="../contact.html">Contact NoSky Studios</a>
+          </div>
+        </div>
+        <div class="aw-faq" data-reveal>
+          <details>
+            <summary>Do I need an App Store Connect account?</summary>
+            <p>No. Rankings, ratings, reviews and prices come from Apple's public App Store data, so you can watch any app, yours or anyone else's. An App Store Connect API key is only needed for your own sales, downloads and review replies.</p>
+          </details>
+          <details>
+            <summary>How do I link App Store Connect?</summary>
+            <p>In App Store Connect, go to Users and Access, then Integrations, and create a Team API key. In AppWatch, open Settings, tap Link App Store Connect, and add the Issuer ID, Key ID, the .p8 file and your Vendor Number. Replying to reviews needs a key with Admin or Customer Support access.</p>
+          </details>
+          <details>
+            <summary>Can I try it without a key?</summary>
+            <p>Yes. Tap Try Demo Data to load Example Inc., a made-up account with apps, charts, reviews and sales. Everything in it is generated on your device, and you can remove it in Settings at any time.</p>
+          </details>
+          <details>
+            <summary>What does AppWatch Unlimited cost?</summary>
+            <p>US$9.99 once, or the equivalent price in your country's App Store. There's no subscription. The free app has every feature with one watched app; Unlimited lets you watch as many as you like.</p>
+          </details>
+          <details>
+            <summary>I bought Unlimited on another device. How do I get it back?</summary>
+            <p>Open the AppWatch Unlimited screen in Settings and tap Restore Purchase, signed in with the same Apple Account you bought it with.</p>
+          </details>
+          <details>
+            <summary>How do I get a refund?</summary>
+            <p>App Store purchases and refunds are handled by Apple at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a>. We can't issue refunds directly, but we're happy to help with anything else at <a href="mailto:appstore@noskystudios.ng?subject=AppWatch%20support">appstore@noskystudios.ng</a>.</p>
+          </details>
+          <details>
+            <summary>Where is my data, and how do I delete it?</summary>
+            <p>On your device. Removing an app deletes its history, and Settings has Erase All Data, plus Erase and Unlink Keys to remove your API keys from iCloud Keychain as well. We hold no copy of your data.</p>
+          </details>
+          <details>
+            <summary>Why don't some charts update every time?</summary>
+            <p>Apple limits how often its charts can be read, so AppWatch spreads its checks out and runs a Full Check of every country on a schedule. It catches up on its own when Apple allows.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
   </main>
+
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-base">

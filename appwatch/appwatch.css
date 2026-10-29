@@ -1,0 +1,566 @@
+/* AppWatch product page — layered on top of the shared NoSky tokens in style.css.
+   Logical properties throughout, so an RTL translation of this page mirrors for free. */
+
+.appwatch-page {
+  --aw: #2f62e8;          /* AppWatch blue, sampled from the store screenshots */
+  --aw-soft: color-mix(in srgb, var(--aw) 12%, transparent);
+  --aw-line: color-mix(in srgb, var(--aw) 34%, transparent);
+}
+
+:root[data-theme="dark"] .appwatch-page,
+:root:not([data-theme="light"]) .appwatch-page {
+  --aw: #7096ff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .appwatch-page { --aw: #2f62e8; }
+}
+
+.aw-wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding-inline: 1rem;
+  min-width: 0;
+}
+
+.aw-section {
+  padding-block: clamp(3.5rem, 9vw, 6.5rem);
+}
+
+.aw-section + .aw-section {
+  border-top: 1px solid var(--line);
+}
+
+/* ---------- Hero ---------- */
+
+.aw-hero {
+  padding-block: clamp(3rem, 8vw, 5.5rem) clamp(2.5rem, 6vw, 4rem);
+  text-align: center;
+}
+
+.aw-appicon {
+  width: clamp(84px, 14vw, 112px);
+  height: auto;
+  display: block;
+  margin-inline: auto;
+  border-radius: 22.4%;
+  box-shadow: var(--shadow);
+}
+
+.aw-hero h1 {
+  font-size: clamp(3.2rem, 9vw, 6rem);
+  margin-top: 1.6rem;
+}
+
+.aw-hero .aw-tagline {
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 3.4vw, 2.1rem);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--text);
+  line-height: 1.25;
+  margin-top: 0.9rem;
+}
+
+.aw-hero .aw-lede {
+  font-size: clamp(1.02rem, 1.9vw, 1.2rem);
+  max-width: 60ch;
+  margin: 1.25rem auto 0;
+}
+
+.aw-hero .actions { justify-content: center; }
+
+.aw-hero .aw-availability {
+  font-size: 0.84rem;
+  margin-top: 1.1rem;
+}
+
+/* ---------- Section headings ---------- */
+
+.aw-head {
+  max-width: 62ch;
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.aw-head.is-centered {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.aw-head h2 {
+  font-size: clamp(1.9rem, 4.6vw, 3.1rem);
+}
+
+.aw-head p {
+  font-size: clamp(1rem, 1.8vw, 1.14rem);
+  margin-top: 0.9rem;
+}
+
+.aw-eyebrow {
+  color: var(--aw);
+  display: inline-flex;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.85rem;
+}
+
+/* ---------- Device frames ---------- */
+
+.aw-device {
+  background: #0b0b0c;
+  border-radius: 2.6rem;
+  box-shadow: var(--shadow);
+  display: block;
+  max-width: 100%;
+  padding: 0.55rem;
+}
+
+.aw-device img {
+  border-radius: 2.1rem;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.aw-device.is-tablet {
+  border-radius: 1.6rem;
+  padding: 0.7rem;
+}
+
+.aw-device.is-tablet img { border-radius: 1rem; }
+
+/* Phone gallery: a scroll-snapping strip on narrow screens, a row when there's room. */
+
+.aw-gallery {
+  display: grid;
+  gap: clamp(1rem, 3vw, 2rem);
+  grid-auto-columns: minmax(min(232px, 78vw), 1fr);
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding-block-end: 0.75rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.aw-gallery figure {
+  margin: 0;
+  scroll-snap-align: center;
+}
+
+.aw-gallery figcaption {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+  margin-top: 0.95rem;
+  text-align: center;
+}
+
+.aw-gallery figcaption b {
+  color: var(--text);
+  display: block;
+  font-size: 0.94rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+@media (min-width: 900px) {
+  .aw-gallery {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: visible;
+  }
+}
+
+/* ---------- Feature grid ---------- */
+
+.aw-features {
+  display: grid;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+@media (min-width: 620px) { .aw-features { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 980px) { .aw-features { grid-template-columns: repeat(3, 1fr); } }
+
+.aw-features article {
+  background: var(--bg);
+  padding: clamp(1.3rem, 3vw, 1.9rem);
+}
+
+.aw-features h3 {
+  align-items: center;
+  display: flex;
+  font-size: 1.02rem;
+  gap: 0.6rem;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+.aw-features h3 svg {
+  color: var(--aw);
+  flex: none;
+  height: 20px;
+  width: 20px;
+}
+
+.aw-features p {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-top: 0.65rem;
+}
+
+/* ---------- Split rows (alerts, tablet) ---------- */
+
+.aw-split {
+  align-items: center;
+  display: grid;
+  gap: clamp(2rem, 6vw, 4.5rem);
+}
+
+@media (min-width: 900px) {
+  .aw-split { grid-template-columns: 1fr 1fr; }
+  .aw-split.is-flipped .aw-split-media { order: -1; }
+}
+
+.aw-split .aw-head { margin-bottom: 0; }
+
+.aw-pair {
+  display: grid;
+  gap: clamp(0.9rem, 2.5vw, 1.6rem);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.aw-pair figure { margin: 0; }
+
+.aw-pair figcaption {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-top: 0.7rem;
+  text-align: center;
+}
+
+.aw-checklist {
+  color: var(--muted);
+  display: grid;
+  gap: 0.7rem;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.aw-checklist li {
+  padding-inline-start: 1.7rem;
+  position: relative;
+}
+
+.aw-checklist li::before {
+  color: var(--aw);
+  content: "\2713";
+  font-weight: 900;
+  inset-inline-start: 0;
+  position: absolute;
+}
+
+/* ---------- Panels (privacy, pricing, support) ---------- */
+
+.aw-panel {
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  min-width: 0;
+  padding: clamp(1.5rem, 4vw, 2.6rem);
+}
+
+.aw-panel-grid {
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+@media (min-width: 820px) { .aw-panel-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.aw-price {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+.aw-price strong {
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  font-weight: 850;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.aw-price span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.aw-note {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.86rem;
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+}
+
+.aw-langs {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.9;
+  margin-top: 1.2rem;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Support ---------- */
+
+.aw-contact-list {
+  display: grid;
+  gap: 0.9rem;
+  list-style: none;
+  margin: 1.4rem 0 0;
+  padding: 0;
+}
+
+.aw-contact-list li {
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  justify-content: space-between;
+  padding-bottom: 0.9rem;
+}
+
+.aw-contact-list dt,
+.aw-contact-list .aw-label {
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.aw-contact-list a {
+  color: var(--aw);
+  font-size: 0.92rem;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.aw-faq {
+  display: grid;
+  gap: 0;
+  margin-top: 1.6rem;
+}
+
+.aw-faq details {
+  border-bottom: 1px solid var(--line);
+  padding-block: 1rem;
+}
+
+.aw-faq details:first-of-type { border-top: 1px solid var(--line); }
+
+.aw-faq summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 750;
+  gap: 0.8rem;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.aw-faq summary::-webkit-details-marker { display: none; }
+
+.aw-faq summary::after {
+  color: var(--aw);
+  content: "+";
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 180ms ease;
+}
+
+.aw-faq details[open] summary::after { transform: rotate(45deg); }
+
+.aw-faq p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 0.75rem;
+  max-width: 70ch;
+}
+
+.aw-faq p + p { margin-top: 0.7rem; }
+
+.aw-faq a {
+  color: var(--aw);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Footer strip of doc links ---------- */
+
+.aw-doclinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.aw-doclinks a {
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.aw-doclinks a:hover { color: var(--text); }
+
+/* ---------- Legal CTA ---------- */
+
+.aw-legal-panel {
+  align-items: center;
+  background: linear-gradient(135deg, var(--bg-soft), color-mix(in srgb, var(--aw) 9%, transparent));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: grid;
+  gap: clamp(1.2rem, 4vw, 2rem);
+  grid-template-columns: 1fr;
+  padding: clamp(1.5rem, 4vw, 2.8rem);
+}
+
+.aw-legal-panel h2 {
+  font-size: clamp(1.55rem, 3.8vw, 2.35rem);
+}
+
+.aw-legal-panel p:not(.aw-eyebrow) {
+  color: var(--muted);
+  margin-top: 0.75rem;
+  max-width: 68ch;
+}
+
+.aw-legal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+@media (min-width: 860px) {
+  .aw-legal-panel { grid-template-columns: 1fr auto; }
+  .aw-legal-actions { justify-content: flex-end; }
+}
+
+@media (max-width: 680px) {
+  .aw-hero h1 {
+    font-size: clamp(2.8rem, 16vw, 4rem);
+  }
+
+  .aw-gallery {
+    margin-inline: -1rem;
+    padding-inline: 1rem;
+  }
+
+  .aw-pair {
+    grid-template-columns: minmax(0, 1fr);
+    margin-inline: auto;
+    max-width: min(360px, 100%);
+  }
+
+  .aw-device {
+    border-radius: 2rem;
+    padding: 0.45rem;
+  }
+
+  .aw-device img {
+    border-radius: 1.55rem;
+  }
+
+  .aw-device.is-tablet {
+    border-radius: 1.2rem;
+    padding: 0.45rem;
+  }
+
+  .aw-device.is-tablet img {
+    border-radius: 0.8rem;
+  }
+
+  .aw-contact-list li {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .aw-legal-actions .button {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* Reveal-on-scroll is inherited from style.css; script.js drives it via [data-reveal]. */
+
+/* ---------- AppWatch additions ---------- */
+
+/* The store screenshots come framed, with their own headline, so they sit as plain rounded cards. */
+.aw-shot {
+  border-radius: 1.4rem;
+  box-shadow: var(--shadow);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.aw-shot.is-wide { border-radius: 1.1rem; }
+
+.aw-gallery { grid-auto-columns: minmax(min(220px, 72vw), 1fr); }
+
+@media (min-width: 900px) {
+  .aw-gallery { grid-template-columns: repeat(6, 1fr); }
+}
+
+.aw-scene {
+  border-radius: var(--radius);
+  display: block;
+  height: auto;
+  margin-top: clamp(2rem, 5vw, 3rem);
+  width: 100%;
+}
+
+.aw-stack {
+  display: grid;
+  gap: clamp(1rem, 3vw, 1.6rem);
+}
+
+.aw-plan-name {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.aw-panel h2 { font-size: clamp(1.6rem, 3.6vw, 2.2rem); }
+
+.aw-panel > p:not(.aw-eyebrow) { margin-top: 0.9rem; }
+
+.aw-inline-link {
+  color: var(--aw);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 680px) {
+  .aw-gallery {
+    margin-inline: -1rem;
+    padding-inline: 1rem;
+  }
+}
+
+.aw-shot.is-tall {
+  margin-inline: auto;
+  max-width: 420px;
+}
